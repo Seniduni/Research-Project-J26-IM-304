@@ -1,0 +1,21 @@
+{
+    "name": "MROT.XRSetup.Editor",
+    "rootNamespace": "MROT.EditorTools",
+    "references": [
+        "Unity.XR.Management",
+        "Unity.XR.Management.Editor",
+        "Unity.XR.OpenXR",
+        "Unity.XR.OpenXR.Editor"
+    ],
+    "includePlatforms": [ "Editor" ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [ "MROT_OPENXR" ],
+    "versionDefines": [
+        { "name": "com.unity.xr.openxr", "expression": "1.0.0", "define": "MROT_OPENXR" }
+    ],
+    "noEngineReferences": false
+}

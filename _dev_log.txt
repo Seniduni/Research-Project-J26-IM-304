@@ -1,0 +1,645 @@
+11:27:42 DevBridge loaded 19/10/2026 11:27:42
+11:28:07 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:28:07 COMPILE Assembly-CSharp.dll -> 0 messages
+
+11:28:07 COMPILE HFDownloader.dll -> 0 messages
+
+11:28:07 COMPILE PPv2URPConverters.dll -> 0 messages
+
+11:28:07 COMPILE Unity.2D.Sprite.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Animate.Motion.Runtime.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Animate.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.API.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Annotations.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.AssetGenerators.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Bridge.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Integrations.Profiler.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Runtime.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Tools.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.UI.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.Asset.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.Contexts.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.IO.Srp.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.IO.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.Redux.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.Sdk.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.Tools.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.UI.AIDropdownIntegrations.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.UI.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Image.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.MCP.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.MCP.Runtime.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Mesh.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.ModelSelector.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Navigation.Editor.ConversionSystem.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Navigation.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Navigation.Updater.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Navigation.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Pbr.Srp.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Pbr.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Search.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Sound.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Toolkit.Accounts.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.Asset.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.Async.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.Compliance.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.GenerationContextMenu.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.GenerationObjectPicker.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.Utility.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Tracing.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.InternalAPIBridge.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.MVVM.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Navigation.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Navigation.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Redux.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Redux.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Undo.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Burst.CodeGen.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Burst.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Burst.dll -> 0 messages
+
+11:28:08 COMPILE Unity.CollabProxy.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Collections.CodeGen.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Collections.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Collections.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.Editor.Visualizer.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.MacBLAS.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.Microsoft.Msagl.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.ONNX.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.Tokenization.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.iOSBLAS.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InputSystem.DocCodeSamples.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InputSystem.ForUI.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InputSystem.ForUI.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InputSystem.TestFramework.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InputSystem.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InternalAPIEngineBridge.004.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Mathematics.Editor.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Mathematics.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Multiplayer.Center.Common.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Multiplayer.Center.Editor.dll -> 0 messages
+
+11:28:09 COMPILE Unity.PerformanceTesting.Editor.dll -> 0 messages
+
+11:28:09 COMPILE Unity.PerformanceTesting.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Pipeline.Attributes.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Pipeline.CodeGen.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Pipeline.Editor.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Pipeline.IlInterpreter.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Pipeline.dll -> 0 messages
+
+11:28:09 COMPILE Unity.PlasticSCM.Editor.Entities.dll -> 0 messages
+
+11:28:10 COMPILE Unity.PlasticSCM.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipeline.Universal.ShaderLibrary.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Core.Editor.Shared.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Core.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Core.Runtime.Shared.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Core.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Core.ShaderLibrary.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.GPUDriven.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.2D.Editor.Overrides.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.2D.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.Config.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.Shaders.dll -> 0 messages
+
+11:28:10 COMPILE Unity.Rendering.LightTransport.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.Rider.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.Searcher.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.ShaderGraph.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.ShaderGraph.Utilities.dll -> 0 messages
+
+11:28:10 COMPILE Unity.TextMeshPro.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.TextMeshPro.dll -> 0 messages
+
+11:28:10 COMPILE Unity.Timeline.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.Timeline.dll -> 0 messages
+
+11:28:10 COMPILE Unity.UnifiedRayTracing.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.VisualScripting.Core.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.VisualScripting.Core.dll -> 0 messages
+
+11:28:10 COMPILE Unity.VisualScripting.DocCodeExamples.dll -> 0 messages
+
+11:28:10 COMPILE Unity.VisualScripting.Flow.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.VisualScripting.Flow.dll -> 0 messages
+
+11:28:11 COMPILE Unity.VisualScripting.SettingsProvider.Editor.dll -> 0 messages
+
+11:28:11 COMPILE Unity.VisualScripting.Shared.Editor.dll -> 0 messages
+
+11:28:11 COMPILE Unity.VisualScripting.State.Editor.dll -> 0 messages
+
+11:28:11 COMPILE Unity.VisualScripting.State.dll -> 0 messages
+
+11:28:11 COMPILE Unity.VisualStudio.Editor.dll -> 0 messages
+
+11:28:11 COMPILE UnityEditor.TestRunner.dll -> 0 messages
+
+11:28:11 COMPILE UnityEditor.UI.Analytics.dll -> 0 messages
+
+11:28:11 COMPILE UnityEditor.UI.dll -> 0 messages
+
+11:28:11 COMPILE UnityEngine.TestRunner.dll -> 0 messages
+
+11:28:11 COMPILE UnityEngine.UI.dll -> 0 messages
+
+11:28:15 DevBridge loaded 19/10/2026 11:28:15
+11:30:02 Warning: Unity is not designed to run with Administrator privileges.
+
+With elevated access, scripts in your project can modify system files, registry settings, or protected areas, even accidentally.
+This could make your system unstable or unbootable.
+
+Restart as a standard user for the safest experience.
+11:30:06 Unpacked pp1_initial.zip
+11:30:12 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:30:18 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:30:18 COMPILE Assembly-CSharp.dll -> 0 messages
+
+11:30:23 DevBridge loaded 19/10/2026 11:30:23
+11:30:54 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:30:54 COMPILE Assembly-CSharp.dll -> 0 messages
+
+11:30:54 COMPILE HFDownloader.dll -> 0 messages
+
+11:30:54 COMPILE PPv2URPConverters.dll -> 0 messages
+
+11:30:54 COMPILE Unity.2D.Sprite.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Animate.Motion.Runtime.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Animate.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.API.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Annotations.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.AssetGenerators.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Bridge.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Integrations.Profiler.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Runtime.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Tools.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.UI.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.Asset.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.Contexts.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.IO.Srp.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.IO.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.Redux.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.Sdk.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.Tools.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.UI.AIDropdownIntegrations.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.UI.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Image.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.MCP.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.MCP.Runtime.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Mesh.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.ModelSelector.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Navigation.Editor.ConversionSystem.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Navigation.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Navigation.Updater.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Navigation.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Pbr.Srp.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Pbr.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Search.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Sound.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.Accounts.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.Asset.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.Async.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.Compliance.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.GenerationContextMenu.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.GenerationObjectPicker.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.Utility.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Tracing.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.InternalAPIBridge.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.MVVM.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Navigation.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Navigation.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Redux.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Redux.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Undo.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Burst.CodeGen.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Burst.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Burst.dll -> 0 messages
+
+11:30:55 COMPILE Unity.CollabProxy.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Collections.CodeGen.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Collections.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Collections.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.Editor.Visualizer.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.MacBLAS.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.Microsoft.Msagl.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.ONNX.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.Tokenization.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InferenceEngine.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InferenceEngine.iOSBLAS.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InputSystem.DocCodeSamples.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InputSystem.ForUI.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InputSystem.ForUI.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InputSystem.TestFramework.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InputSystem.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InternalAPIEngineBridge.004.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Mathematics.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Mathematics.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Multiplayer.Center.Common.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Multiplayer.Center.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.PerformanceTesting.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.PerformanceTesting.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Pipeline.Attributes.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Pipeline.CodeGen.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Pipeline.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Pipeline.IlInterpreter.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Pipeline.dll -> 0 messages
+
+11:30:56 COMPILE Unity.PlasticSCM.Editor.Entities.dll -> 0 messages
+
+11:30:56 COMPILE Unity.PlasticSCM.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipeline.Universal.ShaderLibrary.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipelines.Core.Editor.Shared.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipelines.Core.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipelines.Core.Runtime.Shared.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipelines.Core.Runtime.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipelines.Core.ShaderLibrary.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.GPUDriven.Runtime.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.2D.Editor.Overrides.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.2D.Runtime.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.Config.Runtime.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.Runtime.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.Shaders.dll -> 0 messages
+
+11:30:57 COMPILE Unity.Rendering.LightTransport.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.Rider.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.Searcher.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.ShaderGraph.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.ShaderGraph.Utilities.dll -> 0 messages
+
+11:30:57 COMPILE Unity.TextMeshPro.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.TextMeshPro.dll -> 0 messages
+
+11:30:57 COMPILE Unity.Timeline.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.Timeline.dll -> 0 messages
+
+11:30:57 COMPILE Unity.UnifiedRayTracing.Runtime.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.Core.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.Core.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.DocCodeExamples.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.Flow.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.Flow.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.SettingsProvider.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.Shared.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.State.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.State.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualStudio.Editor.dll -> 0 messages
+
+11:30:57 COMPILE UnityEditor.TestRunner.dll -> 0 messages
+
+11:30:57 COMPILE UnityEditor.UI.Analytics.dll -> 0 messages
+
+11:30:57 COMPILE UnityEditor.UI.dll -> 0 messages
+
+11:30:57 COMPILE UnityEngine.TestRunner.dll -> 0 messages
+
+11:30:57 COMPILE UnityEngine.UI.dll -> 0 messages
+
+11:31:04 DevBridge loaded 19/10/2026 11:31:04
+11:31:13 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:31:17 DevBridge loaded 19/10/2026 11:31:17
+11:31:49 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:36:36 Unpacked update020.zip
+11:36:40 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:36:58 DevBridge loaded 19/10/2026 11:36:58
+11:38:23 Log: [MROT] Ward build complete.
+11:38:23 Menu 'MR Operating Theatre/1. Build Ward (materials, prefabs, scene)' -> True
+11:38:23 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:38:41 Opened Assets/MR_OperatingTheatre/Scenes/MR_OperatingTheatre.unity
+11:38:41 Entering play mode
+11:38:46 DevBridge loaded 19/10/2026 11:38:46
+11:39:18 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:40:41 Exit play mode
+11:40:41 DevBridge error: This cannot be used during play mode, please use SceneManager.LoadScene()/SceneManager.LoadSceneAsync() instead.
+11:44:41 Log: [MROT] Installing XR Plug-in Management + OpenXR ...
+11:44:41 Menu 'MR Operating Theatre/2. Install XR Packages (OpenXR)' -> True
+11:44:55 Log: [MROT] XR packages installed. Now run 'MR Operating Theatre > 3. Configure OpenXR'.
+11:45:09 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:45:09 COMPILE Assembly-CSharp.dll -> 0 messages
+
+11:45:09 COMPILE MROT.XRSetup.Editor.dll -> 2 messages
+[Warning] Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29): Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29,52): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+[Warning] Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35): Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35,53): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+
+11:45:09 COMPILE Unity.RenderPipelines.Universal.2D.Editor.Overrides.dll -> 0 messages
+
+11:45:09 COMPILE Unity.RenderPipelines.Universal.Editor.dll -> 0 messages
+
+11:45:09 COMPILE Unity.XR.CoreUtils.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.CoreUtils.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.Management.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.Management.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.ConformanceAutomation.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.MetaHandMeshData.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.MetaHandMeshData.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.MetaQuestSupport.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.MockRuntime.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.OculusQuestSupport.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.RuntimeDebugger.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.TestTooling.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.dll -> 0 messages
+
+11:45:10 COMPILE UnityEditor.SpatialTracking.dll -> 0 messages
+
+11:45:10 COMPILE UnityEditor.XR.LegacyInputHelpers.dll -> 0 messages
+
+11:45:10 COMPILE UnityEngine.SpatialTracking.dll -> 0 messages
+
+11:45:10 COMPILE UnityEngine.XR.LegacyInputHelpers.dll -> 0 messages
+
+11:45:11 Warning: Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29,52): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+11:45:11 Warning: Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35,53): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+11:45:28 DevBridge loaded 19/10/2026 11:45:28
+11:46:02 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:46:31 Error: ExecuteMenuItem failed because there is no menu named 'MR Operating Theatre/3. Configure OpenXR'
+UnityEditor.EditorApplication:ExecuteMenuItem (string)
+DevBridge:Tick () (at Assets/Editor/DevBridge.cs:101)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+11:46:31 Menu 'MR Operating Theatre/3. Configure OpenXR' -> False
+11:47:39 Log: [MROT] OpenXR configured for Windows (PC VR) and Android (Meta Quest).
+11:47:39 Menu 'MR Operating Theatre/3. Configure OpenXR (after packages installed)' -> True
+14:27:02 Unpacked update031.zip
+14:27:13 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+14:27:14 COMPILE Assembly-CSharp.dll -> 0 messages
+
+14:27:32 DevBridge loaded 19/10/2026 14:27:32
+14:27:41 Log: [MROT] Imported Library/PackageCache\com.unity.ugui@20629863fcab\Package Resources\TMP Essential Resources.unitypackage
+14:27:41 Menu 'MR Operating Theatre/0. Import TextMeshPro Essentials' -> True
+14:28:06 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+14:28:47 Log: [MROT] Ward build complete.
+14:28:47 Menu 'MR Operating Theatre/1. Build Ward (materials, prefabs, scene)' -> True
+14:29:56 Opened Assets/MR_OperatingTheatre/Scenes/MR_OperatingTheatre.unity
+14:29:56 Entering play mode
+14:30:02 DevBridge loaded 19/10/2026 14:30:02
+14:30:08 Warning: XR: Error setting active audio output driver. Falling back to default.
+14:30:08 Warning: XR: Error setting active audio output driver. Falling back to default.
+14:30:34 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+14:32:15 Stopping play mode for update
+14:32:17 Unpacked update036.zip
+14:32:20 COMPILE Assembly-CSharp.dll -> 0 messages
+
+14:32:27 DevBridge loaded 19/10/2026 14:32:27
+14:32:58 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+14:48:37 DevBridge loaded 19/10/2026 14:48:37
+14:48:41 Warning: XR: Error setting active audio output driver. Falling back to default.
+14:48:41 Warning: XR: Error setting active audio output driver. Falling back to default.
+14:49:08 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
