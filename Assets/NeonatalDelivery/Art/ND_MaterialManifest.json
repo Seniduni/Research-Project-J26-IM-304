@@ -1,0 +1,307 @@
+{
+ "Std_Tongue": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.8929713368415833,
+  "baseColor": "Textures/Mother/Std_Tongue_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Mother/Std_Tongue_normal.png",
+  "normalScale": 1.0
+ },
+ "Std_Skin_Head": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 1.0,
+  "baseColor": "Textures/Mother/Std_Skin_Head_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Mother/Std_Skin_Head_normal.png",
+  "normalScale": 1.0
+ },
+ "Std_Skin_Arm": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.9430288076400757,
+  "baseColor": "Textures/Mother/Std_Skin_Arm_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Mother/Std_Skin_Arm_normal.png",
+  "normalScale": 1.0
+ },
+ "Std_Skin_Leg": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.9430288076400757,
+  "baseColor": "Textures/Mother/Std_Skin_Leg_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Mother/Std_Skin_Leg_normal.png",
+  "normalScale": 1.0
+ },
+ "Std_Skin_Body": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.9430288076400757,
+  "baseColor": "Textures/Mother/Std_Skin_Body_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Mother/Std_Skin_Body_normal.png",
+  "normalScale": 1.0
+ },
+ "Hair_Transparency": {
+  "alphaMode": "BLEND",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 1.0,
+  "baseColor": "Textures/Mother/Hair_Transparency_base.png",
+  "baseHasAlpha": true,
+  "metalRough": "Textures/Mother/Hair_Transparency_metalrough.png"
+ },
+ "Std_Cornea_L": {
+  "alphaMode": "BLEND",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 1.0,
+  "baseColor": "Textures/Mother/Std_Cornea_L_base.jpg",
+  "baseHasAlpha": false
+ },
+ "Std_Cornea_R": {
+  "alphaMode": "BLEND",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 1.0,
+  "baseColor": "Textures/Mother/Std_Cornea_R_base.jpg",
+  "baseHasAlpha": false
+ },
+ "Std_Nails": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.9430288076400757,
+  "baseColor": "Textures/Mother/Std_Nails_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Mother/Std_Nails_normal.png",
+  "normalScale": 1.0
+ },
+ "Std_Eyelash": {
+  "alphaMode": "BLEND",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.8929713368415833,
+  "baseColor": "Textures/Mother/Std_Eyelash_base.png",
+  "baseHasAlpha": true,
+  "normal": "Textures/Mother/Std_Eyelash_normal.png",
+  "normalScale": 1.0
+ },
+ "Std_Eye_R": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.8100878596305847,
+  "baseColor": "Textures/Mother/Std_Eye_R_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Mother/Std_Eye_R_normal.png",
+  "normalScale": 1.0
+ },
+ "Std_Eye_L": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.8100878596305847,
+  "baseColor": "Textures/Mother/Std_Eye_L_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Mother/Std_Eye_L_normal.png",
+  "normalScale": 1.0
+ },
+ "Std_Upper_Teeth": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.8929713368415833,
+  "baseColor": "Textures/Mother/Std_Upper_Teeth_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Mother/Std_Upper_Teeth_normal.png",
+  "normalScale": 1.0
+ },
+ "Std_Lower_Teeth": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.8929713368415833,
+  "baseColor": "Textures/Mother/Std_Lower_Teeth_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Mother/Std_Lower_Teeth_normal.png",
+  "normalScale": 1.0
+ },
+ "Skullcap_MAT_Transparency": {
+  "alphaMode": "BLEND",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.9577051401138306,
+  "baseColor": "Textures/Mother/Skullcap_MAT_Transparency_base.png",
+  "baseHasAlpha": true
+ },
+ "Hair_MAT_Transparency": {
+  "alphaMode": "BLEND",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.9577051401138306,
+  "baseColor": "Textures/Mother/Hair_MAT_Transparency_base.png",
+  "baseHasAlpha": true
+ },
+ "ND_DrapeGreen": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.82,
+  "baseColor": "Textures/Drape/ND_DrapeGreen_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Drape/ND_DrapeGreen_normal.png",
+  "normalScale": 1.0,
+  "occlusion": "Textures/Drape/ND_DrapeGreen_occlusion.png"
+ },
+ "ND_BabySkin": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 1.0,
+  "roughness": 1.0,
+  "baseColor": "Textures/Baby/ND_BabySkin_base.jpg",
+  "baseHasAlpha": false,
+  "metalRough": "Textures/Baby/ND_BabySkin_metalrough.png",
+  "normal": "Textures/Baby/ND_BabySkin_normal.png",
+  "normalScale": 1.0
+ },
+ "ND_Mucosa": {
+  "procedural": "mucosa"
+ },
+ "ND_Towel": {
+  "procedural": "towel"
+ }
+}

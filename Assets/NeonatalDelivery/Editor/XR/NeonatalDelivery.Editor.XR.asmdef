@@ -1,0 +1,27 @@
+{
+    "name": "NeonatalDelivery.Editor.XR",
+    "rootNamespace": "NeonatalDelivery.EditorTools",
+    "references": [
+        "Unity.XR.OpenXR",
+        "Unity.XR.OpenXR.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "ND_OPENXR"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.openxr",
+            "expression": "1.10.0",
+            "define": "ND_OPENXR"
+        }
+    ],
+    "noEngineReferences": false
+}

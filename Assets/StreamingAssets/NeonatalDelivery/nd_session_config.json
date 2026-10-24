@@ -1,0 +1,20 @@
+{
+  "studentCode": "STUDENT-001",
+  "educatorCode": "",
+  "difficulty": 0,
+  "censorship": 1,
+  "dominantHand": 1,
+  "guidedGhostHands": true,
+  "ablationMode": false,
+  "scenarioNuchalCord": false,
+  "mixedReality": false,
+  "mrMotherRender": 1,
+  "showVirtualBabyInMR": true,
+  "timeScale": 0.5,
+  "delayedClampingSeconds": 60,
+  "sessionLengthLimitMinutes": 30,
+  "babyLengthCm": 47,
+  "seated": false,
+  "subtitles": true,
+  "masterVolume": 1.0
+}
