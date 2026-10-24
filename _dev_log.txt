@@ -1519,3 +1519,15 @@ NeonatalDelivery.DrapeCloth:Start () (at Assets/NeonatalDelivery/Runtime/Rig/Dra
 15:36:21 Log: [NeonatalDelivery] FAULT F13_PREMATURE_RELEASE (BodyDelivery) baby not supported by any hand
 15:36:25 Log: [NeonatalDelivery] FAULT F14_ONE_HANDED_HOLD (SkinToSkin) baby not supported by any hand
 15:36:50 Log: [NeonatalDelivery] FAULT F15_BABY_DROPPED (SkinToSkin) newborn released away from the mother's chest
+21:25:51 DevBridge loaded 10/24/2026 9:25:51 PM
+21:28:22 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+21:28:50 DevBridge loaded 10/24/2026 9:28:50 PM
+21:32:23 DevBridge loaded 10/24/2026 9:32:23 PM
+21:32:23 DevBridge loaded 10/24/2026 9:32:23 PM
+21:33:04 DevBridge loaded 10/24/2026 9:33:04 PM
+21:33:08 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+21:33:10 DevBridge loaded 10/24/2026 9:33:10 PM
+21:33:10 DevBridge loaded 10/24/2026 9:33:10 PM
+21:33:11 DevBridge loaded 10/24/2026 9:33:11 PM
+21:33:11 DevBridge loaded 10/24/2026 9:33:11 PM
+21:33:36 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
