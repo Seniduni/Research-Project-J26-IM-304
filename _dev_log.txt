@@ -1,0 +1,1521 @@
+11:27:42 DevBridge loaded 19/10/2026 11:27:42
+11:28:07 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:28:07 COMPILE Assembly-CSharp.dll -> 0 messages
+
+11:28:07 COMPILE HFDownloader.dll -> 0 messages
+
+11:28:07 COMPILE PPv2URPConverters.dll -> 0 messages
+
+11:28:07 COMPILE Unity.2D.Sprite.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Animate.Motion.Runtime.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Animate.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.API.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Annotations.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.AssetGenerators.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Bridge.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Integrations.Profiler.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Runtime.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.Tools.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Assistant.UI.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.Asset.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.Contexts.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.IO.Srp.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.IO.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.Redux.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.Sdk.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.Tools.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.UI.AIDropdownIntegrations.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Generators.UI.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Image.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.MCP.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.MCP.Runtime.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Mesh.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.ModelSelector.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Navigation.Editor.ConversionSystem.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Navigation.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Navigation.Updater.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Navigation.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Pbr.Srp.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Pbr.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Search.Editor.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Sound.dll -> 0 messages
+
+11:28:07 COMPILE Unity.AI.Toolkit.Accounts.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.Asset.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.Async.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.Compliance.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.GenerationContextMenu.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.GenerationObjectPicker.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Toolkit.Utility.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AI.Tracing.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.InternalAPIBridge.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.MVVM.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Navigation.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Navigation.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Redux.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Redux.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.Undo.dll -> 0 messages
+
+11:28:08 COMPILE Unity.AppUI.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Burst.CodeGen.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Burst.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Burst.dll -> 0 messages
+
+11:28:08 COMPILE Unity.CollabProxy.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Collections.CodeGen.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Collections.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.Collections.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.Editor.Visualizer.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.MacBLAS.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.Microsoft.Msagl.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.ONNX.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.Tokenization.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InferenceEngine.iOSBLAS.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InputSystem.DocCodeSamples.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InputSystem.ForUI.Editor.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InputSystem.ForUI.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InputSystem.TestFramework.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InputSystem.dll -> 0 messages
+
+11:28:08 COMPILE Unity.InternalAPIEngineBridge.004.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Mathematics.Editor.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Mathematics.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Multiplayer.Center.Common.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Multiplayer.Center.Editor.dll -> 0 messages
+
+11:28:09 COMPILE Unity.PerformanceTesting.Editor.dll -> 0 messages
+
+11:28:09 COMPILE Unity.PerformanceTesting.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Pipeline.Attributes.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Pipeline.CodeGen.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Pipeline.Editor.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Pipeline.IlInterpreter.dll -> 0 messages
+
+11:28:09 COMPILE Unity.Pipeline.dll -> 0 messages
+
+11:28:09 COMPILE Unity.PlasticSCM.Editor.Entities.dll -> 0 messages
+
+11:28:10 COMPILE Unity.PlasticSCM.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipeline.Universal.ShaderLibrary.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Core.Editor.Shared.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Core.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Core.Runtime.Shared.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Core.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Core.ShaderLibrary.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.GPUDriven.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.2D.Editor.Overrides.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.2D.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.Config.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.RenderPipelines.Universal.Shaders.dll -> 0 messages
+
+11:28:10 COMPILE Unity.Rendering.LightTransport.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.Rider.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.Searcher.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.ShaderGraph.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.ShaderGraph.Utilities.dll -> 0 messages
+
+11:28:10 COMPILE Unity.TextMeshPro.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.TextMeshPro.dll -> 0 messages
+
+11:28:10 COMPILE Unity.Timeline.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.Timeline.dll -> 0 messages
+
+11:28:10 COMPILE Unity.UnifiedRayTracing.Runtime.dll -> 0 messages
+
+11:28:10 COMPILE Unity.VisualScripting.Core.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.VisualScripting.Core.dll -> 0 messages
+
+11:28:10 COMPILE Unity.VisualScripting.DocCodeExamples.dll -> 0 messages
+
+11:28:10 COMPILE Unity.VisualScripting.Flow.Editor.dll -> 0 messages
+
+11:28:10 COMPILE Unity.VisualScripting.Flow.dll -> 0 messages
+
+11:28:11 COMPILE Unity.VisualScripting.SettingsProvider.Editor.dll -> 0 messages
+
+11:28:11 COMPILE Unity.VisualScripting.Shared.Editor.dll -> 0 messages
+
+11:28:11 COMPILE Unity.VisualScripting.State.Editor.dll -> 0 messages
+
+11:28:11 COMPILE Unity.VisualScripting.State.dll -> 0 messages
+
+11:28:11 COMPILE Unity.VisualStudio.Editor.dll -> 0 messages
+
+11:28:11 COMPILE UnityEditor.TestRunner.dll -> 0 messages
+
+11:28:11 COMPILE UnityEditor.UI.Analytics.dll -> 0 messages
+
+11:28:11 COMPILE UnityEditor.UI.dll -> 0 messages
+
+11:28:11 COMPILE UnityEngine.TestRunner.dll -> 0 messages
+
+11:28:11 COMPILE UnityEngine.UI.dll -> 0 messages
+
+11:28:15 DevBridge loaded 19/10/2026 11:28:15
+11:30:02 Warning: Unity is not designed to run with Administrator privileges.
+
+With elevated access, scripts in your project can modify system files, registry settings, or protected areas, even accidentally.
+This could make your system unstable or unbootable.
+
+Restart as a standard user for the safest experience.
+11:30:06 Unpacked pp1_initial.zip
+11:30:12 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:30:18 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:30:18 COMPILE Assembly-CSharp.dll -> 0 messages
+
+11:30:23 DevBridge loaded 19/10/2026 11:30:23
+11:30:54 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:30:54 COMPILE Assembly-CSharp.dll -> 0 messages
+
+11:30:54 COMPILE HFDownloader.dll -> 0 messages
+
+11:30:54 COMPILE PPv2URPConverters.dll -> 0 messages
+
+11:30:54 COMPILE Unity.2D.Sprite.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Animate.Motion.Runtime.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Animate.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.API.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Annotations.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.AssetGenerators.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Bridge.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Integrations.Profiler.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Runtime.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.Tools.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Assistant.UI.Editor.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.Asset.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.Contexts.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.IO.Srp.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.IO.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.Redux.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.Sdk.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.Tools.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.UI.AIDropdownIntegrations.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Generators.UI.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.Image.dll -> 0 messages
+
+11:30:54 COMPILE Unity.AI.MCP.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.MCP.Runtime.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Mesh.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.ModelSelector.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Navigation.Editor.ConversionSystem.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Navigation.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Navigation.Updater.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Navigation.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Pbr.Srp.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Pbr.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Search.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Sound.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.Accounts.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.Asset.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.Async.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.Compliance.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.GenerationContextMenu.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.GenerationObjectPicker.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Toolkit.Utility.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AI.Tracing.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.InternalAPIBridge.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.MVVM.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Navigation.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Navigation.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Redux.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Redux.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.Undo.dll -> 0 messages
+
+11:30:55 COMPILE Unity.AppUI.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Burst.CodeGen.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Burst.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Burst.dll -> 0 messages
+
+11:30:55 COMPILE Unity.CollabProxy.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Collections.CodeGen.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Collections.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.Collections.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.Editor.Visualizer.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.MacBLAS.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.Microsoft.Msagl.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.ONNX.Editor.dll -> 0 messages
+
+11:30:55 COMPILE Unity.InferenceEngine.Tokenization.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InferenceEngine.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InferenceEngine.iOSBLAS.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InputSystem.DocCodeSamples.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InputSystem.ForUI.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InputSystem.ForUI.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InputSystem.TestFramework.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InputSystem.dll -> 0 messages
+
+11:30:56 COMPILE Unity.InternalAPIEngineBridge.004.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Mathematics.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Mathematics.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Multiplayer.Center.Common.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Multiplayer.Center.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.PerformanceTesting.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.PerformanceTesting.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Pipeline.Attributes.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Pipeline.CodeGen.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Pipeline.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Pipeline.IlInterpreter.dll -> 0 messages
+
+11:30:56 COMPILE Unity.Pipeline.dll -> 0 messages
+
+11:30:56 COMPILE Unity.PlasticSCM.Editor.Entities.dll -> 0 messages
+
+11:30:56 COMPILE Unity.PlasticSCM.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipeline.Universal.ShaderLibrary.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipelines.Core.Editor.Shared.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipelines.Core.Editor.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipelines.Core.Runtime.Shared.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipelines.Core.Runtime.dll -> 0 messages
+
+11:30:56 COMPILE Unity.RenderPipelines.Core.ShaderLibrary.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.GPUDriven.Runtime.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.2D.Editor.Overrides.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.2D.Runtime.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.Config.Runtime.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.Runtime.dll -> 0 messages
+
+11:30:57 COMPILE Unity.RenderPipelines.Universal.Shaders.dll -> 0 messages
+
+11:30:57 COMPILE Unity.Rendering.LightTransport.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.Rider.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.Searcher.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.ShaderGraph.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.ShaderGraph.Utilities.dll -> 0 messages
+
+11:30:57 COMPILE Unity.TextMeshPro.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.TextMeshPro.dll -> 0 messages
+
+11:30:57 COMPILE Unity.Timeline.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.Timeline.dll -> 0 messages
+
+11:30:57 COMPILE Unity.UnifiedRayTracing.Runtime.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.Core.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.Core.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.DocCodeExamples.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.Flow.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.Flow.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.SettingsProvider.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.Shared.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.State.Editor.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualScripting.State.dll -> 0 messages
+
+11:30:57 COMPILE Unity.VisualStudio.Editor.dll -> 0 messages
+
+11:30:57 COMPILE UnityEditor.TestRunner.dll -> 0 messages
+
+11:30:57 COMPILE UnityEditor.UI.Analytics.dll -> 0 messages
+
+11:30:57 COMPILE UnityEditor.UI.dll -> 0 messages
+
+11:30:57 COMPILE UnityEngine.TestRunner.dll -> 0 messages
+
+11:30:57 COMPILE UnityEngine.UI.dll -> 0 messages
+
+11:31:04 DevBridge loaded 19/10/2026 11:31:04
+11:31:13 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:31:17 DevBridge loaded 19/10/2026 11:31:17
+11:31:49 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:36:36 Unpacked update020.zip
+11:36:40 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:36:58 DevBridge loaded 19/10/2026 11:36:58
+11:38:23 Log: [MROT] Ward build complete.
+11:38:23 Menu 'MR Operating Theatre/1. Build Ward (materials, prefabs, scene)' -> True
+11:38:23 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:38:41 Opened Assets/MR_OperatingTheatre/Scenes/MR_OperatingTheatre.unity
+11:38:41 Entering play mode
+11:38:46 DevBridge loaded 19/10/2026 11:38:46
+11:39:18 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:40:41 Exit play mode
+11:40:41 DevBridge error: This cannot be used during play mode, please use SceneManager.LoadScene()/SceneManager.LoadSceneAsync() instead.
+11:44:41 Log: [MROT] Installing XR Plug-in Management + OpenXR ...
+11:44:41 Menu 'MR Operating Theatre/2. Install XR Packages (OpenXR)' -> True
+11:44:55 Log: [MROT] XR packages installed. Now run 'MR Operating Theatre > 3. Configure OpenXR'.
+11:45:09 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+11:45:09 COMPILE Assembly-CSharp.dll -> 0 messages
+
+11:45:09 COMPILE MROT.XRSetup.Editor.dll -> 2 messages
+[Warning] Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29): Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29,52): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+[Warning] Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35): Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35,53): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+
+11:45:09 COMPILE Unity.RenderPipelines.Universal.2D.Editor.Overrides.dll -> 0 messages
+
+11:45:09 COMPILE Unity.RenderPipelines.Universal.Editor.dll -> 0 messages
+
+11:45:09 COMPILE Unity.XR.CoreUtils.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.CoreUtils.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.Management.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.Management.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.ConformanceAutomation.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.MetaHandMeshData.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.MetaHandMeshData.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.MetaQuestSupport.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.MockRuntime.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.OculusQuestSupport.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.Features.RuntimeDebugger.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.TestTooling.dll -> 0 messages
+
+11:45:10 COMPILE Unity.XR.OpenXR.dll -> 0 messages
+
+11:45:10 COMPILE UnityEditor.SpatialTracking.dll -> 0 messages
+
+11:45:10 COMPILE UnityEditor.XR.LegacyInputHelpers.dll -> 0 messages
+
+11:45:10 COMPILE UnityEngine.SpatialTracking.dll -> 0 messages
+
+11:45:10 COMPILE UnityEngine.XR.LegacyInputHelpers.dll -> 0 messages
+
+11:45:11 Warning: Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29,52): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+11:45:11 Warning: Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35,53): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+11:45:28 DevBridge loaded 19/10/2026 11:45:28
+11:46:02 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:46:31 Error: ExecuteMenuItem failed because there is no menu named 'MR Operating Theatre/3. Configure OpenXR'
+UnityEditor.EditorApplication:ExecuteMenuItem (string)
+DevBridge:Tick () (at Assets/Editor/DevBridge.cs:101)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+11:46:31 Menu 'MR Operating Theatre/3. Configure OpenXR' -> False
+11:47:39 Log: [MROT] OpenXR configured for Windows (PC VR) and Android (Meta Quest).
+11:47:39 Menu 'MR Operating Theatre/3. Configure OpenXR (after packages installed)' -> True
+14:27:02 Unpacked update031.zip
+14:27:13 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+14:27:14 COMPILE Assembly-CSharp.dll -> 0 messages
+
+14:27:32 DevBridge loaded 19/10/2026 14:27:32
+14:27:41 Log: [MROT] Imported Library/PackageCache\com.unity.ugui@20629863fcab\Package Resources\TMP Essential Resources.unitypackage
+14:27:41 Menu 'MR Operating Theatre/0. Import TextMeshPro Essentials' -> True
+14:28:06 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+14:28:47 Log: [MROT] Ward build complete.
+14:28:47 Menu 'MR Operating Theatre/1. Build Ward (materials, prefabs, scene)' -> True
+14:29:56 Opened Assets/MR_OperatingTheatre/Scenes/MR_OperatingTheatre.unity
+14:29:56 Entering play mode
+14:30:02 DevBridge loaded 19/10/2026 14:30:02
+14:30:08 Warning: XR: Error setting active audio output driver. Falling back to default.
+14:30:08 Warning: XR: Error setting active audio output driver. Falling back to default.
+14:30:34 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+14:32:15 Stopping play mode for update
+14:32:17 Unpacked update036.zip
+14:32:20 COMPILE Assembly-CSharp.dll -> 0 messages
+
+14:32:27 DevBridge loaded 19/10/2026 14:32:27
+14:32:58 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+14:48:37 DevBridge loaded 19/10/2026 14:48:37
+14:48:41 Warning: XR: Error setting active audio output driver. Falling back to default.
+14:48:41 Warning: XR: Error setting active audio output driver. Falling back to default.
+14:49:08 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+08:48:10 DevBridge loaded 10/24/2026 8:48:09 AM
+08:48:19 Warning: A polygon of Mesh 'M_Body' in Assets/NeonatalDelivery/Art/Models/ND_Mother.fbx is self-intersecting and has been discarded.
+08:48:31 Warning: Unity is running with Administrator privileges, which is not supported. Unity executes scripts and binary libraries in your project that may originate from third party sources and potentially be harmful to your computer. Unity may also execute scripts and binary libraries that are still under development and not yet fully tested. Running Unity with Administrator privileges may lead to catastrophic consequences, including but not limited to accidental data loss, change of global system settings or even bricking your device.
+08:48:45 Warning: A polygon of Mesh 'M_Body' in Assets/NeonatalDelivery/Art/Models/ND_Mother.fbx is self-intersecting and has been discarded.
+08:48:52 Log: [NeonatalDelivery] Built 20 model materials (0 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+08:48:52 Error: [NeonatalDelivery] No base-colour textures could be loaded from Assets/NeonatalDelivery/Art/Textures - check that the textures were imported.
+UnityEngine.Debug:LogError (object)
+NeonatalDelivery.EditorTools.NDMaterialBuilder:BuildAll () (at Assets/NeonatalDelivery/Editor/NDMaterialBuilder.cs:36)
+NeonatalDelivery.EditorTools.NDSetup:BuildEverything () (at Assets/NeonatalDelivery/Editor/NDSetup.cs:59)
+UnityEditor.EditorApplication:ExecuteMenuItem (string)
+DevBridge:Tick () (at Assets/Editor/DevBridge.cs:101)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+08:48:53 Log: [NeonatalDelivery] ND_Baby.fbx: 0/0 material slots remapped
+08:48:53 Log: [NeonatalDelivery] ND_CordClamp.fbx: 0/0 material slots remapped
+08:48:53 Log: [NeonatalDelivery] ND_CordScissors.fbx: 0/0 material slots remapped
+08:48:53 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 0/0 material slots remapped
+08:48:53 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 0/0 material slots remapped
+08:48:54 Warning: A polygon of Mesh 'M_Body' in Assets/NeonatalDelivery/Art/Models/ND_Mother.fbx is self-intersecting and has been discarded.
+08:48:54 Log: [NeonatalDelivery] ND_Mother.fbx: 0/0 material slots remapped
+08:48:54 Log: [NeonatalDelivery] ND_Towel.fbx: 0/0 material slots remapped
+08:48:55 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+08:48:55 Log: [NeonatalDelivery] material check M_Body: ND_Mother-Std_Skin_Head [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Skin_Head.mat]  ND_Mother-Std_Skin_Arm [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Skin_Arm.mat]  ND_Mother-Std_Skin_Leg [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Skin_Leg.mat]  ND_Mother-Std_Skin_Body [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Skin_Body.mat]  ND_Mother-ND_Mucosa [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-ND_Mucosa.mat]  ND_Mother-Hair_Transparency [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Hair_Transparency.mat]  ND_Mother-Std_Cornea_L [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Cornea_L.mat]  ND_Mother-Std_Cornea_R [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Cornea_R.mat]  
+08:48:55 Log: [NeonatalDelivery] material check ND_Drape: ND_Mother-ND_DrapeGreen [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-ND_DrapeGreen.mat]  
+08:48:55 Log: [NeonatalDelivery] material check B_Body: ND_Baby-ND_BabySkin [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Baby-ND_BabySkin.mat]  
+08:48:55 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+08:48:56 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+08:48:56 Menu 'Neonatal Delivery/3. Build Everything (materials, models, scene)' -> True
+08:48:56 Opened Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity
+08:48:57 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+08:49:04 DevBridge loaded 10/24/2026 8:49:04 AM
+08:49:04 DevBridge loaded 10/24/2026 8:49:04 AM
+08:49:04 DevBridge loaded 10/24/2026 8:49:04 AM
+08:49:04 DevBridge loaded 10/24/2026 8:49:04 AM
+08:49:05 Error: Could not open file D:/Research/Project/J26-IM-304_Unity6000.3.19f1/J26-IM-304_Unity6000.3.19f1/UserSettings/AI.Generators/DragAndDropCache.asset for read
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditorInternal.InternalEditorUtility:LoadSerializedFileAndForget (string)
+UnityEditor.ScriptableSingleton`1<Unity.AI.Generators.UI.Utilities.DragAndDropCache>:get_instance ()
+Unity.AI.Generators.UI.Utilities.ExternalFileDragDrop:Init () (at ./Library/PackageCache/com.unity.ai.assistant@1b11b9bfd84a/Modules/Unity.AI.Generators.UI/Utilities/ExternalFileDragDrop.cs:53)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+08:49:05 Assert: Assertion failed on expression: 'res'
+08:49:05 Error: Unknown error occurred while loading 'UserSettings/AI.Generators/DragAndDropCache.asset'.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditorInternal.InternalEditorUtility:LoadSerializedFileAndForget (string)
+UnityEditor.ScriptableSingleton`1<Unity.AI.Generators.UI.Utilities.DragAndDropCache>:get_instance ()
+Unity.AI.Generators.UI.Utilities.ExternalFileDragDrop:Init () (at ./Library/PackageCache/com.unity.ai.assistant@1b11b9bfd84a/Modules/Unity.AI.Generators.UI/Utilities/ExternalFileDragDrop.cs:53)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+08:49:11 Warning: A polygon of Mesh 'M_Body' in Assets/NeonatalDelivery/Art/Models/ND_Mother.fbx is self-intersecting and has been discarded.
+08:49:17 Log: [NeonatalDelivery] Built 20 model materials (0 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+08:49:17 Error: [NeonatalDelivery] No base-colour textures could be loaded from Assets/NeonatalDelivery/Art/Textures - check that the textures were imported.
+UnityEngine.Debug:LogError (object)
+NeonatalDelivery.EditorTools.NDMaterialBuilder:BuildAll () (at Assets/NeonatalDelivery/Editor/NDMaterialBuilder.cs:36)
+NeonatalDelivery.EditorTools.NDSetup:BuildEverything () (at Assets/NeonatalDelivery/Editor/NDSetup.cs:59)
+
+08:49:17 Log: [NeonatalDelivery] ND_Baby.fbx: 0/0 material slots remapped
+08:49:18 Log: [NeonatalDelivery] ND_CordClamp.fbx: 0/0 material slots remapped
+08:49:18 Log: [NeonatalDelivery] ND_CordScissors.fbx: 0/0 material slots remapped
+08:49:18 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 0/0 material slots remapped
+08:49:18 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 0/0 material slots remapped
+08:49:19 Warning: A polygon of Mesh 'M_Body' in Assets/NeonatalDelivery/Art/Models/ND_Mother.fbx is self-intersecting and has been discarded.
+08:49:19 Log: [NeonatalDelivery] ND_Mother.fbx: 0/0 material slots remapped
+08:49:19 Log: [NeonatalDelivery] ND_Towel.fbx: 0/0 material slots remapped
+08:49:23 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+08:49:23 Log: [NeonatalDelivery] material check M_Body: ND_Mother-Std_Skin_Head [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Skin_Head.mat]  ND_Mother-Std_Skin_Arm [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Skin_Arm.mat]  ND_Mother-Std_Skin_Leg [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Skin_Leg.mat]  ND_Mother-Std_Skin_Body [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Skin_Body.mat]  ND_Mother-ND_Mucosa [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-ND_Mucosa.mat]  ND_Mother-Hair_Transparency [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Hair_Transparency.mat]  ND_Mother-Std_Cornea_L [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Cornea_L.mat]  ND_Mother-Std_Cornea_R [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-Std_Cornea_R.mat]  
+08:49:23 Log: [NeonatalDelivery] material check ND_Drape: ND_Mother-ND_DrapeGreen [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Mother-ND_DrapeGreen.mat]  
+08:49:23 Log: [NeonatalDelivery] material check B_Body: ND_Baby-ND_BabySkin [Universal Render Pipeline/Lit, map=none, path=Assets/NeonatalDelivery/Art/Models/Materials/ND_Baby-ND_BabySkin.mat]  
+08:49:23 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+08:49:24 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_cornea_r_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4964803Z' while content on disk has modification time of '2026-10-24T03:19:18.2449255Z'
+
+08:49:24 Warning: [Worker3] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_cornea_r_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4964803Z' while content on disk has modification time of '2026-10-24T03:19:18.2449255Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_nails_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5081405Z' while content on disk has modification time of '2026-10-24T03:19:18.2542577Z'
+
+08:49:24 Warning: [Worker2] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_nails_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5081405Z' while content on disk has modification time of '2026-10-24T03:19:18.2542577Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/hair_mat_transparency_base.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5058741Z' while content on disk has modification time of '2026-10-24T03:19:18.250729Z'
+
+08:49:24 Warning: [Worker3] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/hair_mat_transparency_base.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5058741Z' while content on disk has modification time of '2026-10-24T03:19:18.250729Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_lower_teeth_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5106446Z' while content on disk has modification time of '2026-10-24T03:19:18.2547655Z'
+
+08:49:24 Warning: [Worker3] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_lower_teeth_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5106446Z' while content on disk has modification time of '2026-10-24T03:19:18.2547655Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_body_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4918332Z' while content on disk has modification time of '2026-10-24T03:19:18.2408628Z'
+
+08:49:24 Warning: [Worker0] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_body_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4918332Z' while content on disk has modification time of '2026-10-24T03:19:18.2408628Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eyelash_base.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5033659Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:24 Warning: [Worker3] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eyelash_base.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5033659Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_leg_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4918332Z' while content on disk has modification time of '2026-10-24T03:19:18.2368453Z'
+
+08:49:24 Warning: [Worker2] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_leg_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4918332Z' while content on disk has modification time of '2026-10-24T03:19:18.2368453Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_cornea_l_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4964803Z' while content on disk has modification time of '2026-10-24T03:19:18.2449255Z'
+
+08:49:24 Warning: [Worker0] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_cornea_l_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4964803Z' while content on disk has modification time of '2026-10-24T03:19:18.2449255Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_arm_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4891836Z' while content on disk has modification time of '2026-10-24T03:19:18.2353251Z'
+
+08:49:24 Warning: [Worker3] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_arm_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4891836Z' while content on disk has modification time of '2026-10-24T03:19:18.2353251Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_head_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4846484Z' while content on disk has modification time of '2026-10-24T03:19:18.2322948Z'
+
+08:49:24 Warning: [Worker2] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_head_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.4846484Z' while content on disk has modification time of '2026-10-24T03:19:18.2322948Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_tongue_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5111507Z' while content on disk has modification time of '2026-10-24T03:19:18.2562841Z'
+
+08:49:24 Warning: [Worker0] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_tongue_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5111507Z' while content on disk has modification time of '2026-10-24T03:19:18.2562841Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eyelash_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5033659Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:24 Warning: [Worker2] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eyelash_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5033659Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eye_r_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5016242Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:24 Warning: [Worker0] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eye_r_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5016242Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:24 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_nails_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5081405Z' while content on disk has modification time of '2026-10-24T03:19:18.2532489Z'
+
+08:49:25 Warning: [Worker1] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_nails_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5081405Z' while content on disk has modification time of '2026-10-24T03:19:18.2532489Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eye_l_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5016242Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:25 Warning: [Worker3] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eye_l_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5016242Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_leg_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.4918332Z' while content on disk has modification time of '2026-10-24T03:19:18.238854Z'
+
+08:49:25 Warning: [Worker2] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_leg_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.4918332Z' while content on disk has modification time of '2026-10-24T03:19:18.238854Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/hair_transparency_base.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.4964803Z' while content on disk has modification time of '2026-10-24T03:19:18.2434133Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eye_l_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5011177Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:25 Warning: [Worker0] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/hair_transparency_base.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.4964803Z' while content on disk has modification time of '2026-10-24T03:19:18.2434133Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eye_r_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5016242Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:25 Warning: [Worker1] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eye_l_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5011177Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:25 Warning: [Worker3] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_eye_r_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5016242Z' while content on disk has modification time of '2026-10-24T03:19:18.2459328Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_upper_teeth_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5111507Z' while content on disk has modification time of '2026-10-24T03:19:18.2552752Z'
+
+08:49:25 Warning: [Worker2] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_upper_teeth_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5111507Z' while content on disk has modification time of '2026-10-24T03:19:18.2552752Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_body_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.4964803Z' while content on disk has modification time of '2026-10-24T03:19:18.2429068Z'
+
+08:49:25 Warning: [Worker1] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_body_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.4964803Z' while content on disk has modification time of '2026-10-24T03:19:18.2429068Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/skullcap_mat_transparency_base.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5081405Z' while content on disk has modification time of '2026-10-24T03:19:18.2532489Z'
+
+08:49:25 Warning: [Worker0] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/skullcap_mat_transparency_base.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5081405Z' while content on disk has modification time of '2026-10-24T03:19:18.2532489Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_arm_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.4891836Z' while content on disk has modification time of '2026-10-24T03:19:18.2368453Z'
+
+08:49:25 Warning: [Worker2] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_arm_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.4891836Z' while content on disk has modification time of '2026-10-24T03:19:18.2368453Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_head_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.4871723Z' while content on disk has modification time of '2026-10-24T03:19:18.2348132Z'
+
+08:49:25 Warning: [Worker0] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_skin_head_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.4871723Z' while content on disk has modification time of '2026-10-24T03:19:18.2348132Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_tongue_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5138896Z' while content on disk has modification time of '2026-10-24T03:19:18.2587935Z'
+
+08:49:25 Warning: [Worker2] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_tongue_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5138896Z' while content on disk has modification time of '2026-10-24T03:19:18.2587935Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_lower_teeth_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5111507Z' while content on disk has modification time of '2026-10-24T03:19:18.2552752Z'
+
+08:49:25 Warning: [Worker0] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_lower_teeth_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5111507Z' while content on disk has modification time of '2026-10-24T03:19:18.2552752Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_upper_teeth_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5111507Z' while content on disk has modification time of '2026-10-24T03:19:18.2562841Z'
+
+08:49:25 Warning: [Worker2] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/std_upper_teeth_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5111507Z' while content on disk has modification time of '2026-10-24T03:19:18.2562841Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/nd_drapegreen_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5138896Z' while content on disk has modification time of '2026-10-24T03:19:18.2587935Z'
+
+08:49:25 Warning: [Worker3] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/nd_drapegreen_base.jpg in SourceAssetDB has modification time of '2026-10-24T03:18:53.5138896Z' while content on disk has modification time of '2026-10-24T03:19:18.2587935Z'
+
+08:49:25 Warning: Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/nd_drapegreen_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5164027Z' while content on disk has modification time of '2026-10-24T03:19:18.2608428Z'
+
+08:49:25 Warning: [Worker1] Import Error Code:(4)
+Message: Build asset version error: assets/neonataldelivery/art/models/nd_mother.fbm/nd_drapegreen_normal.png in SourceAssetDB has modification time of '2026-10-24T03:18:53.5164027Z' while content on disk has modification time of '2026-10-24T03:19:18.2608428Z'
+
+09:17:48 DevBridge loaded 10/24/2026 9:17:48 AM
+09:17:58 Warning: Unity is running with Administrator privileges, which is not supported. Unity executes scripts and binary libraries in your project that may originate from third party sources and potentially be harmful to your computer. Unity may also execute scripts and binary libraries that are still under development and not yet fully tested. Running Unity with Administrator privileges may lead to catastrophic consequences, including but not limited to accidental data loss, change of global system settings or even bricking your device.
+09:18:00 Log: [NeonatalDelivery] Removed legacy folder Assets/NeonatalDelivery/Art/Models/Materials
+09:18:01 Log: [NeonatalDelivery] Removed legacy folder Assets/NeonatalDelivery/Art/Models/ND_Mother.fbm
+09:18:01 Log: [NeonatalDelivery] Importer check: 0 asset(s) repaired.
+09:18:07 Log: [NeonatalDelivery] Built 20 model materials (18 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+09:18:08 Log: [NeonatalDelivery] ND_Baby.fbx: 1/1 material slots remapped
+09:18:08 Log: [NeonatalDelivery] ND_CordClamp.fbx: 1/1 material slots remapped
+09:18:08 Log: [NeonatalDelivery] ND_CordScissors.fbx: 2/2 material slots remapped
+09:18:08 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 15/15 material slots remapped
+09:18:08 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 2/2 material slots remapped
+09:18:10 Log: [NeonatalDelivery] ND_Mother.fbx: 18/18 material slots remapped
+09:18:10 Log: [NeonatalDelivery] ND_Towel.fbx: 1/1 material slots remapped
+09:18:10 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+09:18:10 Log: [NeonatalDelivery] material check M_Body: Std_Skin_Head [NeonatalDelivery/Skin, map=Std_Skin_Head_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Head.mat]  Std_Skin_Arm [NeonatalDelivery/Skin, map=Std_Skin_Arm_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Arm.mat]  Std_Skin_Leg [NeonatalDelivery/Skin, map=Std_Skin_Leg_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Leg.mat]  Std_Skin_Body [NeonatalDelivery/Skin, map=Std_Skin_Body_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Body.mat]  ND_Mucosa [NeonatalDelivery/Skin, map=none, path=Assets/NeonatalDelivery/Art/Materials/ND_Mucosa.mat]  Hair_Transparency [Universal Render Pipeline/Lit, map=Hair_Transparency_base, path=Assets/NeonatalDelivery/Art/Materials/Hair_Transparency.mat]  Std_Cornea_L [Universal Render Pipeline/Lit, map=Std_Cornea_L_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_L.mat]  Std_Cornea_R [Universal Render Pipeline/Lit, map=Std_Cornea_R_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_R.mat]  
+09:18:10 Log: [NeonatalDelivery] material check ND_Drape: ND_DrapeGreen [Universal Render Pipeline/Lit, map=ND_DrapeGreen_base, path=Assets/NeonatalDelivery/Art/Materials/ND_DrapeGreen.mat]  
+09:18:10 Log: [NeonatalDelivery] material check B_Body: ND_BabySkin [NeonatalDelivery/Skin, map=ND_BabySkin_base, path=Assets/NeonatalDelivery/Art/Materials/ND_BabySkin.mat]  
+09:18:10 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+09:18:10 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+09:18:10 Menu 'Neonatal Delivery/3. Build Everything (materials, models, scene)' -> True
+09:18:10 Log: [NeonatalDelivery] MATERIAL REPORT
+  29 material assets in Assets/NeonatalDelivery/Art/Materials
+  35 textures in Assets/NeonatalDelivery/Art/Textures
+  shader NeonatalDelivery/Skin found: True, supported: True
+  Std_Skin_Body: shader=NeonatalDelivery/Skin baseMap=Assets/NeonatalDelivery/Art/Textures/Mother/Std_Skin_Body_base.jpg color=RGBA(1.000, 1.000, 1.000, 1.000)
+  Std_Skin_Leg: shader=NeonatalDelivery/Skin baseMap=Assets/NeonatalDelivery/Art/Textures/Mother/Std_Skin_Leg_base.jpg color=RGBA(1.000, 1.000, 1.000, 1.000)
+  Std_Skin_Head: shader=NeonatalDelivery/Skin baseMap=Assets/NeonatalDelivery/Art/Textures/Mother/Std_Skin_Head_base.jpg color=RGBA(1.000, 1.000, 1.000, 1.000)
+  ND_DrapeGreen: shader=Universal Render Pipeline/Lit baseMap=Assets/NeonatalDelivery/Art/Textures/Drape/ND_DrapeGreen_base.jpg color=RGBA(1.000, 1.000, 1.000, 1.000)
+  ND_BabySkin: shader=NeonatalDelivery/Skin baseMap=Assets/NeonatalDelivery/Art/Textures/Baby/ND_BabySkin_base.jpg color=RGBA(1.000, 1.000, 1.000, 1.000)
+  ND_Baby.fbx: materialImportMode=ImportViaMaterialDescription, remapped slots=1
+  ND_CordClamp.fbx: materialImportMode=ImportViaMaterialDescription, remapped slots=1
+  ND_CordScissors.fbx: materialImportMode=ImportViaMaterialDescription, remapped slots=2
+  ND_DeliveryBed.fbx: materialImportMode=ImportViaMaterialDescription, remapped slots=15
+  ND_DeliveryTray.fbx: materialImportMode=ImportViaMaterialDescription, remapped slots=2
+  ND_Mother.fbx: materialImportMode=ImportViaMaterialDescription, remapped slots=18
+  ND_Towel.fbx: materialImportMode=ImportViaMaterialDescription, remapped slots=1
+  scene M_Body: Std_Skin_Head [NeonatalDelivery/Skin, map=Std_Skin_Head_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Head.mat]  Std_Skin_Arm [NeonatalDelivery/Skin, map=Std_Skin_Arm_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Arm.mat]  Std_Skin_Leg [NeonatalDelivery/Skin, map=Std_Skin_Leg_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Leg.mat]  Std_Skin_Body [NeonatalDelivery/Skin, map=Std_Skin_Body_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Body.mat]  ND_Mucosa [NeonatalDelivery/Skin, map=none, path=Assets/NeonatalDelivery/Art/Materials/ND_Mucosa.mat]  Hair_Transparency [Universal Render Pipeline/Lit, map=Hair_Transparency_base, path=Assets/NeonatalDelivery/Art/Materials/Hair_Transparency.mat]  Std_Cornea_L [Universal Render Pipeline/Lit, map=Std_Cornea_L_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_L.mat]  Std_Cornea_R [Universal Render Pipeline/Lit, map=Std_Cornea_R_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_R.mat]  
+  scene ND_Drape: ND_DrapeGreen [Universal Render Pipeline/Lit, map=ND_DrapeGreen_base, path=Assets/NeonatalDelivery/Art/Materials/ND_DrapeGreen.mat]  
+  scene B_Body: ND_BabySkin [NeonatalDelivery/Skin, map=ND_BabySkin_base, path=Assets/NeonatalDelivery/Art/Materials/ND_BabySkin.mat]  
+
+09:18:10 Menu 'Neonatal Delivery/Tools/Diagnose Materials (log report)' -> True
+09:18:19 DevBridge loaded 10/24/2026 9:18:19 AM
+09:18:22 Error: Not allowed to access colors on mesh 'ND_Drape' (isReadable is false; Read/Write must be enabled in import settings)
+UnityEngine.Mesh:get_colors ()
+NeonatalDelivery.DrapeCloth:Build () (at Assets/NeonatalDelivery/Runtime/Rig/DrapeCloth.cs:49)
+NeonatalDelivery.DrapeCloth:Start () (at Assets/NeonatalDelivery/Runtime/Rig/DrapeCloth.cs:30)
+
+09:18:22 Error: Not allowed to access vertices on mesh 'ND_Drape' (isReadable is false; Read/Write must be enabled in import settings)
+UnityEngine.Mesh:get_vertices ()
+NeonatalDelivery.DrapeCloth:ClothToMeshIndex (UnityEngine.Mesh,int) (at Assets/NeonatalDelivery/Runtime/Rig/DrapeCloth.cs:126)
+NeonatalDelivery.DrapeCloth:Build () (at Assets/NeonatalDelivery/Runtime/Rig/DrapeCloth.cs:53)
+NeonatalDelivery.DrapeCloth:Start () (at Assets/NeonatalDelivery/Runtime/Rig/DrapeCloth.cs:30)
+
+09:18:50 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+09:19:00 DevBridge loaded 10/24/2026 9:19:00 AM
+09:19:10 Log: [NeonatalDelivery] Importer check: 0 asset(s) repaired.
+09:19:17 Log: [NeonatalDelivery] Built 20 model materials (18 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+09:19:17 Log: [NeonatalDelivery] ND_Baby.fbx: 1/1 material slots remapped
+09:19:17 Log: [NeonatalDelivery] ND_CordClamp.fbx: 1/1 material slots remapped
+09:19:17 Log: [NeonatalDelivery] ND_CordScissors.fbx: 2/2 material slots remapped
+09:19:17 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 15/15 material slots remapped
+09:19:17 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 2/2 material slots remapped
+09:19:19 Log: [NeonatalDelivery] ND_Mother.fbx: 18/18 material slots remapped
+09:19:19 Log: [NeonatalDelivery] ND_Towel.fbx: 1/1 material slots remapped
+09:19:23 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+09:19:23 Log: [NeonatalDelivery] material check M_Body: Std_Skin_Head [NeonatalDelivery/Skin, map=Std_Skin_Head_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Head.mat]  Std_Skin_Arm [NeonatalDelivery/Skin, map=Std_Skin_Arm_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Arm.mat]  Std_Skin_Leg [NeonatalDelivery/Skin, map=Std_Skin_Leg_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Leg.mat]  Std_Skin_Body [NeonatalDelivery/Skin, map=Std_Skin_Body_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Body.mat]  ND_Mucosa [NeonatalDelivery/Skin, map=none, path=Assets/NeonatalDelivery/Art/Materials/ND_Mucosa.mat]  Hair_Transparency [Universal Render Pipeline/Lit, map=Hair_Transparency_base, path=Assets/NeonatalDelivery/Art/Materials/Hair_Transparency.mat]  Std_Cornea_L [Universal Render Pipeline/Lit, map=Std_Cornea_L_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_L.mat]  Std_Cornea_R [Universal Render Pipeline/Lit, map=Std_Cornea_R_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_R.mat]  
+09:19:23 Log: [NeonatalDelivery] material check ND_Drape: ND_DrapeGreen [Universal Render Pipeline/Lit, map=ND_DrapeGreen_base, path=Assets/NeonatalDelivery/Art/Materials/ND_DrapeGreen.mat]  
+09:19:23 Log: [NeonatalDelivery] material check B_Body: ND_BabySkin [NeonatalDelivery/Skin, map=ND_BabySkin_base, path=Assets/NeonatalDelivery/Art/Materials/ND_BabySkin.mat]  
+09:19:23 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+09:19:23 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+09:19:31 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+09:19:36 DevBridge loaded 10/24/2026 9:19:36 AM
+09:19:40 Error: Not allowed to access colors on mesh 'ND_Drape' (isReadable is false; Read/Write must be enabled in import settings)
+UnityEngine.Mesh:get_colors ()
+NeonatalDelivery.DrapeCloth:Build () (at Assets/NeonatalDelivery/Runtime/Rig/DrapeCloth.cs:49)
+NeonatalDelivery.DrapeCloth:Start () (at Assets/NeonatalDelivery/Runtime/Rig/DrapeCloth.cs:30)
+
+09:19:40 Error: Not allowed to access vertices on mesh 'ND_Drape' (isReadable is false; Read/Write must be enabled in import settings)
+UnityEngine.Mesh:get_vertices ()
+NeonatalDelivery.DrapeCloth:ClothToMeshIndex (UnityEngine.Mesh,int) (at Assets/NeonatalDelivery/Runtime/Rig/DrapeCloth.cs:126)
+NeonatalDelivery.DrapeCloth:Build () (at Assets/NeonatalDelivery/Runtime/Rig/DrapeCloth.cs:53)
+NeonatalDelivery.DrapeCloth:Start () (at Assets/NeonatalDelivery/Runtime/Rig/DrapeCloth.cs:30)
+
+09:20:07 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+13:27:10 DevBridge loaded 10/24/2026 1:27:10 PM
+13:27:20 Warning: Unity is running with Administrator privileges, which is not supported. Unity executes scripts and binary libraries in your project that may originate from third party sources and potentially be harmful to your computer. Unity may also execute scripts and binary libraries that are still under development and not yet fully tested. Running Unity with Administrator privileges may lead to catastrophic consequences, including but not limited to accidental data loss, change of global system settings or even bricking your device.
+13:27:23 Log: [NeonatalDelivery] Importer check: 0 asset(s) repaired.
+13:27:31 Log: [NeonatalDelivery] Built 20 model materials (18 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+13:27:31 Log: [NeonatalDelivery] ND_Baby.fbx: 1/1 material slots remapped
+13:27:31 Log: [NeonatalDelivery] ND_CordClamp.fbx: 1/1 material slots remapped
+13:27:31 Log: [NeonatalDelivery] ND_CordScissors.fbx: 2/2 material slots remapped
+13:27:32 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 15/15 material slots remapped
+13:27:32 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 2/2 material slots remapped
+13:27:33 Log: [NeonatalDelivery] ND_Mother.fbx: 18/18 material slots remapped
+13:27:33 Log: [NeonatalDelivery] ND_Towel.fbx: 1/1 material slots remapped
+13:27:33 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+13:27:33 Log: [NeonatalDelivery] material check M_Body: Std_Skin_Head [NeonatalDelivery/Skin, map=Std_Skin_Head_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Head.mat]  Std_Skin_Arm [NeonatalDelivery/Skin, map=Std_Skin_Arm_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Arm.mat]  Std_Skin_Leg [NeonatalDelivery/Skin, map=Std_Skin_Leg_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Leg.mat]  Std_Skin_Body [NeonatalDelivery/Skin, map=Std_Skin_Body_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Body.mat]  ND_Mucosa [NeonatalDelivery/Skin, map=none, path=Assets/NeonatalDelivery/Art/Materials/ND_Mucosa.mat]  Hair_Transparency [Universal Render Pipeline/Lit, map=Hair_Transparency_base, path=Assets/NeonatalDelivery/Art/Materials/Hair_Transparency.mat]  Std_Cornea_L [Universal Render Pipeline/Lit, map=Std_Cornea_L_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_L.mat]  Std_Cornea_R [Universal Render Pipeline/Lit, map=Std_Cornea_R_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_R.mat]  
+13:27:33 Log: [NeonatalDelivery] material check ND_Drape: ND_DrapeGreen [Universal Render Pipeline/Lit, map=ND_DrapeGreen_base, path=Assets/NeonatalDelivery/Art/Materials/ND_DrapeGreen.mat]  
+13:27:33 Log: [NeonatalDelivery] material check B_Body: ND_BabySkin [NeonatalDelivery/Skin, map=ND_BabySkin_base, path=Assets/NeonatalDelivery/Art/Materials/ND_BabySkin.mat]  
+13:27:33 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+13:27:34 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+13:27:34 Menu 'Neonatal Delivery/3. Build Everything (materials, models, scene)' -> True
+13:27:42 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+13:27:42 DevBridge loaded 10/24/2026 1:27:42 PM
+13:27:42 DevBridge loaded 10/24/2026 1:27:42 PM
+13:27:43 DevBridge loaded 10/24/2026 1:27:42 PM
+13:29:24 Log: [NeonatalDelivery] Importer check: 0 asset(s) repaired.
+13:29:31 Log: [NeonatalDelivery] Built 20 model materials (18 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+13:29:32 Log: [NeonatalDelivery] ND_Baby.fbx: 1/1 material slots remapped
+13:29:32 Log: [NeonatalDelivery] ND_CordClamp.fbx: 1/1 material slots remapped
+13:29:32 Log: [NeonatalDelivery] ND_CordScissors.fbx: 2/2 material slots remapped
+13:29:32 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 15/15 material slots remapped
+13:29:32 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 2/2 material slots remapped
+13:29:33 Log: [NeonatalDelivery] ND_Mother.fbx: 18/18 material slots remapped
+13:29:34 Log: [NeonatalDelivery] ND_Towel.fbx: 1/1 material slots remapped
+13:29:46 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+13:29:47 Log: [NeonatalDelivery] material check M_Body: Std_Skin_Head [NeonatalDelivery/Skin, map=Std_Skin_Head_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Head.mat]  Std_Skin_Arm [NeonatalDelivery/Skin, map=Std_Skin_Arm_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Arm.mat]  Std_Skin_Leg [NeonatalDelivery/Skin, map=Std_Skin_Leg_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Leg.mat]  Std_Skin_Body [NeonatalDelivery/Skin, map=Std_Skin_Body_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Body.mat]  ND_Mucosa [NeonatalDelivery/Skin, map=none, path=Assets/NeonatalDelivery/Art/Materials/ND_Mucosa.mat]  Hair_Transparency [Universal Render Pipeline/Lit, map=Hair_Transparency_base, path=Assets/NeonatalDelivery/Art/Materials/Hair_Transparency.mat]  Std_Cornea_L [Universal Render Pipeline/Lit, map=Std_Cornea_L_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_L.mat]  Std_Cornea_R [Universal Render Pipeline/Lit, map=Std_Cornea_R_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_R.mat]  
+13:29:47 Log: [NeonatalDelivery] material check ND_Drape: ND_DrapeGreen [Universal Render Pipeline/Lit, map=ND_DrapeGreen_base, path=Assets/NeonatalDelivery/Art/Materials/ND_DrapeGreen.mat]  
+13:29:47 Log: [NeonatalDelivery] material check B_Body: ND_BabySkin [NeonatalDelivery/Skin, map=ND_BabySkin_base, path=Assets/NeonatalDelivery/Art/Materials/ND_BabySkin.mat]  
+13:29:47 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+13:29:47 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+13:29:54 DevBridge loaded 10/24/2026 1:29:54 PM
+13:29:59 DevBridge loaded 10/24/2026 1:29:59 PM
+13:29:59 DevBridge loaded 10/24/2026 1:29:59 PM
+13:30:25 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+13:31:03 Log: [NeonatalDelivery] Installing com.unity.xr.hands@1.9.0, com.unity.xr.meta-openxr@2.6.1
+13:31:16 Log: [NeonatalDelivery] Dependencies installed. Next: 'Neonatal Delivery > 2. Configure OpenXR'.
+13:31:28 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+13:31:28 COMPILE Assembly-CSharp.dll -> 0 messages
+
+13:31:28 COMPILE MROT.XRSetup.Editor.dll -> 2 messages
+[Warning] Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29): Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29,52): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+[Warning] Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35): Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35,53): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+
+13:31:28 COMPILE NeonatalDelivery.Editor.XR.dll -> 0 messages
+
+13:31:28 COMPILE NeonatalDelivery.Editor.dll -> 0 messages
+
+13:31:28 COMPILE NeonatalDelivery.Runtime.dll -> 0 messages
+
+13:31:28 COMPILE NeonatalDelivery.Tests.dll -> 0 messages
+
+13:31:29 COMPILE Unity.EditorCoroutines.Editor.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.ARAnalytics.Editor.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.ARFoundation.Editor.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.ARFoundation.InternalUtils.Editor.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.ARFoundation.InternalUtils.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.ARFoundation.VisualScripting.Editor.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.ARFoundation.VisualScripting.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.ARFoundation.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.ARSubsystems.Editor.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.ARSubsystems.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.CompositionLayers.Editor.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.CompositionLayers.UIInteraction.Editor.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.CompositionLayers.UIInteraction.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.CompositionLayers.dll -> 0 messages
+
+13:31:29 COMPILE Unity.XR.Hands.Analytics.Editor.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.Hands.Analytics.Hooks.Editor.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.Hands.CodeSamples.Editor.Tests.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.Hands.Editor.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.Hands.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.MetaOpenXR.Editor.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.MetaOpenXR.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.Editor.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.Features.ConformanceAutomation.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.Features.MetaHandMeshData.Editor.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.Features.MetaHandMeshData.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.Features.MetaQuestSupport.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.Features.MockRuntime.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.Features.OculusQuestSupport.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.Features.RuntimeDebugger.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.TestTooling.dll -> 0 messages
+
+13:31:30 COMPILE Unity.XR.OpenXR.dll -> 0 messages
+
+13:31:31 COMPILE Unity.XR.Simulation.Editor.dll -> 0 messages
+
+13:31:31 COMPILE Unity.XR.Simulation.dll -> 0 messages
+
+13:31:31 Warning: Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29,52): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+13:31:31 Warning: Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35,53): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+13:31:36 DevBridge loaded 10/24/2026 1:31:36 PM
+13:31:45 DevBridge loaded 10/24/2026 1:31:45 PM
+13:31:45 DevBridge loaded 10/24/2026 1:31:45 PM
+13:32:08 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+15:02:17 DevBridge loaded 10/24/2026 3:02:17 PM
+15:02:29 Warning: Unity is running with Administrator privileges, which is not supported. Unity executes scripts and binary libraries in your project that may originate from third party sources and potentially be harmful to your computer. Unity may also execute scripts and binary libraries that are still under development and not yet fully tested. Running Unity with Administrator privileges may lead to catastrophic consequences, including but not limited to accidental data loss, change of global system settings or even bricking your device.
+15:02:50 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+15:25:35 DevBridge loaded 10/24/2026 3:25:35 PM
+15:25:46 Warning: Unity is running with Administrator privileges, which is not supported. Unity executes scripts and binary libraries in your project that may originate from third party sources and potentially be harmful to your computer. Unity may also execute scripts and binary libraries that are still under development and not yet fully tested. Running Unity with Administrator privileges may lead to catastrophic consequences, including but not limited to accidental data loss, change of global system settings or even bricking your device.
+15:26:06 DevBridge loaded 10/24/2026 3:26:06 PM
+15:26:08 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+15:26:37 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+15:26:37 COMPILE Assembly-CSharp.dll -> 0 messages
+
+15:26:37 COMPILE HFDownloader.dll -> 0 messages
+
+15:26:37 COMPILE MROT.XRSetup.Editor.dll -> 2 messages
+[Warning] Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29): Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29,52): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+[Warning] Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35): Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35,53): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+
+15:26:37 COMPILE NeonatalDelivery.Editor.XR.dll -> 0 messages
+
+15:26:37 COMPILE NeonatalDelivery.Editor.dll -> 0 messages
+
+15:26:37 COMPILE NeonatalDelivery.Runtime.dll -> 0 messages
+
+15:26:37 COMPILE NeonatalDelivery.Tests.dll -> 0 messages
+
+15:26:37 COMPILE PPv2URPConverters.dll -> 0 messages
+
+15:26:37 COMPILE Unity.2D.Sprite.Editor.dll -> 0 messages
+
+15:26:38 COMPILE Unity.AI.Animate.Motion.Runtime.dll -> 0 messages
+
+15:26:38 COMPILE Unity.AI.Animate.dll -> 0 messages
+
+15:26:38 COMPILE Unity.AI.Assistant.API.Editor.dll -> 0 messages
+
+15:26:38 COMPILE Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.dll -> 0 messages
+
+15:26:38 COMPILE Unity.AI.Assistant.Annotations.Editor.dll -> 0 messages
+
+15:26:38 COMPILE Unity.AI.Assistant.AssetGenerators.Editor.dll -> 0 messages
+
+15:26:38 COMPILE Unity.AI.Assistant.Bridge.Editor.dll -> 0 messages
+
+15:26:38 COMPILE Unity.AI.Assistant.Editor.dll -> 0 messages
+
+15:26:38 COMPILE Unity.AI.Assistant.Integrations.Profiler.Editor.dll -> 0 messages
+
+15:26:38 COMPILE Unity.AI.Assistant.Runtime.dll -> 0 messages
+
+15:26:38 COMPILE Unity.AI.Assistant.Tools.Editor.dll -> 0 messages
+
+15:26:39 COMPILE Unity.AI.Assistant.UI.Editor.dll -> 0 messages
+
+15:26:39 COMPILE Unity.AI.Generators.Asset.dll -> 0 messages
+
+15:26:39 COMPILE Unity.AI.Generators.Contexts.dll -> 0 messages
+
+15:26:39 COMPILE Unity.AI.Generators.IO.Srp.dll -> 0 messages
+
+15:26:39 COMPILE Unity.AI.Generators.IO.dll -> 0 messages
+
+15:26:39 COMPILE Unity.AI.Generators.Redux.dll -> 0 messages
+
+15:26:39 COMPILE Unity.AI.Generators.Sdk.dll -> 0 messages
+
+15:26:39 COMPILE Unity.AI.Generators.Tools.dll -> 0 messages
+
+15:26:39 COMPILE Unity.AI.Generators.UI.AIDropdownIntegrations.dll -> 0 messages
+
+15:26:39 COMPILE Unity.AI.Generators.UI.dll -> 0 messages
+
+15:26:39 COMPILE Unity.AI.Image.dll -> 0 messages
+
+15:26:40 COMPILE Unity.AI.MCP.Editor.dll -> 0 messages
+
+15:26:40 COMPILE Unity.AI.MCP.Runtime.dll -> 0 messages
+
+15:26:40 COMPILE Unity.AI.Mesh.dll -> 0 messages
+
+15:26:40 COMPILE Unity.AI.ModelSelector.dll -> 0 messages
+
+15:26:40 COMPILE Unity.AI.Navigation.Editor.ConversionSystem.dll -> 0 messages
+
+15:26:40 COMPILE Unity.AI.Navigation.Editor.dll -> 0 messages
+
+15:26:40 COMPILE Unity.AI.Navigation.Updater.dll -> 0 messages
+
+15:26:40 COMPILE Unity.AI.Navigation.dll -> 0 messages
+
+15:26:40 COMPILE Unity.AI.Pbr.Srp.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AI.Pbr.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AI.Search.Editor.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AI.Sound.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AI.Toolkit.Accounts.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AI.Toolkit.Asset.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AI.Toolkit.Async.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AI.Toolkit.Compliance.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AI.Toolkit.GenerationContextMenu.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AI.Toolkit.GenerationObjectPicker.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AI.Toolkit.Utility.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AI.Tracing.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AppUI.Editor.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AppUI.InternalAPIBridge.dll -> 0 messages
+
+15:26:41 COMPILE Unity.AppUI.MVVM.dll -> 0 messages
+
+15:26:42 COMPILE Unity.AppUI.Navigation.Editor.dll -> 0 messages
+
+15:26:42 COMPILE Unity.AppUI.Navigation.dll -> 0 messages
+
+15:26:42 COMPILE Unity.AppUI.Redux.Editor.dll -> 0 messages
+
+15:26:42 COMPILE Unity.AppUI.Redux.dll -> 0 messages
+
+15:26:42 COMPILE Unity.AppUI.Undo.dll -> 0 messages
+
+15:26:42 COMPILE Unity.AppUI.dll -> 0 messages
+
+15:26:42 COMPILE Unity.Burst.CodeGen.dll -> 0 messages
+
+15:26:42 COMPILE Unity.Burst.Editor.dll -> 0 messages
+
+15:26:42 COMPILE Unity.Burst.dll -> 0 messages
+
+15:26:43 COMPILE Unity.CollabProxy.Editor.dll -> 0 messages
+
+15:26:43 COMPILE Unity.Collections.CodeGen.dll -> 0 messages
+
+15:26:43 COMPILE Unity.Collections.Editor.dll -> 0 messages
+
+15:26:43 COMPILE Unity.Collections.dll -> 0 messages
+
+15:26:43 COMPILE Unity.EditorCoroutines.Editor.dll -> 0 messages
+
+15:26:43 COMPILE Unity.InferenceEngine.Editor.Visualizer.dll -> 0 messages
+
+15:26:43 COMPILE Unity.InferenceEngine.Editor.dll -> 0 messages
+
+15:26:43 COMPILE Unity.InferenceEngine.MacBLAS.dll -> 0 messages
+
+15:26:43 COMPILE Unity.InferenceEngine.Microsoft.Msagl.dll -> 0 messages
+
+15:26:43 COMPILE Unity.InferenceEngine.ONNX.Editor.dll -> 0 messages
+
+15:26:43 COMPILE Unity.InferenceEngine.Tokenization.dll -> 0 messages
+
+15:26:43 COMPILE Unity.InferenceEngine.dll -> 0 messages
+
+15:26:44 COMPILE Unity.InferenceEngine.iOSBLAS.dll -> 0 messages
+
+15:26:44 COMPILE Unity.InputSystem.DocCodeSamples.dll -> 0 messages
+
+15:26:44 COMPILE Unity.InputSystem.ForUI.Editor.dll -> 0 messages
+
+15:26:44 COMPILE Unity.InputSystem.ForUI.dll -> 0 messages
+
+15:26:44 COMPILE Unity.InputSystem.TestFramework.dll -> 0 messages
+
+15:26:44 COMPILE Unity.InputSystem.dll -> 0 messages
+
+15:26:44 COMPILE Unity.InternalAPIEngineBridge.004.dll -> 0 messages
+
+15:26:44 COMPILE Unity.Mathematics.Editor.dll -> 0 messages
+
+15:26:44 COMPILE Unity.Mathematics.dll -> 0 messages
+
+15:26:44 COMPILE Unity.Multiplayer.Center.Common.dll -> 0 messages
+
+15:26:44 COMPILE Unity.Multiplayer.Center.Editor.dll -> 0 messages
+
+15:26:44 COMPILE Unity.PerformanceTesting.Editor.dll -> 0 messages
+
+15:26:44 COMPILE Unity.PerformanceTesting.dll -> 0 messages
+
+15:26:44 COMPILE Unity.Pipeline.Attributes.dll -> 0 messages
+
+15:26:44 COMPILE Unity.Pipeline.CodeGen.dll -> 0 messages
+
+15:26:44 COMPILE Unity.Pipeline.Editor.dll -> 0 messages
+
+15:26:44 COMPILE Unity.Pipeline.IlInterpreter.dll -> 0 messages
+
+15:26:44 COMPILE Unity.Pipeline.dll -> 0 messages
+
+15:26:44 COMPILE Unity.PlasticSCM.Editor.Entities.dll -> 0 messages
+
+15:26:45 COMPILE Unity.PlasticSCM.Editor.dll -> 0 messages
+
+15:26:45 COMPILE Unity.RenderPipeline.Universal.ShaderLibrary.dll -> 0 messages
+
+15:26:45 COMPILE Unity.RenderPipelines.Core.Editor.Shared.dll -> 0 messages
+
+15:26:45 COMPILE Unity.RenderPipelines.Core.Editor.dll -> 0 messages
+
+15:26:45 COMPILE Unity.RenderPipelines.Core.Runtime.Shared.dll -> 0 messages
+
+15:26:45 COMPILE Unity.RenderPipelines.Core.Runtime.dll -> 0 messages
+
+15:26:45 COMPILE Unity.RenderPipelines.Core.ShaderLibrary.dll -> 0 messages
+
+15:26:45 COMPILE Unity.RenderPipelines.GPUDriven.Runtime.dll -> 0 messages
+
+15:26:45 COMPILE Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll -> 0 messages
+
+15:26:46 COMPILE Unity.RenderPipelines.Universal.2D.Editor.Overrides.dll -> 0 messages
+
+15:26:46 COMPILE Unity.RenderPipelines.Universal.2D.Runtime.dll -> 0 messages
+
+15:26:46 COMPILE Unity.RenderPipelines.Universal.Config.Runtime.dll -> 0 messages
+
+15:26:46 COMPILE Unity.RenderPipelines.Universal.Editor.dll -> 0 messages
+
+15:26:46 COMPILE Unity.RenderPipelines.Universal.Runtime.dll -> 0 messages
+
+15:26:46 COMPILE Unity.RenderPipelines.Universal.Shaders.dll -> 0 messages
+
+15:26:46 COMPILE Unity.Rendering.LightTransport.Editor.dll -> 0 messages
+
+15:26:46 COMPILE Unity.Rider.Editor.dll -> 0 messages
+
+15:26:46 COMPILE Unity.Searcher.Editor.dll -> 0 messages
+
+15:26:46 COMPILE Unity.ShaderGraph.Editor.dll -> 0 messages
+
+15:26:46 COMPILE Unity.ShaderGraph.Utilities.dll -> 0 messages
+
+15:26:47 COMPILE Unity.TextMeshPro.Editor.dll -> 0 messages
+
+15:26:47 COMPILE Unity.TextMeshPro.dll -> 0 messages
+
+15:26:47 COMPILE Unity.Timeline.Editor.dll -> 0 messages
+
+15:26:47 COMPILE Unity.Timeline.dll -> 0 messages
+
+15:26:47 COMPILE Unity.UnifiedRayTracing.Runtime.dll -> 0 messages
+
+15:26:47 COMPILE Unity.VisualScripting.Core.Editor.dll -> 0 messages
+
+15:26:47 COMPILE Unity.VisualScripting.Core.dll -> 0 messages
+
+15:26:47 COMPILE Unity.VisualScripting.DocCodeExamples.dll -> 0 messages
+
+15:26:47 COMPILE Unity.VisualScripting.Flow.Editor.dll -> 0 messages
+
+15:26:47 COMPILE Unity.VisualScripting.Flow.dll -> 0 messages
+
+15:26:47 COMPILE Unity.VisualScripting.SettingsProvider.Editor.dll -> 0 messages
+
+15:26:47 COMPILE Unity.VisualScripting.Shared.Editor.dll -> 0 messages
+
+15:26:47 COMPILE Unity.VisualScripting.State.Editor.dll -> 0 messages
+
+15:26:47 COMPILE Unity.VisualScripting.State.dll -> 0 messages
+
+15:26:47 COMPILE Unity.VisualStudio.Editor.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.ARAnalytics.Editor.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.ARFoundation.Editor.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.ARFoundation.InternalUtils.Editor.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.ARFoundation.InternalUtils.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.ARFoundation.VisualScripting.Editor.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.ARFoundation.VisualScripting.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.ARFoundation.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.ARSubsystems.Editor.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.ARSubsystems.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.CompositionLayers.Editor.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.CompositionLayers.UIInteraction.Editor.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.CompositionLayers.UIInteraction.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.CompositionLayers.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.CoreUtils.Editor.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.CoreUtils.dll -> 0 messages
+
+15:26:48 COMPILE Unity.XR.Hands.Analytics.Editor.dll -> 0 messages
+
+15:26:49 COMPILE Unity.XR.Hands.Analytics.Hooks.Editor.dll -> 0 messages
+
+15:26:49 COMPILE Unity.XR.Hands.CodeSamples.Editor.Tests.dll -> 0 messages
+
+15:26:49 COMPILE Unity.XR.Hands.Editor.dll -> 0 messages
+
+15:26:49 COMPILE Unity.XR.Hands.dll -> 0 messages
+
+15:26:49 COMPILE Unity.XR.Management.Editor.dll -> 0 messages
+
+15:26:49 COMPILE Unity.XR.Management.dll -> 0 messages
+
+15:26:49 COMPILE Unity.XR.MetaOpenXR.Editor.dll -> 0 messages
+
+15:26:49 COMPILE Unity.XR.MetaOpenXR.dll -> 0 messages
+
+15:26:49 COMPILE Unity.XR.OpenXR.Editor.dll -> 0 messages
+
+15:26:49 COMPILE Unity.XR.OpenXR.Features.ConformanceAutomation.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.OpenXR.Features.MetaHandMeshData.Editor.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.OpenXR.Features.MetaHandMeshData.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.OpenXR.Features.MetaQuestSupport.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.OpenXR.Features.MockRuntime.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.OpenXR.Features.OculusQuestSupport.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.OpenXR.Features.RuntimeDebugger.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.OpenXR.TestTooling.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.OpenXR.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.Simulation.Editor.dll -> 0 messages
+
+15:26:50 COMPILE Unity.XR.Simulation.dll -> 0 messages
+
+15:26:50 COMPILE UnityEditor.SpatialTracking.dll -> 0 messages
+
+15:26:50 COMPILE UnityEditor.TestRunner.dll -> 0 messages
+
+15:26:50 COMPILE UnityEditor.UI.Analytics.dll -> 0 messages
+
+15:26:50 COMPILE UnityEditor.UI.dll -> 0 messages
+
+15:26:50 COMPILE UnityEditor.XR.LegacyInputHelpers.dll -> 0 messages
+
+15:26:50 COMPILE UnityEngine.SpatialTracking.dll -> 0 messages
+
+15:26:50 COMPILE UnityEngine.TestRunner.dll -> 0 messages
+
+15:26:50 COMPILE UnityEngine.UI.dll -> 0 messages
+
+15:26:50 COMPILE UnityEngine.XR.LegacyInputHelpers.dll -> 0 messages
+
+15:26:50 Warning: Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(29,52): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+15:26:50 Warning: Assets\MR_OperatingTheatre\Scripts\Editor\XR\MROTXRConfigurator.cs(35,53): warning CS0618: 'XRGeneralSettings.k_SettingsKey' is obsolete: 'k_SettingsKey is deprecated in XR Plug-in Management 4.7. Use settingsKey instead.'
+15:26:57 DevBridge loaded 10/24/2026 3:26:57 PM
+15:27:06 DevBridge loaded 10/24/2026 3:27:06 PM
+15:27:06 DevBridge loaded 10/24/2026 3:27:06 PM
+15:27:20 DevBridge loaded 10/24/2026 3:27:20 PM
+15:27:24 Warning: XR: Error setting active audio output driver. Falling back to default.
+15:27:26 DevBridge loaded 10/24/2026 3:27:26 PM
+15:27:26 DevBridge loaded 10/24/2026 3:27:26 PM
+15:27:52 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+15:28:46 Log: [MROT] Installing XR Plug-in Management + OpenXR ...
+15:28:52 Log: [MROT] Installing XR Plug-in Management + OpenXR ...
+15:28:55 Log: [MROT] XR packages installed. Now run 'MR Operating Theatre > 3. Configure OpenXR'.
+15:30:13 Log: [NeonatalDelivery] Importer check: 0 asset(s) repaired.
+15:30:22 Log: [NeonatalDelivery] Built 20 model materials (18 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+15:30:23 Log: [NeonatalDelivery] ND_Baby.fbx: 1/1 material slots remapped
+15:30:23 Log: [NeonatalDelivery] ND_CordClamp.fbx: 1/1 material slots remapped
+15:30:24 Log: [NeonatalDelivery] ND_CordScissors.fbx: 2/2 material slots remapped
+15:30:24 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 15/15 material slots remapped
+15:30:24 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 2/2 material slots remapped
+15:30:25 Log: [NeonatalDelivery] ND_Mother.fbx: 18/18 material slots remapped
+15:30:25 Log: [NeonatalDelivery] ND_Towel.fbx: 1/1 material slots remapped
+15:30:29 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+15:30:29 Log: [NeonatalDelivery] material check M_Body: Std_Skin_Head [NeonatalDelivery/Skin, map=Std_Skin_Head_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Head.mat]  Std_Skin_Arm [NeonatalDelivery/Skin, map=Std_Skin_Arm_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Arm.mat]  Std_Skin_Leg [NeonatalDelivery/Skin, map=Std_Skin_Leg_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Leg.mat]  Std_Skin_Body [NeonatalDelivery/Skin, map=Std_Skin_Body_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Body.mat]  ND_Mucosa [NeonatalDelivery/Skin, map=none, path=Assets/NeonatalDelivery/Art/Materials/ND_Mucosa.mat]  Hair_Transparency [Universal Render Pipeline/Lit, map=Hair_Transparency_base, path=Assets/NeonatalDelivery/Art/Materials/Hair_Transparency.mat]  Std_Cornea_L [Universal Render Pipeline/Lit, map=Std_Cornea_L_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_L.mat]  Std_Cornea_R [Universal Render Pipeline/Lit, map=Std_Cornea_R_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_R.mat]  
+15:30:29 Log: [NeonatalDelivery] material check ND_Drape: ND_DrapeGreen [Universal Render Pipeline/Lit, map=ND_DrapeGreen_base, path=Assets/NeonatalDelivery/Art/Materials/ND_DrapeGreen.mat]  
+15:30:29 Log: [NeonatalDelivery] material check B_Body: ND_BabySkin [NeonatalDelivery/Skin, map=ND_BabySkin_base, path=Assets/NeonatalDelivery/Art/Materials/ND_BabySkin.mat]  
+15:30:29 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+15:30:30 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+15:30:36 DevBridge loaded 10/24/2026 3:30:36 PM
+15:30:39 Warning: XR: Error setting active audio output driver. Falling back to default.
+15:30:42 DevBridge loaded 10/24/2026 3:30:42 PM
+15:30:42 DevBridge loaded 10/24/2026 3:30:42 PM
+15:31:07 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+15:33:25 Log: [NeonatalDelivery] Session started: STUDENT-001 Guided censorship=Moderate ablation=True MR=False
+15:34:25 Log: [NeonatalDelivery] FAULT F01_UNSUPPORTED_CRANIUM (CrowningHeadControl) no hand on Occiput/Vertex/ParietalLeft/ParietalRight (progress rate 3.6%/s)
+15:34:27 Log: [NeonatalDelivery] FAULT F03_PERINEUM_UNSUPPORTED (CrowningHeadControl) no hand on MaternalPerineum (progress rate 3.6%/s)
+15:34:36 Log: [NeonatalDelivery] FAULT F05_NUCHAL_NOT_CHECKED (NuchalCordCheck) neck not palpated before restitution
+15:35:07 Log: [NeonatalDelivery] FAULT F07_WRONG_TRACTION_AXIS (AnteriorShoulder) traction 25.0 N at 107 deg from the Axial axis (limit 35 deg)
+15:35:10 Log: [NeonatalDelivery] FAULT F10_LATERAL_FLEXION (AnteriorShoulder) lateral traction 17.2 N > 12 N
+15:35:18 Log: [NeonatalDelivery] FAULT F09_NECK_GRIP (AnteriorShoulder) Right hand on Vertex (force 22.2 N, traction 13.1 N)
+15:35:45 Log: [NeonatalDelivery] FAULT F12_POSTERIOR_SHOULDER_AXIS (PosteriorShoulder) traction 10.7 N at 113 deg from the Anterior axis (limit 55 deg)
+15:35:46 Log: [NeonatalDelivery] FAULT F09_NECK_GRIP (PosteriorShoulder) Right hand on Face (force 6.0 N, traction 9.2 N)
+15:35:57 Log: [NeonatalDelivery] FAULT F08_EXCESSIVE_TRACTION (PosteriorShoulder) Left hand 47.0 N > 40 N on ParietalRight
+15:36:21 Log: [NeonatalDelivery] FAULT F13_PREMATURE_RELEASE (BodyDelivery) baby not supported by any hand
+15:36:25 Log: [NeonatalDelivery] FAULT F14_ONE_HANDED_HOLD (SkinToSkin) baby not supported by any hand
+15:36:50 Log: [NeonatalDelivery] FAULT F15_BABY_DROPPED (SkinToSkin) newborn released away from the mother's chest

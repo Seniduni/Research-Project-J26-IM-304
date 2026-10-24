@@ -1,0 +1,1229 @@
+{
+ "items": [
+  {
+   "id": "MainTheatreDoor",
+   "name": "Hands-free Theatre Door",
+   "category": "Architecture",
+   "summary": "A hermetically sealed sliding door opened by a foot sensor, so hands stay clean and the room keeps its positive air pressure.",
+   "points": [
+    "Activate it with your foot - never push the door or handle with your hands.",
+    "Keep doors closed: every opening disturbs the clean airflow and raises infection risk.",
+    "The light above shows IN USE or VACANT.",
+    "Main door is for patient entry and exit on the trolley."
+   ],
+   "nurseRole": "Limit traffic through the door and never prop it open during surgery.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "door",
+    "sliding door",
+    "foot sensor",
+    "entrance"
+   ]
+  },
+  {
+   "id": "LaminarFlowCanopy",
+   "name": "Laminar Airflow Canopy",
+   "category": "Ceiling Systems",
+   "summary": "An ultra-clean ventilation ceiling that pushes HEPA-filtered air straight down over the operating table.",
+   "points": [
+    "Creates a clean zone over the sterile field and the instrument trolleys.",
+    "Theatre air is kept at positive pressure so air flows out of the room, not in.",
+    "Typical theatre conditions: temperature 18 to 23 degrees Celsius, humidity 40 to 60 percent.",
+    "Do not place tall equipment or lean over the field in a way that blocks the downward airflow."
+   ],
+   "nurseRole": "Keep trolleys and the sterile field inside the clean-air zone.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "ventilation",
+    "laminar flow",
+    "air flow",
+    "hepa",
+    "ceiling canopy"
+   ]
+  },
+  {
+   "id": "SurgicalLight_Twin",
+   "name": "Surgical Lights (Main and Satellite)",
+   "category": "Ceiling Systems",
+   "summary": "Two shadow-free LED operating lights on articulated ceiling arms, focused on the surgical site.",
+   "points": [
+    "The larger main light and smaller satellite light overlap to remove shadows.",
+    "The centre handle is covered with a sterile handle cover - only scrubbed staff may touch it.",
+    "Non-sterile staff adjust lights only using the outer handle, and only when asked.",
+    "LED lights produce very little heat, protecting exposed tissues."
+   ],
+   "nurseRole": "Position lights before draping and never touch the sterile handle when you are not scrubbed.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "lights",
+    "operating light",
+    "ot light",
+    "lamp"
+   ]
+  },
+  {
+   "id": "CeilingPendant_Anaesthesia",
+   "name": "Anaesthesia Ceiling Pendant",
+   "category": "Ceiling Systems",
+   "summary": "A ceiling-mounted supply column beside the anaesthetic machine that delivers medical gases, suction, power and data.",
+   "points": [
+    "Gas outlets are colour coded: oxygen white, nitrous oxide blue, medical air black, vacuum yellow.",
+    "Each outlet only accepts its own gas-specific probe, preventing wrong connections.",
+    "Keeps cables and hoses off the floor, reducing trip hazards."
+   ],
+   "nurseRole": "Check the gas outlets and suction before the list starts.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "pendant",
+    "gas outlet",
+    "medical gases",
+    "oxygen outlet"
+   ]
+  },
+  {
+   "id": "CeilingPendant_Surgical",
+   "name": "Surgical Ceiling Pendant",
+   "category": "Ceiling Systems",
+   "summary": "A second supply column on the surgical side that powers the diathermy, suction and other surgical equipment.",
+   "points": [
+    "Holds equipment on shelves above the floor.",
+    "Provides vacuum outlets for surgical suction.",
+    "Reduces cables on the floor."
+   ],
+   "nurseRole": "Connect equipment to the pendant rather than to floor extension leads.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "surgical pendant",
+    "equipment pendant"
+   ]
+  },
+  {
+   "id": "OperatingTable",
+   "name": "Operating Table",
+   "category": "Surgical Zone",
+   "summary": "An electro-hydraulic table with movable head, back, seat and leg sections, so the patient can be safely positioned for each operation.",
+   "points": [
+    "Height and tilt are adjusted using the hand control.",
+    "Arm boards must never be extended beyond 90 degrees, to prevent brachial plexus injury.",
+    "A safety strap is placed across the thighs before anaesthesia.",
+    "Gel pads protect pressure areas: head, elbows, sacrum and heels.",
+    "Lock the table and brakes before transferring the patient."
+   ],
+   "nurseRole": "Help position the patient safely, protect pressure areas and keep the patient's dignity and warmth.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "table",
+    "ot table",
+    "operation table",
+    "bed"
+   ]
+  },
+  {
+   "id": "AnaestheticScreen",
+   "name": "Anaesthetic Screen",
+   "category": "Surgical Zone",
+   "summary": "A stainless bar at the head of the table that holds the drapes up, separating the sterile field from the anaesthetist's area.",
+   "points": [
+    "Marks the boundary between the sterile and non-sterile areas.",
+    "Lets the anaesthetist reach the patient's airway without contaminating the field."
+   ],
+   "nurseRole": "Make sure the drape is secured to the screen and does not cover the airway.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "ether screen",
+    "drape screen",
+    "screen"
+   ]
+  },
+  {
+   "id": "MayoStand",
+   "name": "Mayo Instrument Stand",
+   "category": "Surgical Zone",
+   "summary": "A height-adjustable tray placed over the patient's legs that holds the instruments needed right now.",
+   "points": [
+    "Draped with a sterile cover and set up by the scrub nurse.",
+    "Holds only the instruments in immediate use - the rest stay on the back trolley.",
+    "Its base slides under the operating table."
+   ],
+   "nurseRole": "Only the scrubbed team touches the top of the Mayo stand.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "mayo",
+    "mayo table",
+    "mayo trolley",
+    "instrument stand"
+   ]
+  },
+  {
+   "id": "InstrumentTrolley",
+   "name": "Instrument Trolley (Back Table)",
+   "category": "Surgical Zone",
+   "summary": "A large stainless steel trolley covered with a sterile drape where the full instrument set, bowls and swabs are laid out.",
+   "points": [
+    "Prepared using an aseptic technique: clean the trolley, open the outer pack, then the scrubbed nurse lays it out.",
+    "Only the top of a draped trolley is sterile - the sides below table height are not.",
+    "Never reach across a sterile trolley; keep 30 centimetres away if you are not scrubbed.",
+    "Instruments are counted before, during and at the end of surgery."
+   ],
+   "nurseRole": "Prepare and protect the sterile trolley and help with the counts.",
+   "lo": [
+    "NP2-LO1",
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "back table",
+    "instrument table",
+    "trolley",
+    "sterile trolley"
+   ]
+  },
+  {
+   "id": "DiathermyUnit",
+   "name": "Diathermy (Electrosurgical Unit)",
+   "category": "Surgical Zone",
+   "summary": "A generator that uses high-frequency electricity to cut tissue and seal bleeding vessels.",
+   "points": [
+    "Monopolar diathermy needs a patient return electrode (plate) on clean, dry, hair-free skin over a large muscle.",
+    "Yellow means CUT and blue means COAG on the pencil and the foot pedal.",
+    "Keep the pencil in its holster when not in use, to prevent burns and fires.",
+    "Remove metal jewellery and keep alcohol-based skin preps dry before use."
+   ],
+   "nurseRole": "Apply the return electrode correctly and check the skin under it after surgery.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "diathermy",
+    "cautery",
+    "esu",
+    "electrosurgery",
+    "bovie"
+   ]
+  },
+  {
+   "id": "SuctionUnit",
+   "name": "Surgical Suction Unit",
+   "category": "Surgical Zone",
+   "summary": "A vacuum regulator with collection canisters that removes blood and fluids from the surgical site.",
+   "points": [
+    "Connects to the yellow vacuum outlet on the pendant.",
+    "The Yankauer sucker is used for the field or for the patient's airway.",
+    "Always have working suction ready before anaesthesia starts.",
+    "Canister contents help estimate blood loss."
+   ],
+   "nurseRole": "Check suction before every case and record fluid in the canisters.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "suction",
+    "sucker",
+    "yankauer",
+    "vacuum"
+   ]
+  },
+  {
+   "id": "KickBucket",
+   "name": "Kick Bucket (Swab Bucket)",
+   "category": "Surgical Zone",
+   "summary": "A low stainless bucket on wheels where used swabs are dropped so they can be counted.",
+   "points": [
+    "Used swabs are later separated and displayed for the swab count.",
+    "Moved with the foot, keeping hands clean."
+   ],
+   "nurseRole": "Use it for counts: never remove swabs from the theatre until the final count is correct.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "swab bucket",
+    "kick bucket",
+    "bucket"
+   ]
+  },
+  {
+   "id": "SwabCountBoard",
+   "name": "Swab and Instrument Count Board",
+   "category": "Wall Equipment",
+   "summary": "A whiteboard where the scrub and circulating nurses record swabs, needles, blades and instruments.",
+   "points": [
+    "Counts are done before the operation, before closing a cavity, and at skin closure.",
+    "Two nurses count aloud together.",
+    "Any discrepancy must be reported to the surgeon immediately."
+   ],
+   "nurseRole": "Record counts accurately to prevent retained surgical items.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "count board",
+    "whiteboard",
+    "swab count",
+    "instrument count"
+   ]
+  },
+  {
+   "id": "AnaesthesiaMachine",
+   "name": "Anaesthesia Machine",
+   "category": "Anaesthetic Area",
+   "summary": "A workstation that delivers oxygen, air and anaesthetic vapour, and ventilates the patient.",
+   "points": [
+    "Flowmeters control oxygen, air and nitrous oxide.",
+    "Vaporisers add volatile agents such as sevoflurane (yellow) and isoflurane (purple).",
+    "The emergency oxygen flush button gives a high flow of pure oxygen.",
+    "The breathing circuit and reservoir bag connect to the patient's face mask or airway.",
+    "It is checked by the anaesthetist before every list."
+   ],
+   "nurseRole": "Assist the anaesthetist, keep the area tidy and never adjust settings yourself.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "anaesthesia machine",
+    "anesthesia machine",
+    "boyle's machine",
+    "ventilator",
+    "gas machine"
+   ]
+  },
+  {
+   "id": "PatientMonitor",
+   "name": "Patient Monitor",
+   "category": "Anaesthetic Area",
+   "summary": "A multi-parameter monitor that displays the patient's vital signs continuously during surgery.",
+   "points": [
+    "ECG and heart rate, oxygen saturation (SpO2), blood pressure, end-tidal carbon dioxide and temperature.",
+    "Alarms sound when a value goes outside safe limits - always respond.",
+    "Normal adult SpO2 is 95 to 100 percent."
+   ],
+   "nurseRole": "Observe the patient's condition continuously and report changes promptly.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "monitor",
+    "vital signs",
+    "ecg",
+    "spo2",
+    "multipara"
+   ]
+  },
+  {
+   "id": "AnaestheticTrolley",
+   "name": "Anaesthetic Trolley",
+   "category": "Anaesthetic Area",
+   "summary": "A drawer cart that holds airway equipment, IV access items, drugs and fluids for the anaesthetist.",
+   "points": [
+    "Drawers are organised and labelled: airway, IV access, drugs, fluids, emergency.",
+    "Drugs are drawn up and labelled immediately with the drug name, dose and time.",
+    "Controlled drugs are stored locked and checked by two people."
+   ],
+   "nurseRole": "Help keep it stocked and follow the rights of medication administration.",
+   "lo": [
+    "NP2-LO4",
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "anaesthetic cart",
+    "drug trolley",
+    "anesthesia cart"
+   ]
+  },
+  {
+   "id": "SharpsBin",
+   "name": "Sharps Container",
+   "category": "Anaesthetic Area",
+   "summary": "A yellow rigid container for needles, blades and other sharps.",
+   "points": [
+    "Dispose of sharps immediately at the point of use.",
+    "Never re-sheath needles.",
+    "Close and replace it when it reaches the fill line (three-quarters full).",
+    "Report any needle-stick injury immediately."
+   ],
+   "nurseRole": "Safe sharps disposal protects you and your colleagues.",
+   "lo": [
+    "NP2-LO4"
+   ],
+   "aliases": [
+    "sharps bin",
+    "needle box",
+    "sharps"
+   ]
+  },
+  {
+   "id": "IVDripStand",
+   "name": "IV Drip Stand",
+   "category": "Anaesthetic Area",
+   "summary": "A wheeled stand that holds intravenous fluid bags and giving sets above the patient.",
+   "points": [
+    "The bag hangs higher than the patient so fluid flows by gravity.",
+    "The drip chamber is half filled; the roller clamp controls the rate.",
+    "Check the fluid, its expiry date and the cannula site before connecting."
+   ],
+   "nurseRole": "Prime giving sets without air and check the rights before administering IV fluids.",
+   "lo": [
+    "NP2-LO4"
+   ],
+   "aliases": [
+    "drip stand",
+    "iv stand",
+    "iv pole",
+    "saline",
+    "drip"
+   ]
+  },
+  {
+   "id": "IVDripStand_Pumps",
+   "name": "IV Stand with Pumps",
+   "category": "Anaesthetic Area",
+   "summary": "A second drip stand carrying the infusion pump and syringe driver.",
+   "points": [
+    "Used when fluids or drugs must run at an exact rate."
+   ],
+   "nurseRole": "Double-check pump settings against the prescription.",
+   "lo": [
+    "NP2-LO4"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "InfusionPumps",
+   "name": "Infusion Pump and Syringe Driver",
+   "category": "Anaesthetic Area",
+   "summary": "Electronic pumps that give IV fluids and drugs at a precise, programmed rate.",
+   "points": [
+    "The volumetric pump is used for fluids; the syringe driver for small, accurate drug doses.",
+    "Rate, volume and drug name are programmed and checked against the prescription.",
+    "Occlusion and air-in-line alarms must be acted on immediately."
+   ],
+   "nurseRole": "Follow the rights of medication administration and monitor the infusion site.",
+   "lo": [
+    "NP2-LO4"
+   ],
+   "aliases": [
+    "infusion pump",
+    "syringe pump",
+    "syringe driver",
+    "pump"
+   ]
+  },
+  {
+   "id": "PatientWarmer",
+   "name": "Forced-air Patient Warmer",
+   "category": "Anaesthetic Area",
+   "summary": "A warming unit that blows warm air into a disposable blanket over the patient.",
+   "points": [
+    "Prevents inadvertent peri-operative hypothermia.",
+    "The aim is to keep core temperature at or above 36 degrees Celsius.",
+    "Never place the hose directly on the skin without the blanket."
+   ],
+   "nurseRole": "Monitor the patient's temperature and keep them covered.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "bair hugger",
+    "warmer",
+    "warming blanket",
+    "hypothermia"
+   ]
+  },
+  {
+   "id": "FluidWarmerCabinet",
+   "name": "Fluid Warming Cabinet",
+   "category": "Peripheral",
+   "summary": "A cabinet that keeps IV and irrigation fluids warm, around 37 degrees Celsius.",
+   "points": [
+    "Warm fluids help prevent hypothermia.",
+    "Check the temperature display and expiry dates."
+   ],
+   "nurseRole": "Use warmed fluids when they are prescribed or requested.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO4"
+   ],
+   "aliases": [
+    "fluid warmer",
+    "blood warmer",
+    "warming cabinet"
+   ]
+  },
+  {
+   "id": "CrashCart",
+   "name": "Emergency Trolley and Defibrillator",
+   "category": "Peripheral",
+   "summary": "A red trolley with resuscitation drugs, airway equipment and a defibrillator for cardiac arrest.",
+   "points": [
+    "It is sealed with a tag and checked every day.",
+    "Know where it is before every case - seconds matter.",
+    "The defibrillator delivers a shock for shockable rhythms; stand clear when told."
+   ],
+   "nurseRole": "Bring the emergency trolley immediately and follow the resuscitation team leader.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "crash cart",
+    "emergency trolley",
+    "defibrillator",
+    "defib",
+    "resuscitation"
+   ]
+  },
+  {
+   "id": "WasteBin_Clinical",
+   "name": "Clinical Waste Bin (Yellow)",
+   "category": "Peripheral",
+   "summary": "A foot-pedal bin for infectious waste contaminated with blood or body fluids.",
+   "points": [
+    "Yellow is used for infectious clinical waste.",
+    "The pedal lid keeps your hands clean.",
+    "Follow your hospital's colour-coding policy."
+   ],
+   "nurseRole": "Segregate waste correctly at the point of use.",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "yellow bin",
+    "clinical waste",
+    "infectious waste"
+   ]
+  },
+  {
+   "id": "WasteBin_General",
+   "name": "General Waste Bin (Black)",
+   "category": "Peripheral",
+   "summary": "A foot-pedal bin for non-infectious general waste such as packaging paper.",
+   "points": [
+    "Black is for general, non-contaminated waste.",
+    "Never put sharps or contaminated items here."
+   ],
+   "nurseRole": "Keep general and clinical waste separate.",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "black bin",
+    "general waste"
+   ]
+  },
+  {
+   "id": "LinenSkip",
+   "name": "Linen Skip",
+   "category": "Peripheral",
+   "summary": "A pedal-operated hamper for used linen and gowns.",
+   "points": [
+    "Used linen is handled carefully and not shaken.",
+    "Soiled linen goes in the correct bag."
+   ],
+   "nurseRole": "Dispose of used gowns and linen correctly after the case.",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "linen",
+    "laundry",
+    "hamper"
+   ]
+  },
+  {
+   "id": "Workstation_TwoPC",
+   "name": "Documentation Workstation",
+   "category": "Peripheral",
+   "summary": "Two computers: one for nursing records and one for the surgical team's notes and results.",
+   "points": [
+    "The nursing computer records the WHO Surgical Safety Checklist, counts and care.",
+    "The second computer shows operation notes and blood results.",
+    "Sign In, Time Out and Sign Out are the three checklist stages."
+   ],
+   "nurseRole": "Document care accurately and complete the safety checklist.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "computer",
+    "pc",
+    "workstation",
+    "who checklist"
+   ]
+  },
+  {
+   "id": "PACS_ImagingMonitor",
+   "name": "Imaging (PACS) Monitor",
+   "category": "Wall Equipment",
+   "summary": "A large wall screen that displays the patient's X-rays and CT scans during surgery.",
+   "points": [
+    "Confirms the correct side and site.",
+    "Images are checked during Time Out."
+   ],
+   "nurseRole": "Make sure the correct patient's images are displayed.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "x-ray screen",
+    "pacs",
+    "imaging",
+    "x ray viewer"
+   ]
+  },
+  {
+   "id": "TeachingMonitor",
+   "name": "Teaching Monitor",
+   "category": "Wall Equipment",
+   "summary": "A screen that shows the operation from a camera so students can observe safely.",
+   "points": [
+    "Lets you watch without crowding the sterile field."
+   ],
+   "nurseRole": "Observe from a safe distance and ask questions at an appropriate time.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "teaching screen",
+    "video screen"
+   ]
+  },
+  {
+   "id": "TheatreControlPanel",
+   "name": "Theatre Control Panel",
+   "category": "Wall Equipment",
+   "summary": "A wall panel with the clock, operation timers, and controls for temperature, humidity, airflow and lights.",
+   "points": [
+    "Theatre temperature is usually 18 to 23 degrees Celsius.",
+    "Humidity is kept between 40 and 60 percent.",
+    "The timer records anaesthesia and surgery times."
+   ],
+   "nurseRole": "Record times accurately and report any ventilation alarm.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "clock",
+    "control panel",
+    "timer",
+    "temperature",
+    "humidity"
+   ]
+  },
+  {
+   "id": "WallGasPanel",
+   "name": "Wall Gas Outlets and Alarm Panel",
+   "category": "Wall Equipment",
+   "summary": "Back-up medical gas outlets and an alarm panel showing pipeline pressures.",
+   "points": [
+    "Colour codes: oxygen white, nitrous oxide blue, medical air black, vacuum yellow.",
+    "An alarm means the gas supply pressure is abnormal - report it immediately."
+   ],
+   "nurseRole": "Know the colour codes so the right gas reaches the patient.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "gas panel",
+    "gas alarm",
+    "wall outlet"
+   ]
+  },
+  {
+   "id": "SterileSupplyCabinet",
+   "name": "Sterile Supply Cabinet",
+   "category": "Peripheral",
+   "summary": "Glass-fronted cabinets that store wrapped sterile instrument sets, gowns, gloves and drapes.",
+   "points": [
+    "Before opening a pack, check the indicator tape has changed colour.",
+    "Check the expiry date and that the wrapping is dry and intact.",
+    "Use first-in, first-out stock rotation.",
+    "Store packs off the floor, in a clean and dry place."
+   ],
+   "nurseRole": "Check every sterile pack before you open it - if in doubt, do not use it.",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "sterile packs",
+    "cupboard",
+    "sterile store",
+    "supplies"
+   ]
+  },
+  {
+   "id": "PositioningAidsTrolley",
+   "name": "Positioning Aids",
+   "category": "Peripheral",
+   "summary": "Gel head rings, chest rolls, heel pads, arm supports and straps used to position the patient.",
+   "points": [
+    "Protect bony prominences to prevent pressure injury.",
+    "Support joints in a neutral position.",
+    "Choose aids for supine, lateral, prone or lithotomy positions."
+   ],
+   "nurseRole": "Position the patient with the team and check pressure areas.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "gel pads",
+    "positioning",
+    "pillows",
+    "supports"
+   ]
+  },
+  {
+   "id": "LeadApronRack",
+   "name": "Lead Aprons (Radiation PPE)",
+   "category": "Peripheral",
+   "summary": "Lead aprons and thyroid collars worn when X-ray imaging is used during surgery.",
+   "points": [
+    "Time, distance and shielding reduce radiation exposure.",
+    "Hang aprons flat - folding them cracks the lead."
+   ],
+   "nurseRole": "Wear a lead apron and thyroid collar whenever an image intensifier is in use.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "lead apron",
+    "radiation",
+    "x-ray protection"
+   ]
+  },
+  {
+   "id": "SpecimenStation",
+   "name": "Specimen Station",
+   "category": "Wall Equipment",
+   "summary": "Specimen pots, request forms and biohazard bags for tissue taken during surgery.",
+   "points": [
+    "Label every specimen with the patient's details, specimen type and date.",
+    "Check the specimen and form with the surgeon before sending it."
+   ],
+   "nurseRole": "Correctly label and dispatch every specimen.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "specimen",
+    "histology",
+    "lab sample"
+   ]
+  },
+  {
+   "id": "FireSafetyPoint",
+   "name": "Fire Extinguisher and Alarm",
+   "category": "Wall Equipment",
+   "summary": "A CO2 fire extinguisher and manual fire-alarm call point.",
+   "points": [
+    "CO2 extinguishers are safe on electrical equipment.",
+    "The fire triangle in theatre: oxygen, heat (diathermy) and fuel (drapes, alcohol preps).",
+    "Follow the person in charge during an alarm."
+   ],
+   "nurseRole": "Know the fire plan and the location of the extinguisher.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "fire",
+    "extinguisher",
+    "alarm"
+   ]
+  },
+  {
+   "id": "WallPhoneIntercom",
+   "name": "Intercom Telephone",
+   "category": "Wall Equipment",
+   "summary": "A wall phone to contact the theatre reception, laboratory or emergency team.",
+   "points": [
+    "Use it to call for help without leaving the patient."
+   ],
+   "nurseRole": "Know the emergency numbers.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "phone",
+    "telephone",
+    "intercom"
+   ]
+  },
+  {
+   "id": "HandRubDispenser",
+   "name": "Alcohol Hand Rub Dispenser",
+   "category": "Wall Equipment",
+   "summary": "An elbow-operated dispenser of alcohol hand rub for hand hygiene.",
+   "points": [
+    "Use it before and after patient contact (WHO five moments).",
+    "It does not replace the surgical scrub for the sterile team."
+   ],
+   "nurseRole": "Clean your hands every time you enter or leave the patient area.",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "hand rub",
+    "sanitiser",
+    "hand sanitizer",
+    "alcohol rub"
+   ]
+  },
+  {
+   "id": "HandRubDispenser_Corridor",
+   "name": "Alcohol Hand Rub (Corridor)",
+   "category": "Corridor",
+   "summary": "Hand rub at the theatre entrance.",
+   "points": [
+    "Clean your hands before entering the theatre."
+   ],
+   "nurseRole": "Perform hand hygiene before entering.",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ScrubSink",
+   "name": "Surgical Scrub Sink",
+   "category": "Corridor",
+   "summary": "A deep sink with sensor-operated taps where the sterile team performs the surgical hand scrub.",
+   "points": [
+    "Remove jewellery, keep nails short and wear a cap and mask before scrubbing.",
+    "Scrub hands and forearms for 3 to 5 minutes with chlorhexidine or povidone-iodine.",
+    "Keep hands above the elbows so water runs away from the hands.",
+    "Dry with a sterile towel, then put on a sterile gown and gloves (closed gloving)."
+   ],
+   "nurseRole": "Perform a correct surgical scrub before gowning and gloving.",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "scrub sink",
+    "hand washing",
+    "surgical scrub",
+    "scrubbing",
+    "sink"
+   ]
+  },
+  {
+   "id": "PPETrolley",
+   "name": "PPE and Theatre Attire Trolley",
+   "category": "Corridor",
+   "summary": "A trolley with caps, masks, eye protection, sterile gowns and sterile gloves in different sizes.",
+   "points": [
+    "Theatre attire: scrub suit, cap covering all hair, mask covering nose and mouth.",
+    "Eye protection guards against splashes.",
+    "Sterile gown and gloves are put on after the surgical scrub.",
+    "Gloves come in sizes from 6 to 8.5."
+   ],
+   "nurseRole": "Wear correct attire and help the team gown and glove.",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "ppe",
+    "gown",
+    "gloves",
+    "mask",
+    "cap",
+    "attire"
+   ]
+  },
+  {
+   "id": "TheatreClogsRack",
+   "name": "Theatre Footwear",
+   "category": "Corridor",
+   "summary": "Dedicated theatre clogs worn only inside the theatre suite.",
+   "points": [
+    "Closed, washable shoes protect your feet from sharps and spills."
+   ],
+   "nurseRole": "Change into theatre footwear before entering.",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "clogs",
+    "shoes",
+    "footwear"
+   ]
+  },
+  {
+   "id": "StepStool",
+   "name": "Step-up Stool",
+   "category": "Surgical Zone",
+   "summary": "A stainless step that raises a team member to the right working height.",
+   "points": [
+    "Used by surgeons or scrub nurses of different heights."
+   ],
+   "nurseRole": "Place it where needed without breaking sterility.",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "stool",
+    "step"
+   ]
+  },
+  {
+   "id": "SurgeonStool",
+   "name": "Theatre Stool",
+   "category": "Surgical Zone",
+   "summary": "A height-adjustable stool for seated procedures or the anaesthetist.",
+   "points": [
+    "Its height adjusts by gas lift."
+   ],
+   "nurseRole": "",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Door_AnaestheticRoom",
+   "name": "Door to the Anaesthetic Room",
+   "category": "Doors",
+   "summary": "Leads to the anaesthetic room where the patient may be anaesthetised before entering theatre.",
+   "points": [
+    "Keeps the patient calm, away from the view of the theatre."
+   ],
+   "nurseRole": "",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": [
+    "anaesthetic room"
+   ]
+  },
+  {
+   "id": "Door_DirtyUtility",
+   "name": "Door to the Dirty Utility",
+   "category": "Doors",
+   "summary": "Leads to the dirty utility room for waste, used instruments and soiled linen.",
+   "points": [
+    "Dirty items leave by this route so they do not cross clean areas."
+   ],
+   "nurseRole": "",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "dirty utility",
+    "disposal"
+   ]
+  },
+  {
+   "id": "Door_PrepRoom",
+   "name": "Door to the Preparation (Lay-up) Room",
+   "category": "Doors",
+   "summary": "Leads to the room where sterile trolleys and supplies are prepared.",
+   "points": [
+    "Clean and sterile items enter through here."
+   ],
+   "nurseRole": "",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "prep room",
+    "lay up room",
+    "set up room"
+   ]
+  },
+  {
+   "id": "Door_ScrubRoom",
+   "name": "Door to the Scrub Room",
+   "category": "Doors",
+   "summary": "Leads to the scrub room used by the surgical team.",
+   "points": [
+    "The team enters theatre gowned and gloved."
+   ],
+   "nurseRole": "",
+   "lo": [
+    "NP2-LO1"
+   ],
+   "aliases": [
+    "scrub room"
+   ]
+  },
+  {
+   "id": "Instr_Scalpel_No3_Blade10",
+   "name": "Scalpel (No. 3 handle, No. 10 blade)",
+   "category": "Instruments",
+   "summary": "Used to make the skin incision. Blades are attached and removed with a needle holder, never with fingers.",
+   "points": [
+    "Used to make the skin incision. Blades are attached and removed with a needle holder, never with fingers."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_Scissors_Mayo_Curved",
+   "name": "Mayo Scissors (curved)",
+   "category": "Instruments",
+   "summary": "Heavy scissors for cutting tough tissue and sutures.",
+   "points": [
+    "Heavy scissors for cutting tough tissue and sutures."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_Scissors_Metzenbaum",
+   "name": "Metzenbaum Scissors",
+   "category": "Instruments",
+   "summary": "Long, fine scissors for delicate tissue dissection.",
+   "points": [
+    "Long, fine scissors for delicate tissue dissection."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_ArteryForceps_Kelly_Curved",
+   "name": "Artery Forceps (curved)",
+   "category": "Instruments",
+   "summary": "Clamps bleeding vessels before they are tied or sealed.",
+   "points": [
+    "Clamps bleeding vessels before they are tied or sealed."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_ArteryForceps_Mosquito",
+   "name": "Mosquito Artery Forceps",
+   "category": "Instruments",
+   "summary": "Small fine clamps for small vessels.",
+   "points": [
+    "Small fine clamps for small vessels."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_NeedleHolder_MayoHegar",
+   "name": "Needle Holder (Mayo-Hegar)",
+   "category": "Instruments",
+   "summary": "Holds the suture needle; gold rings show tungsten carbide jaws.",
+   "points": [
+    "Holds the suture needle; gold rings show tungsten carbide jaws."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_AllisTissueForceps",
+   "name": "Allis Tissue Forceps",
+   "category": "Instruments",
+   "summary": "Grasps and holds tissue firmly.",
+   "points": [
+    "Grasps and holds tissue firmly."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_SpongeHolder_Rampley",
+   "name": "Sponge Holding Forceps",
+   "category": "Instruments",
+   "summary": "Holds swabs for skin preparation or deep swabbing.",
+   "points": [
+    "Holds swabs for skin preparation or deep swabbing."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_TowelClip_Backhaus",
+   "name": "Towel Clip",
+   "category": "Instruments",
+   "summary": "Secures drapes in place.",
+   "points": [
+    "Secures drapes in place."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_DissectingForceps_Toothed",
+   "name": "Toothed Dissecting Forceps",
+   "category": "Instruments",
+   "summary": "Holds tough tissue such as skin.",
+   "points": [
+    "Holds tough tissue such as skin."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_DissectingForceps_NonToothed",
+   "name": "Non-toothed Dissecting Forceps",
+   "category": "Instruments",
+   "summary": "Holds delicate tissue and vessels.",
+   "points": [
+    "Holds delicate tissue and vessels."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_Retractor_Langenbeck",
+   "name": "Langenbeck Retractor",
+   "category": "Instruments",
+   "summary": "Holds the wound edges open.",
+   "points": [
+    "Holds the wound edges open."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_KidneyDish",
+   "name": "Kidney Dish",
+   "category": "Instruments",
+   "summary": "Receives used instruments, swabs or small items.",
+   "points": [
+    "Receives used instruments, swabs or small items."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_Gallipot",
+   "name": "Gallipot",
+   "category": "Instruments",
+   "summary": "A small bowl for skin preparation solution or saline.",
+   "points": [
+    "A small bowl for skin preparation solution or saline."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_GauzeSwabs",
+   "name": "Gauze Swabs (X-ray detectable)",
+   "category": "Instruments",
+   "summary": "Absorb blood; the blue thread shows on X-ray. Every swab is counted.",
+   "points": [
+    "Absorb blood; the blue thread shows on X-ray. Every swab is counted."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "Instr_SuturePack",
+   "name": "Suture Pack",
+   "category": "Instruments",
+   "summary": "Contains the suture material and needle; opened onto the sterile field when needed.",
+   "points": [
+    "Contains the suture material and needle; opened onto the sterile field when needed."
+   ],
+   "nurseRole": "Hand instruments to the surgeon correctly and count them.",
+   "lo": [
+    "AN1-LO3",
+    "NP2-LO1"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "OT_RoomShell",
+   "name": "Operating Theatre",
+   "category": "Architecture",
+   "summary": "The operating room itself.",
+   "points": [],
+   "nurseRole": "",
+   "lo": [
+    "AN1-LO3"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "PatientMannequin",
+   "name": "Patient Mannequin",
+   "category": "Patient",
+   "summary": "A shared virtual patient used by other training modules.",
+   "points": [],
+   "nurseRole": "",
+   "lo": [],
+   "aliases": []
+  }
+ ]
+}

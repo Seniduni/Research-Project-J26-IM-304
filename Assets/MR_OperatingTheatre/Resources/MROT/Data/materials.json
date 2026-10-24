@@ -1,0 +1,1160 @@
+{
+ "materials": [
+  {
+   "name": "M_Steel_Brushed",
+   "color": [
+    0.78,
+    0.79,
+    0.8,
+    1
+   ],
+   "metallic": 1.0,
+   "roughness": 0.32,
+   "emission": []
+  },
+  {
+   "name": "M_Steel_Polished",
+   "color": [
+    0.9,
+    0.91,
+    0.92,
+    1
+   ],
+   "metallic": 1.0,
+   "roughness": 0.12,
+   "emission": []
+  },
+  {
+   "name": "M_Steel_Dark",
+   "color": [
+    0.35,
+    0.36,
+    0.38,
+    1
+   ],
+   "metallic": 1.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Chrome",
+   "color": [
+    0.95,
+    0.95,
+    0.96,
+    1
+   ],
+   "metallic": 1.0,
+   "roughness": 0.05,
+   "emission": []
+  },
+  {
+   "name": "M_Aluminium",
+   "color": [
+    0.82,
+    0.83,
+    0.85,
+    1
+   ],
+   "metallic": 1.0,
+   "roughness": 0.45,
+   "emission": []
+  },
+  {
+   "name": "M_Instrument_Steel",
+   "color": [
+    0.86,
+    0.87,
+    0.89,
+    1
+   ],
+   "metallic": 1.0,
+   "roughness": 0.18,
+   "emission": []
+  },
+  {
+   "name": "M_Gold_Ring",
+   "color": [
+    0.95,
+    0.75,
+    0.3,
+    1
+   ],
+   "metallic": 1.0,
+   "roughness": 0.25,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_White",
+   "color": [
+    0.92,
+    0.93,
+    0.93,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_OffWhite",
+   "color": [
+    0.86,
+    0.87,
+    0.85,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.45,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_Grey",
+   "color": [
+    0.55,
+    0.57,
+    0.6,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.45,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_DarkGrey",
+   "color": [
+    0.16,
+    0.17,
+    0.18,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_Black",
+   "color": [
+    0.03,
+    0.03,
+    0.035,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.45,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_Blue",
+   "color": [
+    0.1,
+    0.33,
+    0.62,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_LightBlue",
+   "color": [
+    0.55,
+    0.75,
+    0.9,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_Green",
+   "color": [
+    0.12,
+    0.55,
+    0.3,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_Red",
+   "color": [
+    0.75,
+    0.08,
+    0.07,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_Yellow",
+   "color": [
+    0.98,
+    0.8,
+    0.05,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_Orange",
+   "color": [
+    0.95,
+    0.45,
+    0.05,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_Purple",
+   "color": [
+    0.4,
+    0.2,
+    0.55,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Painted_White",
+   "color": [
+    0.9,
+    0.91,
+    0.9,
+    1
+   ],
+   "metallic": 0.1,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Painted_Blue",
+   "color": [
+    0.18,
+    0.4,
+    0.65,
+    1
+   ],
+   "metallic": 0.2,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Painted_Red",
+   "color": [
+    0.7,
+    0.07,
+    0.07,
+    1
+   ],
+   "metallic": 0.2,
+   "roughness": 0.3,
+   "emission": []
+  },
+  {
+   "name": "M_Rubber_Black",
+   "color": [
+    0.02,
+    0.02,
+    0.02,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.85,
+   "emission": []
+  },
+  {
+   "name": "M_Rubber_Grey",
+   "color": [
+    0.25,
+    0.25,
+    0.26,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.8,
+   "emission": []
+  },
+  {
+   "name": "M_Gel_Pad",
+   "color": [
+    0.35,
+    0.1,
+    0.45,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.25,
+   "emission": []
+  },
+  {
+   "name": "M_Upholstery_Black",
+   "color": [
+    0.05,
+    0.055,
+    0.06,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.6,
+   "emission": []
+  },
+  {
+   "name": "M_Upholstery_Blue",
+   "color": [
+    0.08,
+    0.22,
+    0.38,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.6,
+   "emission": []
+  },
+  {
+   "name": "M_Drape_Green",
+   "color": [
+    0.1,
+    0.38,
+    0.3,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "emission": []
+  },
+  {
+   "name": "M_Drape_Blue",
+   "color": [
+    0.15,
+    0.35,
+    0.55,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "emission": []
+  },
+  {
+   "name": "M_Gown_Blue",
+   "color": [
+    0.3,
+    0.5,
+    0.7,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "emission": []
+  },
+  {
+   "name": "M_Paper_White",
+   "color": [
+    0.95,
+    0.95,
+    0.93,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.8,
+   "emission": []
+  },
+  {
+   "name": "M_Gauze",
+   "color": [
+    0.96,
+    0.96,
+    0.94,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.95,
+   "emission": []
+  },
+  {
+   "name": "M_Cardboard",
+   "color": [
+    0.7,
+    0.55,
+    0.38,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.85,
+   "emission": []
+  },
+  {
+   "name": "M_Glove_Blue",
+   "color": [
+    0.35,
+    0.55,
+    0.85,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": []
+  },
+  {
+   "name": "M_Skin",
+   "color": [
+    0.62,
+    0.45,
+    0.35,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.55,
+   "emission": []
+  },
+  {
+   "name": "M_Glass_Clear",
+   "color": [
+    0.85,
+    0.92,
+    0.95,
+    0.25
+   ],
+   "metallic": 0.0,
+   "roughness": 0.05,
+   "emission": []
+  },
+  {
+   "name": "M_Glass_Frosted",
+   "color": [
+    0.85,
+    0.9,
+    0.92,
+    0.55
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Plastic_Clear",
+   "color": [
+    0.9,
+    0.95,
+    0.98,
+    0.35
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": []
+  },
+  {
+   "name": "M_Fluid_Saline",
+   "color": [
+    0.85,
+    0.93,
+    1.0,
+    0.45
+   ],
+   "metallic": 0.0,
+   "roughness": 0.05,
+   "emission": []
+  },
+  {
+   "name": "M_Fluid_Blood",
+   "color": [
+    0.45,
+    0.02,
+    0.03,
+    0.85
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": []
+  },
+  {
+   "name": "M_Canister_Liner",
+   "color": [
+    0.75,
+    0.88,
+    0.95,
+    0.5
+   ],
+   "metallic": 0.0,
+   "roughness": 0.2,
+   "emission": []
+  },
+  {
+   "name": "M_Light_LED",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.2,
+   "emission": [
+    1.0,
+    0.98,
+    0.95,
+    6.0
+   ]
+  },
+  {
+   "name": "M_Light_Panel",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.3,
+   "emission": [
+    0.96,
+    0.98,
+    1.0,
+    3.0
+   ]
+  },
+  {
+   "name": "M_Light_Diffuser",
+   "color": [
+    0.95,
+    0.97,
+    1.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.3,
+   "emission": [
+    0.9,
+    0.95,
+    1.0,
+    1.2
+   ]
+  },
+  {
+   "name": "M_Screen_Off",
+   "color": [
+    0.01,
+    0.012,
+    0.015,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.08,
+   "emission": []
+  },
+  {
+   "name": "M_Screen_Monitor",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    1,
+    1,
+    1,
+    1.5
+   ]
+  },
+  {
+   "name": "M_Screen_Anaesthesia",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    1,
+    1,
+    1,
+    1.5
+   ]
+  },
+  {
+   "name": "M_Screen_PACS",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    1,
+    1,
+    1,
+    1.5
+   ]
+  },
+  {
+   "name": "M_Screen_PC_Nurse",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    1,
+    1,
+    1,
+    1.4
+   ]
+  },
+  {
+   "name": "M_Screen_PC_Doctor",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    1,
+    1,
+    1,
+    1.4
+   ]
+  },
+  {
+   "name": "M_Screen_Diathermy",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    1,
+    1,
+    1,
+    1.5
+   ]
+  },
+  {
+   "name": "M_Screen_Clock",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    1,
+    1,
+    1,
+    1.5
+   ]
+  },
+  {
+   "name": "M_Screen_Pump",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    1,
+    1,
+    1,
+    1.5
+   ]
+  },
+  {
+   "name": "M_Screen_Defib",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    1,
+    1,
+    1,
+    1.5
+   ]
+  },
+  {
+   "name": "M_Screen_Teaching",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    1,
+    1,
+    1,
+    1.4
+   ]
+  },
+  {
+   "name": "M_Screen_Ventilation",
+   "color": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    1,
+    1,
+    1,
+    1.5
+   ]
+  },
+  {
+   "name": "M_LED_Green",
+   "color": [
+    0.1,
+    1.0,
+    0.2,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.2,
+   "emission": [
+    0.1,
+    1.0,
+    0.2,
+    4.0
+   ]
+  },
+  {
+   "name": "M_LED_Red",
+   "color": [
+    1.0,
+    0.1,
+    0.1,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.2,
+   "emission": [
+    1.0,
+    0.1,
+    0.1,
+    4.0
+   ]
+  },
+  {
+   "name": "M_LED_Amber",
+   "color": [
+    1.0,
+    0.6,
+    0.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.2,
+   "emission": [
+    1.0,
+    0.6,
+    0.0,
+    4.0
+   ]
+  },
+  {
+   "name": "M_LED_Blue",
+   "color": [
+    0.2,
+    0.5,
+    1.0,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.2,
+   "emission": [
+    0.2,
+    0.5,
+    1.0,
+    4.0
+   ]
+  },
+  {
+   "name": "M_Floor_Vinyl",
+   "color": [
+    0.58,
+    0.66,
+    0.66,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.3,
+   "emission": []
+  },
+  {
+   "name": "M_Floor_Corridor",
+   "color": [
+    0.62,
+    0.62,
+    0.6,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Wall_Panel",
+   "color": [
+    0.8,
+    0.86,
+    0.85,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Wall_Corridor",
+   "color": [
+    0.88,
+    0.88,
+    0.85,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.55,
+   "emission": []
+  },
+  {
+   "name": "M_Ceiling",
+   "color": [
+    0.93,
+    0.94,
+    0.94,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.6,
+   "emission": []
+  },
+  {
+   "name": "M_Skirting",
+   "color": [
+    0.4,
+    0.48,
+    0.48,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Door_Panel",
+   "color": [
+    0.72,
+    0.8,
+    0.82,
+    1
+   ],
+   "metallic": 0.3,
+   "roughness": 0.3,
+   "emission": []
+  },
+  {
+   "name": "M_Door_Kickplate",
+   "color": [
+    0.78,
+    0.79,
+    0.8,
+    1
+   ],
+   "metallic": 1.0,
+   "roughness": 0.3,
+   "emission": []
+  },
+  {
+   "name": "M_Sign_Green",
+   "color": [
+    0.0,
+    0.55,
+    0.25,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": [
+    0.0,
+    0.55,
+    0.25,
+    1.5
+   ]
+  },
+  {
+   "name": "M_Sign_Red",
+   "color": [
+    0.8,
+    0.05,
+    0.05,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": [
+    0.8,
+    0.05,
+    0.05,
+    1.5
+   ]
+  },
+  {
+   "name": "M_Sign_White",
+   "color": [
+    0.95,
+    0.95,
+    0.95,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Sign_Blue",
+   "color": [
+    0.05,
+    0.25,
+    0.6,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Sign_Yellow",
+   "color": [
+    0.98,
+    0.82,
+    0.05,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Whiteboard",
+   "color": [
+    0.97,
+    0.97,
+    0.97,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.15,
+   "emission": []
+  },
+  {
+   "name": "M_Marker_Black",
+   "color": [
+    0.02,
+    0.02,
+    0.05,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": []
+  },
+  {
+   "name": "M_Wood_Laminate",
+   "color": [
+    0.62,
+    0.48,
+    0.34,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.45,
+   "emission": []
+  },
+  {
+   "name": "M_Sink_Steel",
+   "color": [
+    0.8,
+    0.81,
+    0.82,
+    1
+   ],
+   "metallic": 1.0,
+   "roughness": 0.22,
+   "emission": []
+  },
+  {
+   "name": "M_Gas_O2_White",
+   "color": [
+    0.95,
+    0.95,
+    0.95,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Gas_N2O_Blue",
+   "color": [
+    0.05,
+    0.2,
+    0.6,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Gas_Air_Black",
+   "color": [
+    0.03,
+    0.03,
+    0.03,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Gas_Vac_Yellow",
+   "color": [
+    0.95,
+    0.8,
+    0.05,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Gas_AGSS_Purple",
+   "color": [
+    0.45,
+    0.25,
+    0.55,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Cylinder_Black",
+   "color": [
+    0.03,
+    0.03,
+    0.03,
+    1
+   ],
+   "metallic": 0.3,
+   "roughness": 0.4,
+   "emission": []
+  },
+  {
+   "name": "M_Cylinder_O2_Shoulder",
+   "color": [
+    0.95,
+    0.95,
+    0.95,
+    1
+   ],
+   "metallic": 0.3,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Soda_Lime",
+   "color": [
+    0.92,
+    0.92,
+    0.95,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "emission": []
+  },
+  {
+   "name": "M_Vapor_Sevo",
+   "color": [
+    0.95,
+    0.8,
+    0.1,
+    1
+   ],
+   "metallic": 0.2,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Vapor_Iso",
+   "color": [
+    0.55,
+    0.25,
+    0.55,
+    1
+   ],
+   "metallic": 0.2,
+   "roughness": 0.35,
+   "emission": []
+  },
+  {
+   "name": "M_Label_Print",
+   "color": [
+    0.95,
+    0.95,
+    0.95,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": []
+  }
+ ]
+}
