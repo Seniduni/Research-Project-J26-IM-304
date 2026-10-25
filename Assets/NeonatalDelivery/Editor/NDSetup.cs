@@ -64,6 +64,8 @@ namespace NeonatalDelivery.EditorTools
                 NDMaterialBuilder.RemapModels();
                 EditorUtility.DisplayProgressBar("Neonatal Delivery", "Building scene", 0.8f);
                 NDSceneBuilder.Build();
+                NDSceneEnhancer.ApplyIfPossible();
+                EditorSceneManager.SaveOpenScenes();
             }
             finally { EditorUtility.ClearProgressBar(); }
         }

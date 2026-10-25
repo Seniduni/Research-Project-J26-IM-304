@@ -1607,3 +1607,102 @@ NeonatalDelivery.DrapeCloth:Start () (at Assets/NeonatalDelivery/Runtime/Rig/Dra
 11:14:33 Log: [NeonatalDelivery] FAULT F03_PERINEUM_UNSUPPORTED (CrowningHeadControl) no hand on MaternalPerineum (progress rate 3.6%/s)
 11:14:42 Log: [NeonatalDelivery] FAULT F05_NUCHAL_NOT_CHECKED (NuchalCordCheck) neck not palpated before restitution
 11:16:32 Log: [NeonatalDelivery] FAULT F13_PREMATURE_RELEASE (BodyDelivery) baby not supported by any hand
+17:28:28 DevBridge loaded 10/25/2026 5:28:28 PM
+17:28:34 DevBridge loaded 10/25/2026 5:28:34 PM
+17:28:34 DevBridge loaded 10/25/2026 5:28:34 PM
+17:28:46 Log: [NeonatalDelivery] Importer check: 0 asset(s) repaired.
+17:28:53 Log: [NeonatalDelivery] Built 20 model materials (18 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+17:28:54 Log: [NeonatalDelivery] ND_Baby.fbx: 1/1 material slots remapped
+17:28:54 Log: [NeonatalDelivery] ND_CordClamp.fbx: 1/1 material slots remapped
+17:28:54 Log: [NeonatalDelivery] ND_CordScissors.fbx: 2/2 material slots remapped
+17:28:54 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 15/15 material slots remapped
+17:28:54 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 2/2 material slots remapped
+17:28:55 Log: [NeonatalDelivery] ND_Mother.fbx: 18/18 material slots remapped
+17:28:55 Log: [NeonatalDelivery] ND_NewBaby_Source.obj: 0/1 material slots remapped - no project material for: defaultMat
+17:28:56 Log: [NeonatalDelivery] ND_Nurse.fbx: 0/4 material slots remapped - no project material for: Material.001, Material.002, Material.003, Material.004
+17:28:56 Log: [NeonatalDelivery] ND_Towel.fbx: 1/1 material slots remapped
+17:29:05 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+17:29:05 Log: [NeonatalDelivery] Mother wears the skinned green gown (M_Gown) - no physics drape needed.
+17:29:05 Log: [NeonatalDelivery] material check M_Body: Std_Skin_Head [NeonatalDelivery/Skin, map=Std_Skin_Head_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Head.mat]  Std_Skin_Arm [NeonatalDelivery/Skin, map=Std_Skin_Arm_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Arm.mat]  Std_Skin_Leg [NeonatalDelivery/Skin, map=Std_Skin_Leg_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Leg.mat]  Std_Skin_Body [NeonatalDelivery/Skin, map=Std_Skin_Body_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Body.mat]  ND_Mucosa [NeonatalDelivery/Skin, map=none, path=Assets/NeonatalDelivery/Art/Materials/ND_Mucosa.mat]  Hair_Transparency [Universal Render Pipeline/Lit, map=Hair_Transparency_base, path=Assets/NeonatalDelivery/Art/Materials/Hair_Transparency.mat]  Std_Cornea_L [Universal Render Pipeline/Lit, map=Std_Cornea_L_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_L.mat]  Std_Cornea_R [Universal Render Pipeline/Lit, map=Std_Cornea_R_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_R.mat]  
+17:29:05 Log: [NeonatalDelivery] material check M_Gown: ND_Gown [Universal Render Pipeline/Lit, map=ND_Gown_base, path=Assets/NeonatalDelivery/Art/Materials/ND_Gown.mat]  
+17:29:05 Log: [NeonatalDelivery] material check B_Body: ND_BabySkin [NeonatalDelivery/Skin, map=ND_BabySkin_base, path=Assets/NeonatalDelivery/Art/Materials/ND_BabySkin.mat]  
+17:29:05 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+17:29:06 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+17:29:06 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+17:29:41 DevBridge loaded 10/25/2026 5:29:41 PM
+17:29:46 Warning: XR: Error setting active audio output driver. Falling back to default.
+17:29:46 Warning: XR: Error setting active audio output driver. Falling back to default.
+17:29:46 DevBridge loaded 10/25/2026 5:29:46 PM
+17:29:57 Log: [NeonatalDelivery] Session started: STUDENT-001 Guided censorship=Moderate ablation=True MR=False
+17:30:13 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+19:10:23 Exception: UnityConnectWebRequestException: Token Exchange failed due a failure with the web request.
+UnityEditor.Connect.TokenExchange.VerifyTokenExchangeResponse (UnityEngine.Networking.UnityWebRequest exchangeRequest) (at <cf2607b209aa47de987ba5ed55932aa8>:0)
+UnityEditor.Connect.TokenExchange.TokenExchangeRequestAsync (UnityEditor.Connect.TokenExchangeRequest tokenExchangeRequest, System.Threading.CancellationToken cancellationToken) (at <cf2607b209aa47de987ba5ed55932aa8>:0)
+UnityEditor.Connect.TokenExchange.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) (at <cf2607b209aa47de987ba5ed55932aa8>:0)
+UnityEditor.Connect.ServiceToken.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) (at <cf2607b209aa47de987ba5ed55932aa8>:0)
+UnityEditor.Connect.UnityConnect.RequestNewServiceToken () (at <cf2607b209aa47de987ba5ed55932aa8>:0)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__7_0 (System.Object state) (at <41d29b352f6a475ab1bf7c6628b82790>:0)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at <987aa4221989419a947e2c4ff5d6829c>:0)
+UnityEngine.UnitySynchronizationContext.Exec () (at <987aa4221989419a947e2c4ff5d6829c>:0)
+UnityEngine.UnitySynchronizationContext.ExecuteTasks () (at <987aa4221989419a947e2c4ff5d6829c>:0)
+
+19:10:28 Exception: UnityConnectWebRequestException: Token Exchange failed due a failure with the web request.
+UnityEditor.Connect.TokenExchange.VerifyTokenExchangeResponse (UnityEngine.Networking.UnityWebRequest exchangeRequest) (at <cf2607b209aa47de987ba5ed55932aa8>:0)
+UnityEditor.Connect.TokenExchange.TokenExchangeRequestAsync (UnityEditor.Connect.TokenExchangeRequest tokenExchangeRequest, System.Threading.CancellationToken cancellationToken) (at <cf2607b209aa47de987ba5ed55932aa8>:0)
+UnityEditor.Connect.TokenExchange.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) (at <cf2607b209aa47de987ba5ed55932aa8>:0)
+UnityEditor.Connect.ServiceToken.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) (at <cf2607b209aa47de987ba5ed55932aa8>:0)
+UnityEditor.Connect.UnityConnect.RequestNewServiceToken () (at <cf2607b209aa47de987ba5ed55932aa8>:0)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__7_0 (System.Object state) (at <41d29b352f6a475ab1bf7c6628b82790>:0)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at <987aa4221989419a947e2c4ff5d6829c>:0)
+UnityEngine.UnitySynchronizationContext.Exec () (at <987aa4221989419a947e2c4ff5d6829c>:0)
+UnityEngine.UnitySynchronizationContext.ExecuteTasks () (at <987aa4221989419a947e2c4ff5d6829c>:0)
+
+20:55:27 DevBridge loaded 10/25/2026 8:55:27 PM
+21:00:11 DevBridge loaded 10/25/2026 9:00:11 PM
+22:36:24 DevBridge loaded 10/25/2026 10:36:24 PM
+22:36:24 DevBridge loaded 10/25/2026 10:36:24 PM
+22:38:34 Log: [NeonatalDelivery] Importer check: 0 asset(s) repaired.
+22:38:41 Log: [NeonatalDelivery] Built 20 model materials (18 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+22:38:42 Log: [NeonatalDelivery] Hospital_Bedsheet.fbx: 0/1 material slots remapped - no project material for: Table cloth green
+22:38:42 Log: [NeonatalDelivery] ND_Baby.fbx: 1/1 material slots remapped
+22:38:42 Log: [NeonatalDelivery] ND_CordClamp.fbx: 1/1 material slots remapped
+22:38:42 Log: [NeonatalDelivery] ND_CordScissors.fbx: 2/2 material slots remapped
+22:38:42 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 15/15 material slots remapped
+22:38:42 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 2/2 material slots remapped
+22:38:43 Log: [NeonatalDelivery] ND_Mother.fbx: 18/18 material slots remapped
+22:38:43 Log: [NeonatalDelivery] ND_NewBaby_Source.obj: 0/1 material slots remapped - no project material for: defaultMat
+22:38:44 Log: [NeonatalDelivery] ND_Nurse.fbx: 0/4 material slots remapped - no project material for: Material.001, Material.002, Material.003, Material.004
+22:38:44 Log: [NeonatalDelivery] ND_Towel.fbx: 1/1 material slots remapped
+22:38:47 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+22:38:47 Log: [NeonatalDelivery] Mother wears the skinned green gown (M_Gown) - no physics drape needed.
+22:38:47 Log: [NeonatalDelivery] material check M_Body: Std_Skin_Head [NeonatalDelivery/Skin, map=Std_Skin_Head_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Head.mat]  Std_Skin_Arm [NeonatalDelivery/Skin, map=Std_Skin_Arm_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Arm.mat]  Std_Skin_Leg [NeonatalDelivery/Skin, map=Std_Skin_Leg_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Leg.mat]  Std_Skin_Body [NeonatalDelivery/Skin, map=Std_Skin_Body_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Body.mat]  ND_Mucosa [NeonatalDelivery/Skin, map=none, path=Assets/NeonatalDelivery/Art/Materials/ND_Mucosa.mat]  Hair_Transparency [Universal Render Pipeline/Lit, map=Hair_Transparency_base, path=Assets/NeonatalDelivery/Art/Materials/Hair_Transparency.mat]  Std_Cornea_L [Universal Render Pipeline/Lit, map=Std_Cornea_L_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_L.mat]  Std_Cornea_R [Universal Render Pipeline/Lit, map=Std_Cornea_R_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_R.mat]  
+22:38:47 Log: [NeonatalDelivery] material check M_Gown: ND_Gown [Universal Render Pipeline/Lit, map=ND_Gown_base, path=Assets/NeonatalDelivery/Art/Materials/ND_Gown.mat]  
+22:38:47 Log: [NeonatalDelivery] material check B_Body: ND_BabySkin [NeonatalDelivery/Skin, map=ND_BabySkin_base, path=Assets/NeonatalDelivery/Art/Materials/ND_BabySkin.mat]  
+22:38:47 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+22:38:47 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+22:39:30 DevBridge loaded 10/25/2026 10:39:30 PM
+22:39:35 Warning: XR: Error setting active audio output driver. Falling back to default.
+22:39:35 Warning: XR: Error setting active audio output driver. Falling back to default.
+22:39:36 DevBridge loaded 10/25/2026 10:39:36 PM
+22:39:36 DevBridge loaded 10/25/2026 10:39:36 PM
+22:40:02 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+22:44:54 Log: [MROT] Installing XR Plug-in Management + OpenXR ...
+22:45:01 Log: [MROT] XR packages installed. Now run 'MR Operating Theatre > 3. Configure OpenXR'.
+23:13:11 DevBridge loaded 10/25/2026 11:13:11 PM
+23:13:14 Warning: XR: Error setting active audio output driver. Falling back to default.
+23:13:14 Warning: XR: Error setting active audio output driver. Falling back to default.
+23:13:17 DevBridge loaded 10/25/2026 11:13:17 PM
+23:13:17 DevBridge loaded 10/25/2026 11:13:17 PM
+23:13:42 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+23:13:54 Log: [NeonatalDelivery] Session started: STUDENT-001 Guided censorship=Moderate ablation=True MR=False
+23:14:56 DevBridge loaded 10/25/2026 11:14:56 PM
+23:15:01 DevBridge loaded 10/25/2026 11:15:01 PM
+23:15:27 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+23:53:24 DevBridge loaded 10/25/2026 11:53:24 PM
+23:56:11 DevBridge loaded 10/25/2026 11:56:11 PM
+23:56:14 Warning: XR: Error setting active audio output driver. Falling back to default.
+23:56:14 Warning: XR: Error setting active audio output driver. Falling back to default.
+23:56:16 DevBridge loaded 10/25/2026 11:56:16 PM
+23:56:17 DevBridge loaded 10/25/2026 11:56:17 PM
+23:56:42 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+23:57:07 Log: [NeonatalDelivery] Session started: STUDENT-001 Guided censorship=Moderate ablation=True MR=False
