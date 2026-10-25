@@ -30,8 +30,9 @@ namespace IVSim
                 if (idealMinLine != null) idealMinLine.sharedMaterial = guide;
                 if (idealMaxLine != null) idealMaxLine.sharedMaterial = guide;
             }
-            labelCanvas = UIFactory.WorldCanvas("AngleLabel", transform, new Vector2(260, 70), 0.00012f);
+            labelCanvas = UIFactory.WorldCanvas("AngleLabel", transform, new Vector2(640, 200), 0.00012f);
             label = UIFactory.Label("Text", labelCanvas.transform, Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero, 44, TextAnchor.MiddleCenter, Color.white, FontStyle.Bold);
+            label.verticalOverflow = VerticalWrapMode.Overflow;
             var outline = label.gameObject.AddComponent<Outline>();
             outline.effectColor = new Color(0f, 0f, 0f, 0.85f);
             outline.effectDistance = new Vector2(2f, -2f);
@@ -98,8 +99,29 @@ namespace IVSim
             if (label != null)
             {
                 string bevel = Mathf.Abs(c.LiveRoll) <= s.clinical.bevelTolerance ? "bevel up" : "bevel " + Mathf.RoundToInt(c.LiveRoll) + "°";
-                label.text = UIFactory.Tint(angle.ToString("0") + "°", UIFactory.Hex(sev == Severity.Info ? Severity.Warning : sev == Severity.Warning ? Severity.Error : sev))
+                string t = UIFactory.Tint(angle.ToString("0") + "°", UIFactory.Hex(sev == Severity.Info ? Severity.Warning : sev == Severity.Warning ? Severity.Error : sev))
                              + "  <size=30>" + bevel + "</size>";
+                bool vr = RigBootstrap.IsVR;
+                if (c.AwaitingLowerAdvance)
+                {
+                    // step 7 coach: two live checks that turn green
+                    bool low = c.IsLowered;
+                    float advMm = c.AdvanceSinceFlash * 1000f, needMm = c.AdvanceTarget * 1000f;
+                    bool adv = advMm >= needMm;
+                    t += "\n<size=26>"
+                       + (low ? UIFactory.Tint("[OK] lowered", "#5FD38D")
+                              : UIFactory.Tint((vr ? "lower your wrist" : "hold S") + " to " + c.LowerTargetAngle.ToString("0") + "° or less", "#F2C14E"))
+                       + "   "
+                       + (adv ? UIFactory.Tint("[OK] advanced", "#5FD38D")
+                              : UIFactory.Tint((vr ? "push in " : "hold Space ") + advMm.ToString("0.0") + "/" + needMm.ToString("0.0") + " mm", "#F2C14E"))
+                       + (low && adv && !c.CatheterTipInside ? "\n" + UIFactory.Tint("a little further...", "#F2C14E") : "")
+                       + "</size>";
+                }
+                else if (c.IsInSkin && !c.IsHeld)
+                {
+                    t += "\n<size=26>" + UIFactory.Tint(vr ? "grip the cannula to hold it" : "click the cannula to hold it", "#F2C14E") + "</size>";
+                }
+                label.text = t;
                 Vector3 lp = P - flat * (length * 0.9f) + n * 0.03f;
                 labelCanvas.transform.position = lp;
                 var camT = Camera.main != null ? Camera.main.transform : null;

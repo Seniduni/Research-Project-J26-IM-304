@@ -43,6 +43,16 @@ namespace IVSim.EditorTools
                 return;
             if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
 
+            string targetPath = ScenePath;
+            if (File.Exists(ScenePath))
+            {
+                int choice = EditorUtility.DisplayDialogComplex("Scene already exists",
+                    ScenePath + " already exists.\n\nIf you customised it (for example added a theatre environment), overwriting will ERASE those changes.",
+                    "Save as a new copy", "Cancel", "Overwrite");
+                if (choice == 1) return;
+                if (choice == 0) targetPath = AssetDatabase.GenerateUniqueAssetPath(ScenePath);
+            }
+
             lit = Shader.Find("Universal Render Pipeline/Lit");
             unlit = Shader.Find("Universal Render Pipeline/Unlit");
             if (lit == null || GraphicsSettings.defaultRenderPipeline == null)
@@ -123,11 +133,11 @@ namespace IVSim.EditorTools
             SavePrefab(cannula.gameObject, "IV_Cannula_20G");
             SavePrefab(swab.gameObject, "IV_CottonSwab");
 
-            EditorSceneManager.SaveScene(scene, ScenePath);
-            AddSceneToBuild(ScenePath);
+            EditorSceneManager.SaveScene(scene, targetPath);
+            AddSceneToBuild(targetPath);
             AssetDatabase.SaveAssets();
             Selection.activeGameObject = arm.gameObject;
-            EditorUtility.DisplayDialog("Done", "Scene saved to " + ScenePath + ".\n\nPress Play to test with mouse & keyboard, " +
+            EditorUtility.DisplayDialog("Done", "Scene saved to " + targetPath + ".\n\nPress Play to test with mouse & keyboard, " +
                 "or build to your headset (see README).", "OK");
         }
 

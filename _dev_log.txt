@@ -1531,3 +1531,107 @@ NeonatalDelivery.DrapeCloth:Start () (at Assets/NeonatalDelivery/Runtime/Rig/Dra
 21:33:11 DevBridge loaded 10/24/2026 9:33:11 PM
 21:33:11 DevBridge loaded 10/24/2026 9:33:11 PM
 21:33:36 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+18:15:41 DevBridge loaded 10/25/2026 6:15:41 PM
+18:16:15 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+18:20:02 DevBridge loaded 10/25/2026 6:20:02 PM
+18:20:06 DevBridge loaded 10/25/2026 6:20:06 PM
+18:20:09 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+18:20:11 DevBridge loaded 10/25/2026 6:20:11 PM
+18:20:38 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+18:20:45 DevBridge loaded 10/25/2026 6:20:45 PM
+18:20:48 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+18:20:50 DevBridge loaded 10/25/2026 6:20:50 PM
+18:21:16 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+18:21:26 Warning: External Code Editor application path does not exist (C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe)! Please select a different application.
+18:21:26 Warning: External Code Editor application path does not exist (C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe)! Please select a different application.
+18:22:45 Warning: External Code Editor application path does not exist (C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe)! Please select a different application.
+18:22:45 Warning: External Code Editor application path does not exist (C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe)! Please select a different application.
+18:22:46 Warning: External Code Editor application path does not exist (C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe)! Please select a different application.
+18:22:46 Warning: External Code Editor application path does not exist (C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe)! Please select a different application.
+18:24:44 DevBridge loaded 10/25/2026 6:24:44 PM
+18:24:47 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+18:24:49 DevBridge loaded 10/25/2026 6:24:49 PM
+18:25:16 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+18:41:30 Log: [IVSim] Session logged to C:/Users/ASUS/AppData/LocalLow/SLIIT J26-IM-304/MR Operating Theatre\IVCannulationLogs\sessions.csv
+18:45:35 Log: [IVSim] Session logged to C:/Users/ASUS/AppData/LocalLow/SLIIT J26-IM-304/MR Operating Theatre\IVCannulationLogs\sessions.csv
+18:46:00 DevBridge loaded 10/25/2026 6:46:00 PM
+18:46:04 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+18:46:06 DevBridge loaded 10/25/2026 6:46:06 PM
+18:46:32 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+18:47:18 DevBridge loaded 10/25/2026 6:47:18 PM
+18:47:21 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+18:47:23 DevBridge loaded 10/25/2026 6:47:23 PM
+18:47:50 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+19:00:12 DevBridge loaded 10/25/2026 7:00:12 PM
+19:00:16 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+19:00:18 DevBridge loaded 10/25/2026 7:00:18 PM
+19:00:44 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+19:20:16 DevBridge loaded 10/25/2026 7:20:16 PM
+19:24:01 DevBridge loaded 10/25/2026 7:24:01 PM
+19:24:21 DevBridge loaded 10/25/2026 7:24:21 PM
+19:24:21 DevBridge loaded 10/25/2026 7:24:21 PM
+19:24:21 DevBridge loaded 10/25/2026 7:24:21 PM
+19:24:34 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+20:23:30 DevBridge loaded 10/25/2026 8:23:30 PM
+20:23:57 DevBridge loaded 10/25/2026 8:23:57 PM
+20:23:57 DevBridge loaded 10/25/2026 8:23:57 PM
+20:23:57 DevBridge loaded 10/25/2026 8:23:57 PM
+20:24:01 Error: Error loading the file 'UserSettings/AI.Generators/DragAndDropCache.asset'. File is either empty or corrupted, please verify the file contents.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool)
+UnityEditor.ScriptableSingleton`1<Unity.AI.Generators.UI.Utilities.DragAndDropCache>:Save (bool)
+Unity.AI.Generators.UI.Utilities.DragAndDropCache:EnsureSaved () (at ./Library/PackageCache/com.unity.ai.assistant@1b11b9bfd84a/Modules/Unity.AI.Generators.UI/Utilities/DragAndDropCache.cs:17)
+Unity.AI.Generators.UI.Utilities.ExternalFileDragDrop:Init () (at ./Library/PackageCache/com.unity.ai.assistant@1b11b9bfd84a/Modules/Unity.AI.Generators.UI/Utilities/ExternalFileDragDrop.cs:53)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+20:24:03 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+20:24:43 DevBridge loaded 10/25/2026 8:24:43 PM
+20:25:02 DevBridge loaded 10/25/2026 8:25:02 PM
+20:25:02 DevBridge loaded 10/25/2026 8:25:02 PM
+20:25:02 DevBridge loaded 10/25/2026 8:25:02 PM
+20:25:02 DevBridge loaded 10/25/2026 8:25:02 PM
+20:28:59 DevBridge loaded 10/25/2026 8:28:59 PM
+20:29:16 DevBridge loaded 10/25/2026 8:29:16 PM
+20:29:16 DevBridge loaded 10/25/2026 8:29:16 PM
+20:29:16 DevBridge loaded 10/25/2026 8:29:16 PM
+20:29:32 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+20:31:56 DevBridge loaded 10/25/2026 8:31:56 PM
+20:31:59 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+20:32:01 DevBridge loaded 10/25/2026 8:32:01 PM
+20:32:01 DevBridge loaded 10/25/2026 8:32:01 PM
+20:32:27 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+20:33:04 DevBridge loaded 10/25/2026 8:33:04 PM
+20:33:07 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+20:33:09 DevBridge loaded 10/25/2026 8:33:08 PM
+20:33:35 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+20:39:43 DevBridge loaded 10/25/2026 8:39:43 PM
+20:39:45 Warning: [Pipeline] Failed to persist console log buffer: Sharing violation on path E:\SLIIT_Directory\Y4 Research\Research-Project-J26-IM-304\Temp\pipeline_console_log.json
+20:39:46 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+20:39:47 DevBridge loaded 10/25/2026 8:39:47 PM
+20:40:14 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+20:50:20 Log: [IVSim] Session logged to C:/Users/ASUS/AppData/LocalLow/SLIIT J26-IM-304/MR Operating Theatre\IVCannulationLogs\sessions.csv
+20:55:13 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+20:55:13 COMPILE Assembly-CSharp.dll -> 0 messages
+
+20:55:17 DevBridge loaded 10/25/2026 8:55:17 PM
+20:55:22 DevBridge loaded 10/25/2026 8:55:22 PM
+20:55:22 DevBridge loaded 10/25/2026 8:55:22 PM
+20:55:28 DevBridge loaded 10/25/2026 8:55:28 PM
+20:55:31 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+20:55:33 DevBridge loaded 10/25/2026 8:55:33 PM
+20:56:00 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+21:08:31 COMPILE Assembly-CSharp-Editor.dll -> 0 messages
+
+21:08:31 COMPILE Assembly-CSharp.dll -> 0 messages
+
+21:08:35 DevBridge loaded 10/25/2026 9:08:35 PM
+21:08:41 DevBridge loaded 10/25/2026 9:08:41 PM
+21:08:41 DevBridge loaded 10/25/2026 9:08:41 PM
+21:08:53 DevBridge loaded 10/25/2026 9:08:53 PM
+21:08:56 Warning: Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+21:08:58 DevBridge loaded 10/25/2026 9:08:58 PM
+21:08:58 DevBridge loaded 10/25/2026 9:08:58 PM
+21:09:24 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+21:10:51 Log: [IVSim] Session logged to C:/Users/ASUS/AppData/LocalLow/SLIIT J26-IM-304/MR Operating Theatre\IVCannulationLogs\sessions.csv

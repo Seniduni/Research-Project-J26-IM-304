@@ -97,6 +97,8 @@ namespace IVSim
             if (skinOpaque != null) skinOpaqueInst = new Material(skinOpaque);
             if (skinTransparent != null) skinTransInst = new Material(skinTransparent);
             if (arm == null) arm = ArmModel.Instance;
+            // scenes built with the old 15 s default are moved to the new 6 s default (other values are left as set)
+            if (Mathf.Approximately(clinical.requiredScrubSeconds, 15f)) clinical.requiredScrubSeconds = 6f;
             State = SessionState.Menu;
         }
 

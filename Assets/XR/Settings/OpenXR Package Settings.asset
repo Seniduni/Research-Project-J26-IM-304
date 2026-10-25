@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6096094d69d82cc40947df806f66ab34, type: 3}
   m_Name: OpenXRCompositionLayersFeature Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.CompositionLayers.OpenXRCompositionLayersFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Composition Layers Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.compositionlayers
@@ -379,7 +379,9 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
+  - {fileID: -3374907779236215935}
   - {fileID: -1530989270149012202}
+  - {fileID: 7791303744824305074}
   - {fileID: -8998063841191728374}
   - {fileID: -8545446367347743240}
   - {fileID: -4129257609325410787}
@@ -387,11 +389,27 @@ MonoBehaviour:
   - {fileID: -8155146258908256951}
   - {fileID: 2479543522549781796}
   - {fileID: 6690829723411438247}
+  - {fileID: 174483979930544524}
+  - {fileID: -5124925314593193106}
   - {fileID: 6241199985512431294}
   - {fileID: -8819792605137619799}
   - {fileID: -3032371808599449656}
+  - {fileID: 3090717582971867915}
   - {fileID: 7458095514966494892}
   - {fileID: 895175364639713785}
+  - {fileID: -3952971312193546235}
+  - {fileID: 731223321295713238}
+  - {fileID: -7117761928586831024}
+  - {fileID: -4516798151517786925}
+  - {fileID: 2837434785349064038}
+  - {fileID: 7209992156380556598}
+  - {fileID: 6469375190238236623}
+  - {fileID: -664152035639683930}
+  - {fileID: 1907681448266095446}
+  - {fileID: 4916118385788687969}
+  - {fileID: 6324521394599798306}
+  - {fileID: 3939836919756445615}
+  - {fileID: -3714034633899565239}
   - {fileID: 8795128007035114540}
   - {fileID: -3791130305777738656}
   - {fileID: -1848644451868825310}
@@ -400,25 +418,7 @@ MonoBehaviour:
   - {fileID: 1421851228849827431}
   - {fileID: 3106143361325833369}
   - {fileID: 5697040653268219846}
-  - {fileID: 6469375190238236623}
-  - {fileID: 7791303744824305074}
-  - {fileID: 6324521394599798306}
-  - {fileID: 3939836919756445615}
-  - {fileID: -4516798151517786925}
-  - {fileID: 2837434785349064038}
-  - {fileID: -3952971312193546235}
-  - {fileID: -664152035639683930}
-  - {fileID: -7117761928586831024}
-  - {fileID: 731223321295713238}
-  - {fileID: -3374907779236215935}
-  - {fileID: 4916118385788687969}
-  - {fileID: -3714034633899565239}
-  - {fileID: 7209992156380556598}
-  - {fileID: 1907681448266095446}
   - {fileID: -4925103608513055105}
-  - {fileID: 3090717582971867915}
-  - {fileID: -5124925314593193106}
-  - {fileID: 174483979930544524}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 0
@@ -1342,7 +1342,7 @@ MonoBehaviour:
   - {fileID: 7411778784412925877}
   customLoaderName: 
   m_renderMode: 1
-  m_latencyOptimization: 0
+  m_latencyOptimization: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000

@@ -104,7 +104,7 @@ namespace IVSim
                     "Use the cannula hub on the arm."),
                 new StepDef(StepId.ApplyPressure, "Apply pressure",
                     "Place gauze over the site and apply firm pressure until bleeding stops.",
-                    "Use the gauze, then hold on it for a few seconds."),
+                    "Click the gauze (VR: touch + trigger) to place it, then HOLD on it until the bar fills."),
             };
         }
     }
@@ -176,7 +176,7 @@ namespace IVSim
 
         [Header("Cleaning")]
         [Tooltip("Seconds of scrubbing required (many protocols use 30 s; shortened for training flow)")]
-        public float requiredScrubSeconds = 15f;
+        public float requiredScrubSeconds = 6f;
         [Tooltip("Seconds to air-dry (many protocols use ~30 s)")]
         public float dryingSeconds = 10f;
         [Tooltip("Radius around the chosen site that must be cleaned (m)")]

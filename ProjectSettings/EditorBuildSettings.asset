@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/IVCannulation/Scenes/IVCannulationTheatre 1.unity
+    guid: 6253c74f56494ee43bafbc0216f539a2
+  - enabled: 0
     path: Assets/IVCannulation/Scenes/IVCannulationTraining.unity
     guid: e6cbfdb405c2ecc4e9a12b4922605a7a
   - enabled: 1

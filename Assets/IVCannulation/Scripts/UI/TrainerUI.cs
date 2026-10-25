@@ -340,6 +340,14 @@ namespace IVSim
                 else
                     sb.Append("Antiseptic: ").Append(cl.IsDry ? UIFactory.Tint("dry", "#5FD38D") : "drying " + Mathf.RoundToInt(cl.DryProgress * 100f) + "%").Append('\n');
             }
+            var gz = ProcedureAction.Find(ActionKind.Gauze);
+            if (gz != null && gz.IsPlacedOnSite)
+            {
+                float secs = Mathf.Max(0.5f, s.clinical.pressureSeconds);
+                sb.Append("Pressure: ").Append(gz.IsDone ? UIFactory.Tint("done", "#5FD38D")
+                    : (gz.IsPressing ? UIFactory.Tint("pressing ", "#5FD38D") : UIFactory.Tint("not pressing ", "#F2C14E"))
+                      + (gz.Progress * secs).ToString("0.0") + " / " + secs.ToString("0") + " s").Append('\n');
+            }
             if (s.Metrics.attempts.Count > 0)
                 sb.Append("Attempts: ").Append(s.Metrics.attempts.Count).Append(p.maxAttempts > 0 ? " / " + p.maxAttempts : "").Append('\n');
             return sb.ToString();

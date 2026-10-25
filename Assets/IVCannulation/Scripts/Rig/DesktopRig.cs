@@ -21,6 +21,7 @@ namespace IVSim
         void Start()
         {
             target = focus != null ? focus.position : new Vector3(0f, 0.9f, 0.1f);
+            if (focus != null) yaw += focus.eulerAngles.y;   // works when the whole station is rotated in a new environment
             Apply();
         }
 

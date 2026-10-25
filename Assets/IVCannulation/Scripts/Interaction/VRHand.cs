@@ -30,7 +30,7 @@ namespace IVSim
         public Vector3 PokePoint { get { return interactionPoint != null ? interactionPoint.position : transform.position; } }
 
         InputDevice device;
-        bool gripDown, triggerDown, primaryPrev, secondaryPrev;
+        bool gripDown, triggerDown, primaryPrev, secondaryPrev, gripUsing;
         bool lastGloves;
         Vector3 grabLocalPos;
         Quaternion grabLocalRot = Quaternion.identity;
@@ -92,12 +92,24 @@ namespace IVSim
                     grabLocalRot = Quaternion.Inverse(transform.rotation) * g.transform.rotation;
                     Grab(g);
                 }
+                else if (Held == null && activeUse == null && Hovered != null && Hovered.IsUsable && !(Hovered is Grabbable))
+                {
+                    // grip also works as "press / use" on things that cannot be picked up (gauze, syringes, tourniquet...)
+                    BeginUse(Hovered);
+                    gripUsing = true;
+                }
             }
             else if (gripDown && grip < 0.35f)
             {
                 gripDown = false;
-                if (Held != null) Release();
+                if (gripUsing)
+                {
+                    gripUsing = false;
+                    if (!triggerDown) EndUse();
+                }
+                else if (Held != null) Release();
             }
+            if (gripUsing && !triggerDown && activeUse != null) HoldUse(dt);
 
             if (Held != null)
             {
@@ -108,13 +120,14 @@ namespace IVSim
             if (!triggerDown && trig > 0.55f)
             {
                 triggerDown = true;
-                if (Hovered != null && Hovered.IsUsable && !(Hovered is Grabbable)) BeginUse(Hovered);
+                if (activeUse != null) { }   // already pressing with grip
+                else if (Hovered != null && Hovered.IsUsable && !(Hovered is Grabbable)) BeginUse(Hovered);
                 else if (Held != null) Held.OnHeldUseStart(this);
             }
             else if (triggerDown && trig < 0.3f)
             {
                 triggerDown = false;
-                EndUse();
+                if (!gripUsing) EndUse();
                 if (Held != null) Held.OnHeldUseEnd(this);
                 StopPalpating();
             }

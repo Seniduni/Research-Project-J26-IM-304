@@ -36,6 +36,9 @@ namespace IVSim
                 if (Held == null)
                 {
                     var g = Hovered as Grabbable;
+                    // clicking on or near a cannula that is in the arm picks it up again
+                    var inArm = InsertedCannulaNear(HoverPoint);
+                    if (g == null && inArm != null) g = inArm;
                     if (g != null && g.CanGrab(this)) Grab(g);
                     else if (Hovered != null && Hovered.IsUsable) BeginUse(Hovered);
                     else if (HoverOnSkin) { palpating = false; Palpate(HoverPoint, HoverNormal, 0f); }
@@ -60,12 +63,23 @@ namespace IVSim
                 leftHeldOnHeld = false;
             }
 
-            // ---- right click (without dragging) puts the tool down
+            // ---- right click (without dragging) puts the tool down - but never drops a cannula that is in the arm
+            // (right-dragging to look around was letting go of it by accident). Use G to let go of an inserted cannula.
             if (IVInput.MouseButtonDown(1)) rightDownPos = IVInput.MousePosition;
-            if (IVInput.MouseButtonUp(1) && (IVInput.MousePosition - rightDownPos).magnitude < 6f && Held != null) Release();
+            bool heldInArm = Held is Cannula && ((Cannula)Held).IsInSkin;
+            if (IVInput.MouseButtonUp(1) && (IVInput.MousePosition - rightDownPos).magnitude < 6f && Held != null && !heldInArm) Release();
             if ((IVInput.GetKeyDown(IVKey.G) || IVInput.GetKeyDown(IVKey.Escape)) && Held != null) Release();
 
             if (Held != null) Held.DriveFromDesktop(this);
+        }
+
+        static Cannula InsertedCannulaNear(Vector3 p)
+        {
+            var s = IVSession.Instance;
+            var c = s != null ? s.cannula : null;
+            if (c == null || !c.IsInSkin || c.IsHeld) return null;
+            float d = Mathf.Min(Vector3.Distance(p, c.EntryPoint), Vector3.Distance(p, c.transform.position - c.transform.forward * 0.04f));
+            return d < 0.035f ? c : null;
         }
 
         void HandleKeys()

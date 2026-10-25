@@ -88,6 +88,30 @@ namespace IVSim
         Quaternion catheterHomeLocalRot;
         Transform catheterHomeParent;
 
+        // lower-and-advance (step 7) tracking
+        Vector3 flashTip;
+        bool catheterTipInsideNow;
+
+        /// <summary>True while the learner should lower the angle and advance 1-2 mm (after flashback).</summary>
+        public bool AwaitingLowerAdvance { get { return Phase == CannulaPhase.InSkin && flashback && !loweredReported && !transfixed && !arteryHit && threadS <= 0f; } }
+        public bool LowerAdvanceDone { get { return loweredReported; } }
+        public float FlashAngle { get { return flashAngle; } }
+        public float LowerTargetAngle
+        {
+            get
+            {
+                var s = IVSession.Instance;
+                float by = s != null ? s.clinical.lowerAngleBy : 4f;
+                return Mathf.Max(5f, flashAngle - by);
+            }
+        }
+        public bool IsLowered { get { return flashback && (CurrentAngle <= LowerTargetAngle + 0.05f || CurrentAngle <= 12f); } }
+        /// <summary>How far (m) the needle tip has moved forward since flashback.</summary>
+        public float AdvanceSinceFlash { get { return flashback && Phase == CannulaPhase.InSkin ? Mathf.Max(0f, Vector3.Dot(transform.position - flashTip, dir)) : 0f; } }
+        /// <summary>Advance needed after flashback: at least the 1.5 mm gap between needle tip and catheter tip (= "advance 1-2 mm").</summary>
+        public float AdvanceTarget { get { var s = IVSession.Instance; return Mathf.Max(s != null ? s.clinical.advanceAfterFlash : 0.0008f, tipGap); } }
+        public bool CatheterTipInside { get { return catheterTipInsideNow; } }
+
         // VR: hand movement is mapped relative to where it was when the needle entered / was re-grabbed
         bool vrAnchored;
         float vrAnchorDepth, vrAnchorHand;
@@ -146,10 +170,13 @@ namespace IVSim
         {
             float dt = Time.deltaTime;
             float slow = IVInput.GetKey(IVKey.LeftShift) ? 0.35f : 1f;
-            float dPitch = ((IVInput.GetKey(IVKey.W) ? 1f : 0f) - (IVInput.GetKey(IVKey.S) ? 1f : 0f)) * 30f * dt * slow;
+            bool fine = Phase == CannulaPhase.InSkin && flashback;          // after flashback: slower, precise control
+            float pitchSpeed = fine ? 12f : 30f;
+            float advSpeed = fine ? 0.0015f : 0.006f;
+            float dPitch = ((IVInput.GetKey(IVKey.W) ? 1f : 0f) - (IVInput.GetKey(IVKey.S) ? 1f : 0f)) * pitchSpeed * dt * slow;
             float dYaw = ((IVInput.GetKey(IVKey.D) ? 1f : 0f) - (IVInput.GetKey(IVKey.A) ? 1f : 0f)) * 50f * dt * slow;
             float dRoll = ((IVInput.GetKey(IVKey.E) ? 1f : 0f) - (IVInput.GetKey(IVKey.Q) ? 1f : 0f)) * 90f * dt * slow;
-            float adv = ((IVInput.GetKey(IVKey.Space) ? 1f : 0f) - (IVInput.GetKey(IVKey.X) ? 1f : 0f)) * 0.006f * dt * slow;
+            float adv = ((IVInput.GetKey(IVKey.Space) ? 1f : 0f) - (IVInput.GetKey(IVKey.X) ? 1f : 0f)) * advSpeed * dt * slow;
 
             if (Phase == CannulaPhase.InSkin)
             {
@@ -324,6 +351,20 @@ namespace IVSim
             }
         }
 
+        /// <summary>
+        /// Turns 'from' toward 'to' by at most maxRad radians. (Unity's Vector3.RotateTowards ignores turns smaller than
+        /// ~0.26 degrees when maxMagnitudeDelta is 0, which froze small per-frame angle changes from the W/S keys.)
+        /// </summary>
+        static Vector3 TurnTowards(Vector3 from, Vector3 to, float maxRad)
+        {
+            from = from.normalized; to = to.normalized;
+            float ang = Mathf.Acos(Mathf.Clamp(Vector3.Dot(from, to), -1f, 1f));
+            if (ang <= maxRad || ang < 1e-6f) return to;
+            Vector3 axis = Vector3.Cross(from, to);
+            if (axis.sqrMagnitude < 1e-12f) return to;
+            return (Quaternion.AngleAxis(maxRad * Mathf.Rad2Deg, axis) * from).normalized;
+        }
+
         Vector3 ConstrainDir(Vector3 d)
         {
             Vector3 n = entryNormal;
@@ -359,9 +400,33 @@ namespace IVSim
             }
             else
             {
+                Vector3 oldTip = entryPoint + dir * depth;
+                Vector3 oldDir = dir;
                 Vector3 c = ConstrainDir(desiredDir);
                 float maxRad = (rateLimited ? maxTurnSpeed : 720f) * Mathf.Deg2Rad * dt;
-                dir = Vector3.RotateTowards(dir, c, maxRad, 0f).normalized;
+                dir = TurnTowards(dir, c, maxRad);
+
+                // After flashback the needle pivots around its TIP (as when a nurse lowers the hub): the tip stays in the
+                // vein and the entry point slides along the skin. Before flashback it pivots at the skin, which is what
+                // makes a too-steep angle go through the back wall.
+                if (flashback && !transfixed && !arteryHit && Vector3.Angle(oldDir, dir) > 1e-4f)
+                {
+                    float h = -Vector3.Dot(oldTip - entryPoint, entryNormal);   // tip depth under the skin
+                    float sn = -Vector3.Dot(dir, entryNormal);
+                    if (h > 0.0001f && sn > 0.03f)
+                    {
+                        float anchoredDepth = h / sn;
+                        if (anchoredDepth < needleLength - 0.004f)
+                        {
+                            float delta = anchoredDepth - depth;
+                            entryPoint = oldTip - dir * anchoredDepth;
+                            rawDepth += delta;
+                            vrAnchorDepth += delta;
+                            depth = anchoredDepth;
+                        }
+                        else dir = oldDir;   // cannot go flatter without the hub touching the skin
+                    }
+                }
             }
 
             float newDepth = rateLimited ? Mathf.MoveTowards(depth, rawDepth, maxAdvanceSpeed * dt) : rawDepth;
@@ -436,6 +501,7 @@ namespace IVSim
                     flashback = true;
                     flashAngle = CurrentAngle;
                     flashDepth = depth;
+                    flashTip = tip;
                     flashTarget = 1f;
                     if (Holder != null) Holder.Haptic(0.5f, 0.06f);
                     if (s != null) s.OnFlashback(h.vessel, flashAngle);
@@ -472,20 +538,26 @@ namespace IVSim
         void UpdateLowerAdvance()
         {
             var s = IVSession.Instance;
+            VeinPath.Hit ch;
+            catheterTipInsideNow = flashback && CatheterTipInVein(out ch);
             if (s == null || !flashback || transfixed || arteryHit || loweredReported) return;
             var a = s.Metrics.CurrentAttempt;
-            bool lowered = CurrentAngle <= flashAngle - s.clinical.lowerAngleBy || CurrentAngle <= 10f;
-            bool advanced = depth >= flashDepth + s.clinical.advanceAfterFlash;
+            bool lowered = IsLowered;
+            bool advanced = AdvanceSinceFlash >= AdvanceTarget;
             if (a != null)
             {
                 if (lowered) a.lowered = true;
                 if (advanced) a.advancedAfterFlash = true;
             }
-            VeinPath.Hit ch;
-            if (inLumen && lowered && advanced && CatheterTipInVein(out ch))
+            if (lowered && advanced && catheterTipInsideNow)
             {
                 loweredReported = true;
+                if (Holder != null) Holder.Haptic(0.35f, 0.06f);
                 s.OnLoweredAndAdvanced();
+            }
+            else if (lowered && advanced && !catheterTipInsideNow)
+            {
+                s.FeedbackOnce("advmore", "Almost - advance a tiny bit more so the plastic catheter tip is inside the vein too.", Severity.Info, FeedbackKind.Guidance, 5f);
             }
         }
 

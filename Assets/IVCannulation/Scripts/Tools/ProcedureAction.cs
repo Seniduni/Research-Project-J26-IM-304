@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace IVSim
 {
@@ -46,6 +47,27 @@ namespace IVSim
         Vector3 plungerHome; Vector3 fillHomeScale;
         Vector3 appliedHomePos; Quaternion appliedHomeRot;
 
+        // ---- gauze pressure visuals (created at runtime, so existing scenes get them without rebuilding)
+        float lastHoldTime = -10f;
+        float arriveTime;
+        float doneTime;
+        bool wasPressing;
+        float stainSize;
+        Transform padT, pressFingers, stain;
+        Vector3 padBaseScale, padBasePos;
+        float padTop;
+        Canvas barCanvas;
+        RectTransform barFill;
+        Text barText;
+        BoxCollider ownBox;
+        Vector3 boxBaseSize, boxBaseCenter;
+
+        /// <summary>Gauze: true once it has been placed on the puncture site.</summary>
+        public bool IsPlacedOnSite { get { return attached; } }
+        public bool IsDone { get { return done; } }
+        public float Progress { get { return progress; } }
+        public bool IsPressing { get { return attached && !done && Time.time - lastHoldTime < 0.12f && Time.time >= arriveTime; } }
+
         protected override void Awake()
         {
             base.Awake();
@@ -76,7 +98,7 @@ namespace IVSim
                 case ActionKind.SharpsBin: return "Sharps container";
                 case ActionKind.BloodSyringe: return attached ? "Hold to draw blood" : "Syringe for blood sample";
                 case ActionKind.SalineSyringe: return attached ? "Hold to flush" : "0.9% saline flush";
-                case ActionKind.Gauze: return attached ? "Hold to apply pressure" : "Sterile gauze";
+                case ActionKind.Gauze: return attached ? "HOLD to press on the gauze" : "Sterile gauze - use to place on the site";
                 default: return base.HoverText(hand);
             }
         }
@@ -89,6 +111,7 @@ namespace IVSim
                 if (trayVisual != null && trayVisual.activeSelf == on) trayVisual.SetActive(!on);
                 if (appliedVisual != null && appliedVisual.activeSelf != on) appliedVisual.SetActive(on);
             }
+            if (kind == ActionKind.Gauze) UpdateGauzeVisuals();
         }
 
         // ------------------------------------------------------------------ use
@@ -279,8 +302,10 @@ namespace IVSim
                 s.cannula.RemovePlacedCatheter(() =>
                 {
                     s.Metrics.cannulaRemoved = true;
+                    BloodFX.Spill(s.cannula.EntryPoint, s.cannula.EntryNormal, 0.006f);
                     s.Feedback("Catheter removed. Check that the catheter tip is intact.", Severity.Good, FeedbackKind.Event);
                     s.CompleteStep(StepId.RemoveCannula);
+                    s.Feedback("The puncture site is oozing blood - place the gauze on it and apply pressure.", Severity.Info, FeedbackKind.Event);
                 });
             }
         }
@@ -295,24 +320,167 @@ namespace IVSim
             if (attached || done) return;
             if (!s.RequestAction(StepId.ApplyPressure)) return;
             var c = s.cannula;
-            if (c == null) return;
+            if (c == null || movable == null) return;
+            EnsureGauzeVisuals();
             Vector3 n = c.EntryNormal;
-            if (movable != null)
-                MoveTo(movable, c.EntryPoint + n * 0.003f, Quaternion.LookRotation(Vector3.ProjectOnPlane(c.PlacedDirection, n).normalized, n), 0.6f);
+            Vector3 fwd = Vector3.ProjectOnPlane(c.PlacedDirection, n);
+            if (fwd.sqrMagnitude < 1e-6f) fwd = Vector3.ProjectOnPlane(Vector3.forward, n);
+            Vector3 target = c.EntryPoint + n * 0.0015f;
+            MoveTo(movable, target, Quaternion.LookRotation(fwd.normalized, n), 0.6f);
+            arriveTime = Time.time + 0.65f;
             attached = true;
-            s.Feedback("Gauze in place - now hold firm pressure.", Severity.Info, FeedbackKind.Guidance);
+            stainSize = 0f;
+            // a bigger target so it is easy to press on, in VR and with the mouse
+            if (ownBox != null)
+            {
+                ownBox.size = new Vector3(0.06f, 0.04f, 0.06f);
+                ownBox.center = new Vector3(0f, 0.012f, 0f);
+            }
+            string how = RigBootstrap.IsVR
+                ? "Gauze placed. Rest your hand on it and HOLD the trigger (or grip) until the bar fills."
+                : "Gauze placed. Now HOLD the left mouse button on the gauze until the bar fills.";
+            s.Feedback(how, Severity.Info, FeedbackKind.Event);
         }
 
         void HoldGauze(IVSession s, IVHand hand, float dt)
         {
+            if (Time.time < arriveTime) return;          // still moving onto the site
+            lastHoldTime = Time.time;
             progress = Mathf.Min(1f, progress + dt / Mathf.Max(0.5f, s.clinical.pressureSeconds));
-            if (Time.frameCount % 10 == 0) hand.Haptic(0.12f, 0.03f);
+            if (Time.frameCount % 10 == 0) hand.Haptic(0.15f, 0.03f);
             if (progress >= 1f)
             {
                 done = true;
+                doneTime = Time.time;
                 s.Metrics.pressureApplied = true;
-                s.Feedback("Bleeding has stopped.", Severity.Good, FeedbackKind.Event);
+                s.Feedback("Bleeding has stopped. Well done!", Severity.Good, FeedbackKind.Event);
                 s.CompleteStep(StepId.ApplyPressure);
+            }
+        }
+
+        void EnsureGauzeVisuals()
+        {
+            if (barCanvas != null || movable == null) return;
+            var s = IVSession.Instance;
+            ownBox = GetComponent<BoxCollider>();
+            if (ownBox != null) { boxBaseSize = ownBox.size; boxBaseCenter = ownBox.center; }
+
+            var padR = movable.GetComponentInChildren<MeshRenderer>();
+            if (padR != null)
+            {
+                padT = padR.transform;
+                padBaseScale = padT.localScale;
+                padBasePos = padT.localPosition;
+                padTop = padBasePos.y + padBaseScale.y * 0.5f;
+            }
+
+            // two gloved fingertips that press down (desktop; in VR your own hand does this)
+            pressFingers = new GameObject("PressingFingers").transform;
+            pressFingers.SetParent(movable, false);
+            Material glove = null;
+            if (padR != null)
+            {
+                glove = new Material(padR.sharedMaterial);
+                glove.SetColor("_BaseColor", new Color(0.35f, 0.55f, 0.95f, 1f));
+            }
+            for (int i = 0; i < 2; i++)
+            {
+                var f = GameObject.CreatePrimitive(PrimitiveType.Capsule);
+                f.name = "Fingertip";
+                var col = f.GetComponent<Collider>();
+                if (col != null) Destroy(col);
+                f.transform.SetParent(pressFingers, false);
+                f.transform.localPosition = new Vector3(i == 0 ? -0.0085f : 0.0085f, padTop + 0.02f, 0.002f);
+                f.transform.localRotation = Quaternion.Euler(i == 0 ? 12f : -12f, 0f, i == 0 ? -8f : 8f);
+                f.transform.localScale = new Vector3(0.015f, 0.02f, 0.015f);
+                if (glove != null) f.GetComponent<MeshRenderer>().sharedMaterial = glove;
+            }
+            pressFingers.gameObject.SetActive(false);
+
+            // blood soaking into the gauze
+            if (s != null && s.bloodMaterial != null)
+            {
+                var st = new GameObject("BloodStain");
+                st.transform.SetParent(movable, false);
+                st.transform.localPosition = new Vector3(0f, padTop + 0.0004f, 0f);
+                st.AddComponent<MeshFilter>().sharedMesh = MeshBuilder.Disc("Stain", 20);
+                var r = st.AddComponent<MeshRenderer>();
+                r.sharedMaterial = s.bloodMaterial;
+                r.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+                st.transform.localScale = Vector3.zero;
+                stain = st.transform;
+            }
+
+            // progress bar above the gauze
+            barCanvas = UIFactory.WorldCanvas("PressureBar", movable, new Vector2(460, 110), 0.00016f);
+            barCanvas.transform.localPosition = new Vector3(0f, 0.055f, 0f);
+            var root = barCanvas.transform;
+            UIFactory.Panel("Bg", root, Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero, new Color(0.05f, 0.07f, 0.1f, 0.85f));
+            UIFactory.Panel("Track", root, new Vector2(0f, 0f), new Vector2(1f, 0f), new Vector2(16f, 12f), new Vector2(-16f, 40f), new Color(0.25f, 0.28f, 0.33f, 1f));
+            var fillImg = UIFactory.Panel("Fill", root, new Vector2(0f, 0f), new Vector2(0f, 0f), new Vector2(16f, 12f), new Vector2(-16f, 40f), new Color(0.37f, 0.83f, 0.55f, 1f));
+            barFill = fillImg.rectTransform;
+            barText = UIFactory.Label("Text", root, new Vector2(0f, 0f), new Vector2(1f, 1f), new Vector2(10f, 44f), new Vector2(-10f, -6f), 30, TextAnchor.MiddleCenter, Color.white, FontStyle.Bold);
+            barCanvas.gameObject.SetActive(false);
+        }
+
+        void UpdateGauzeVisuals()
+        {
+            var s = IVSession.Instance;
+            if (barCanvas == null || s == null) return;
+            bool pressing = IsPressing;
+            float dt = Time.deltaTime;
+
+            // squash the pad while pressed
+            if (padT != null)
+            {
+                float k = pressing || done ? 1f : 0f;
+                Vector3 targetScale = Vector3.Scale(padBaseScale, new Vector3(1f + 0.06f * k, 1f - 0.45f * k, 1f + 0.06f * k));
+                Vector3 targetPos = padBasePos - new Vector3(0f, padBaseScale.y * 0.22f * k, 0f);
+                padT.localScale = Vector3.Lerp(padT.localScale, targetScale, dt * 14f);
+                padT.localPosition = Vector3.Lerp(padT.localPosition, targetPos, dt * 14f);
+            }
+
+            // fingertips (desktop only) move down when pressing
+            if (pressFingers != null)
+            {
+                bool showFingers = pressing && !RigBootstrap.IsVR;
+                if (pressFingers.gameObject.activeSelf != showFingers) pressFingers.gameObject.SetActive(showFingers);
+                if (showFingers)
+                {
+                    float bob = 0.0006f * Mathf.Sin(Time.time * 9f);
+                    pressFingers.localPosition = new Vector3(0f, -padBaseScale.y * 0.42f + bob, 0f);
+                }
+            }
+
+            // the site bleeds into the gauze until firm pressure is held
+            if (stain != null && attached && Time.time >= arriveTime)
+            {
+                float maxStain = done ? stainSize : 0.032f;
+                if (!pressing && !done) stainSize = Mathf.MoveTowards(stainSize, maxStain, dt * 0.004f);
+                else if (stainSize < 0.008f) stainSize = Mathf.MoveTowards(stainSize, 0.008f, dt * 0.004f);
+                stain.localScale = new Vector3(stainSize, 1f, stainSize * 0.85f);
+                if (padT != null) stain.localPosition = new Vector3(0f, padT.localPosition.y + padT.localScale.y * 0.5f + 0.0004f, 0f);
+            }
+
+            // warn if pressure is released before the bleeding stops
+            if (wasPressing && !pressing && attached && !done && progress > 0.05f)
+                s.FeedbackOnce("keeppress", "Keep continuous, firm pressure until the bleeding stops.", Severity.Warning, FeedbackKind.Technique, 4f);
+            wasPressing = pressing;
+
+            // progress bar
+            bool showBar = attached && (!done || Time.time - doneTime < 2.5f) && Time.time >= arriveTime;
+            if (barCanvas.gameObject.activeSelf != showBar) barCanvas.gameObject.SetActive(showBar);
+            if (!showBar) return;
+            barFill.anchorMax = new Vector2(Mathf.Clamp01(progress), 0f);
+            float secs = Mathf.Max(0.5f, s.clinical.pressureSeconds);
+            if (done) barText.text = "<color=#5FD38D>Bleeding stopped</color>";
+            else if (pressing) barText.text = "Pressing...  " + (progress * secs).ToString("0.0") + " / " + secs.ToString("0") + " s";
+            else barText.text = RigBootstrap.IsVR ? "<color=#F2C14E>HOLD trigger on the gauze</color>" : "<color=#F2C14E>HOLD left mouse on the gauze</color>";
+            var cam = Camera.main;
+            if (cam != null)
+            {
+                Vector3 d = barCanvas.transform.position - cam.transform.position;
+                if (d.sqrMagnitude > 1e-6f) barCanvas.transform.rotation = Quaternion.LookRotation(d, Vector3.up);
             }
         }
 
@@ -330,6 +498,17 @@ namespace IVSim
             {
                 fill.localScale = fillHomeScale;
                 fill.gameObject.SetActive(kind == ActionKind.SalineSyringe);
+            }
+            if (kind == ActionKind.Gauze)
+            {
+                lastHoldTime = -10f;
+                wasPressing = false;
+                stainSize = 0f;
+                if (padT != null) { padT.localScale = padBaseScale; padT.localPosition = padBasePos; }
+                if (stain != null) stain.localScale = Vector3.zero;
+                if (pressFingers != null) pressFingers.gameObject.SetActive(false);
+                if (barCanvas != null) barCanvas.gameObject.SetActive(false);
+                if (ownBox != null) { ownBox.size = boxBaseSize; ownBox.center = boxBaseCenter; }
             }
             if (kind == ActionKind.Dressing)
             {
