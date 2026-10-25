@@ -18,7 +18,7 @@ namespace NeonatalDelivery.EditorTools
             mi.importCameras = false; mi.importLights = false; mi.importVisibility = false;
             mi.importBlendShapes = true; mi.importNormals = ModelImporterNormals.Import; mi.importTangents = ModelImporterTangents.CalculateMikk;
             mi.meshCompression = ModelImporterMeshCompression.Off;
-            mi.isReadable = assetPath.Contains("ND_Mother");   // the physics drape reads its vertex colours (cloth freedom) at runtime
+            mi.isReadable = false;   // v4: no physics drape any more (the gown is skinned) -> keep meshes GPU-only on Quest
             // FBX materials carry embedded textures: import them through the render pipeline's material description
             // (URP Lit, textured) so the model is never white, even before the module's own materials are remapped on top.
             mi.materialImportMode = ModelImporterMaterialImportMode.ImportViaMaterialDescription;
@@ -27,6 +27,7 @@ namespace NeonatalDelivery.EditorTools
             mi.animationType = character ? ModelImporterAnimationType.Generic : ModelImporterAnimationType.None;
             mi.importAnimation = character;
             mi.optimizeGameObjects = false;                     // bones must stay as Transforms (ring bones, markers, anchors)
+            if (assetPath.Contains("ND_Baby")) mi.preserveHierarchy = true;   // v5 unrigged baby: keep ND_BabyModel/Root/... as authored
             mi.animationCompression = ModelImporterAnimationCompression.Off;
             mi.skinWeights = ModelImporterSkinWeights.Standard;
             mi.addCollider = false;
@@ -39,7 +40,8 @@ namespace NeonatalDelivery.EditorTools
             var defs = mi.defaultClipAnimations;
             if (defs == null || defs.Length == 0) return;
             var clips = new List<ModelImporterClipAnimation>();
-            // Blender writes one take per object|action; prefer the armature's take (ND_MotherRig|..., ND_BabyRig|...)
+            // Blender writes one take per object|action; prefer the armature's take (ND_MotherRig|...). The v5 baby has a single
+            // object take (Root|ND_B_Birth).
             var ordered = new List<ModelImporterClipAnimation>(defs);
             ordered.Sort((x, y) => (y.takeName != null && y.takeName.Contains("Rig|") ? 1 : 0).CompareTo(x.takeName != null && x.takeName.Contains("Rig|") ? 1 : 0));
             foreach (var c in ordered)

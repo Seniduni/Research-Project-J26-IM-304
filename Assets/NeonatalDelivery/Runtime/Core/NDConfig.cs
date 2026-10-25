@@ -14,6 +14,7 @@ namespace NeonatalDelivery
         public CensorshipLevel censorship = CensorshipLevel.Moderate;
         public HandSide dominantHand = HandSide.Right;    // NFR10: left/right-hand dominance
         public bool guidedGhostHands = true;              // FR12: ghosted reference demonstration
+        public bool handAutoFit = true;                   // hands brought close to the newborn snap into the correct supporting pose
         public bool ablationMode = false;                 // Section 3.3 internal baseline: no consequence mapping / no reflective loop
         public bool scenarioNuchalCord = false;           // variant: loose nuchal cord present
         public bool mixedReality = false;                 // passthrough + calibrated silicone mannequin

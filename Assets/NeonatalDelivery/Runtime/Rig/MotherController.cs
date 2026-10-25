@@ -15,6 +15,8 @@ namespace NeonatalDelivery
         public AnimationClip[] clips;              // assigned by the editor builder (ND_M_Idle, ND_M_Push, ND_M_Pant, ND_M_Reach, ND_M_Cradle, ND_M_Base)
         public SkinnedMeshRenderer bodyRenderer, eyelashRenderer;
         public Transform lookTarget;               // trainee head
+        [Tooltip("Facial expressions, jaw and eye gaze. Off by default: the face stays exactly as modelled.")]
+        public bool faceAnimation = false;
         [Range(0, 1)] public float pain, strain, relief;
         public float blendSpeed = 2.5f;
 
@@ -112,6 +114,14 @@ namespace NeonatalDelivery
 
         void Overlays(float dt)
         {
+            if (faceAnimation) FaceOverlays(dt);
+            // belly deflates after delivery (uterus contracts to the umbilicus)
+            _deflate = Mathf.MoveTowards(_deflate, _deflateTarget, dt * 0.25f);
+            if (Belly != null) Belly.localScale = Vector3.Scale(_bellyRestScale, Vector3.one * Mathf.Lerp(1f, 0.82f, _deflate));
+        }
+
+        void FaceOverlays(float dt)
+        {
             // jaw: vocalising/strain opens slightly, panting opens rhythmically
             if (Jaw != null && Head != null && LeftEye != null && RightEye != null)
             {
@@ -141,9 +151,6 @@ namespace NeonatalDelivery
             Set("ND_MouthOpenTeeth", pain * 55 + (_pose == MotherPose.Pant ? 35 : 0));
             Set("ND_NeckStrain_L", strain * 90); Set("ND_NeckStrain_R", strain * 90);
             Set("ND_MouthSmile_L", relief * 65); Set("ND_MouthSmile_R", relief * 65);
-            // belly deflates after delivery (uterus contracts to the umbilicus)
-            _deflate = Mathf.MoveTowards(_deflate, _deflateTarget, dt * 0.25f);
-            if (Belly != null) Belly.localScale = Vector3.Scale(_bellyRestScale, Vector3.one * Mathf.Lerp(1f, 0.82f, _deflate));
         }
 
         void Aim(Transform eye, Quaternion rest)

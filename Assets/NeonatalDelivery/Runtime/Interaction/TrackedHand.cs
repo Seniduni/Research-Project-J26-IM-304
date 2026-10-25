@@ -73,6 +73,9 @@ namespace NeonatalDelivery
             _prevPalm = palmPos; _prevT = time;
         }
 
+        /// <summary>Keep the motion history on the real (tracked) palm when a pose is overridden (auto-fit), so velocity stays continuous.</summary>
+        public void OverrideMotion(Vector3 prevPalm, Vector3 vel) { _prevPalm = prevPalm; velocity = vel; }
+
         float Curl(int a, int b, int tip)
         {
             Vector3 v1 = pos[b] - pos[a], v2 = pos[tip] - pos[b];

@@ -14,6 +14,8 @@ Shader "NeonatalDelivery/Skin"
         [Normal] _BumpMap ("Normal Map", 2D) = "bump" {}
         _BumpScale ("Normal Strength", Range(0,2)) = 1
         _MetalRoughMap ("glTF Metal(B) Rough(G)", 2D) = "white" {}
+        _OcclusionMap ("Ambient Occlusion", 2D) = "white" {}
+        _OcclusionStrength ("AO Strength", Range(0,1)) = 0
         [Toggle] _UseMetalRough ("Use Metal/Rough map", Float) = 0
         _Smoothness ("Smoothness", Range(0,1)) = 0.42
         _Metallic ("Metallic", Range(0,1)) = 0
@@ -42,13 +44,14 @@ Shader "NeonatalDelivery/Skin"
         HLSLINCLUDE
         #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
         CBUFFER_START(UnityPerMaterial)
-            float4 _BaseMap_ST; half4 _BaseColor; half _BumpScale; half _UseMetalRough; half _Smoothness; half _Metallic;
+            float4 _BaseMap_ST; half4 _BaseColor; half _BumpScale; half _UseMetalRough; half _Smoothness; half _Metallic; half _OcclusionStrength;
             half4 _SSSColor; half _SSSWrap; half _SSSStrength; half _Wetness; half _Vernix; half _Blood; half _Cyanosis;
             half _CensorGore; half _Stylize; float _ClipEnabled; float4 _ClipOrigin; float4 _ClipNormal; float _ClipRadius; float _ClipSlope; float _StencilRef; float _Cull;
         CBUFFER_END
         TEXTURE2D(_BaseMap); SAMPLER(sampler_BaseMap);
         TEXTURE2D(_BumpMap); SAMPLER(sampler_BumpMap);
         TEXTURE2D(_MetalRoughMap); SAMPLER(sampler_MetalRoughMap);
+        TEXTURE2D(_OcclusionMap); SAMPLER(sampler_OcclusionMap);
 
         // Discard newborn fragments that are still inside the mother: behind the introitus plane, or just in front of it but
         // outside a cone growing from the ring (prevents limbs poking through maternal skin near the perineum).
@@ -114,6 +117,7 @@ Shader "NeonatalDelivery/Skin"
                 UNITY_SETUP_INSTANCE_ID(i); UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
                 ClipCone(i.positionWS);
                 half4 albedo = SAMPLE_TEXTURE2D(_BaseMap, sampler_BaseMap, i.uv) * _BaseColor;
+                albedo.rgb *= lerp(1.0h, SAMPLE_TEXTURE2D(_OcclusionMap, sampler_OcclusionMap, i.uv).r, _OcclusionStrength);
                 half smooth = _Smoothness, metal = _Metallic;
                 if (_UseMetalRough > 0.5) { half4 mr = SAMPLE_TEXTURE2D(_MetalRoughMap, sampler_MetalRoughMap, i.uv); smooth = 1 - mr.g; metal = mr.b * _Metallic; }
                 half3 nTS = UnpackNormalScale(SAMPLE_TEXTURE2D(_BumpMap, sampler_BumpMap, i.uv), _BumpScale);

@@ -55,7 +55,8 @@ namespace NeonatalDelivery.EditorTools
                 RepairImporters();
                 EditorUtility.DisplayProgressBar("Neonatal Delivery", "Importing models and textures", 0.1f);
                 EnsureFolder(Root + "/Scenes"); EnsureFolder(PrefabDir);
-                foreach (var dir in new[] { Models, Root + "/Art/Textures", Root + "/Resources/NeonatalDelivery/Audio" })
+                RemoveObsolete();
+                foreach (var dir in new[] { Models, Root + "/Art/Textures" })
                     foreach (var g in AssetDatabase.FindAssets("", new[] { dir })) { var p = AssetDatabase.GUIDToAssetPath(g); if (!AssetDatabase.IsValidFolder(p)) AssetDatabase.ImportAsset(p, ImportAssetOptions.ForceUpdate); }
                 EditorUtility.DisplayProgressBar("Neonatal Delivery", "Building materials", 0.35f);
                 NDMaterialBuilder.BuildAll();
@@ -104,6 +105,15 @@ namespace NeonatalDelivery.EditorTools
             Debug.Log($"[NeonatalDelivery] Importer check: {fixedN} asset(s) repaired.");
         }
 
+        /// <summary>v4: assets that are no longer used (sounds/SFX removed, physics drape replaced by the user's gown).</summary>
+        static void RemoveObsolete()
+        {
+            foreach (var p in new[] { Root + "/Resources/NeonatalDelivery/Audio", Root + "/Art/Textures/Drape" })
+                if (AssetDatabase.IsValidFolder(p)) { AssetDatabase.DeleteAsset(p); Debug.Log("[NeonatalDelivery] Removed obsolete " + p); }
+            var dm = NDMaterialBuilder.MatDir + "/ND_DrapeGreen.mat";
+            if (AssetDatabase.LoadAssetAtPath<Material>(dm) != null) AssetDatabase.DeleteAsset(dm);
+        }
+
         static void RunAfterPlay(PlayModeStateChange st)
         {
             if (st != PlayModeStateChange.EnteredEditMode) return;
@@ -134,7 +144,7 @@ namespace NeonatalDelivery.EditorTools
             var texs = AssetDatabase.FindAssets("t:Texture2D", new[] { Root + "/Art/Textures" });
             sb.AppendLine($"  {texs.Length} textures in {Root}/Art/Textures");
             sb.AppendLine($"  shader NeonatalDelivery/Skin found: {Shader.Find("NeonatalDelivery/Skin") != null}, supported: {(Shader.Find("NeonatalDelivery/Skin") != null && Shader.Find("NeonatalDelivery/Skin").isSupported)}");
-            foreach (var n in new[] { "Std_Skin_Body", "Std_Skin_Leg", "Std_Skin_Head", "ND_DrapeGreen", "ND_BabySkin" })
+            foreach (var n in new[] { "Std_Skin_Body", "Std_Skin_Leg", "Std_Skin_Head", "ND_Gown", "ND_BabySkin" })
             {
                 var m = NDMaterialBuilder.FindMaterial(n);
                 if (m == null) { sb.AppendLine($"  {n}: MISSING .mat"); continue; }
@@ -149,7 +159,7 @@ namespace NeonatalDelivery.EditorTools
             }
             foreach (var root in SceneManager.GetActiveScene().GetRootGameObjects())
                 foreach (var r in root.GetComponentsInChildren<Renderer>(true))
-                    if (r.name == "M_Body" || r.name == "ND_Drape" || r.name.StartsWith("B_Body")) sb.AppendLine("  scene " + NDMaterialBuilder.Describe(r));
+                    if (r.name == "M_Body" || r.name == "M_Gown" || r.name.StartsWith("B_Body")) sb.AppendLine("  scene " + NDMaterialBuilder.Describe(r));
             Debug.Log(sb.ToString());
         }
 
@@ -290,14 +300,15 @@ namespace NeonatalDelivery.EditorTools
             var drapeSmr = FindSMR(mother, "ND_Drape");
             DrapeCloth drape = null;
             if (drapeSmr != null) { drape = drapeSmr.gameObject.AddComponent<DrapeCloth>(); drape.motherRoot = mother.transform; }
-            else Debug.LogWarning("[NeonatalDelivery] ND_Drape not found in ND_Mother.fbx - no physics drape.");
+            else Debug.Log("[NeonatalDelivery] Mother wears the skinned green gown (M_Gown) - no physics drape needed.");
             var bc = baby.AddComponent<BabyController>(); bc.model = baby; bc.clips = bClips; bc.ghostMaterial = Mat<Material>("ND_Ghost");
-            bc.skinRenderers = baby.GetComponentsInChildren<SkinnedMeshRenderer>(true);
+            bc.skinRenderers = baby.GetComponentsInChildren<Renderer>(true);   // v5: unrigged baby (MeshRenderer)
             var anim = baby.GetComponent<Animator>(); if (anim != null) Object.DestroyImmediate(anim);
             var cordGo = new GameObject("ND_UmbilicalCord", typeof(MeshFilter), typeof(MeshRenderer));
             var cord = cordGo.AddComponent<UmbilicalCord>(); cord.material = Mat<Material>("ND_Cord");
             cord.placentaEnd = RigUtil.FindDeep(mother.transform, "ND_Anchor_Placenta");
             cord.babyEnd = RigUtil.FindDeep(baby.transform, "ND_Z_NavelSkin");
+            cord.babyAxisLow = RigUtil.FindDeep(baby.transform, "Hips"); cord.babyAxisHigh = RigUtil.FindDeep(baby.transform, "Chest");
             cordGo.GetComponent<MeshRenderer>().sharedMaterial = cord.material;
             var perineum = new GameObject("ND_Zone_MaternalPerineum").transform; perineum.SetParent(_station, false);
 
@@ -327,7 +338,7 @@ namespace NeonatalDelivery.EditorTools
             // materials: safety-net assignment by slot name (scene only) + a diagnostic line per key renderer in the console/_dev_log
             int fixedSlots = 0; foreach (var go in new[] { bed, mother, baby, tray, towelGo, clampA.gameObject, clampB.gameObject, scissors.gameObject }) fixedSlots += NDMaterialBuilder.AssignByName(go);
             if (fixedSlots > 0) Debug.Log($"[NeonatalDelivery] {fixedSlots} renderer material slot(s) were assigned by name in the scene.");
-            foreach (var r in mother.GetComponentsInChildren<Renderer>(true)) if (r.name == "M_Body" || r.name == "ND_Drape") Debug.Log("[NeonatalDelivery] material check " + NDMaterialBuilder.Describe(r));
+            foreach (var r in mother.GetComponentsInChildren<Renderer>(true)) if (r.name == "M_Body" || r.name == "M_Gown") Debug.Log("[NeonatalDelivery] material check " + NDMaterialBuilder.Describe(r));
             foreach (var r in baby.GetComponentsInChildren<Renderer>(true)) { Debug.Log("[NeonatalDelivery] material check " + NDMaterialBuilder.Describe(r)); break; }
             var lamp = new GameObject("ND_DeliveryLamp").AddComponent<Light>(); lamp.transform.SetParent(_station, false);
             lamp.type = LightType.Spot; lamp.spotAngle = 48f; lamp.range = 4f; lamp.intensity = 2.5f; lamp.color = new Color(1f, 0.97f, 0.92f); lamp.shadows = LightShadows.Soft;
@@ -353,7 +364,8 @@ namespace NeonatalDelivery.EditorTools
             var cues = sys.AddComponent<CueSystem>(); cues.ghostMaterial = Mat<Material>("ND_Ghost");
             var censor = sys.AddComponent<CensorshipFilter>(); censor.privacyVeil = veil.GetComponent<Renderer>(); censor.motherSkin.Add(mc.bodyRenderer);
             var ghost = sys.AddComponent<GhostHandGuide>(); ghost.ghostMaterial = Mat<Material>("ND_Ghost");
-            var audioSys = sys.AddComponent<NDAudio>();
+            var fit = sys.AddComponent<HandAutoFit>(); fit.guide = ghost; fit.hands = hands;   // hands near the newborn snap into the correct pose
+            NDAudio audioSys = null;   // v4: no sounds / SFX
             var pass = sys.AddComponent<PassthroughController>(); pass.rig = rig; pass.occluderMaterial = Mat<Material>("ND_Occluder");
             pass.hideInMR = env != null ? new[] { env, bed } : new[] { bed };
             pass.motherRenderers = mother.GetComponentsInChildren<Renderer>(true);
@@ -374,7 +386,7 @@ namespace NeonatalDelivery.EditorTools
             dir.environmentRoot = env; dir.deliveryBed = bed;
             dir.hands = hands; dir.evaluator = eval; dir.leftGlove = gl; dir.rightGlove = gr;
             dir.clampA = clampA; dir.clampB = clampB; dir.scissors = scissors; dir.towel = towel;
-            dir.consequences = cons; dir.cues = cues; dir.replay = replay; dir.censorship = censor; dir.ghost = ghost; dir.audioSys = audioSys;
+            dir.consequences = cons; dir.cues = cues; dir.replay = replay; dir.censorship = censor; dir.ghost = ghost; dir.autoFit = fit; dir.audioSys = audioSys;
             dir.rig = rig; dir.passthrough = pass; dir.calibration = calib;
             dir.educatorPanel = edu; dir.instructionPanel = ins; dir.summaryPanel = sum; dir.floorY = floorY;
             replay.viewTarget = perineum;

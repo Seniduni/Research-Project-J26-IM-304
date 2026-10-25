@@ -136,7 +136,7 @@ namespace NeonatalDelivery.EditorTools
             float smooth = Mathf.Clamp01(1f - (e.roughness > 0 ? e.roughness : 0.6f));
             if (name.Contains("Eye") && !name.Contains("lash")) smooth = 0.85f;
             if (name.Contains("Teeth")) smooth = 0.6f; if (name.Contains("Tongue")) smooth = 0.7f; if (name.Contains("Nails")) smooth = 0.65f;
-            if (name == "ND_DrapeGreen") { smooth = 0.18f; lit.SetFloat("_Cull", 0f); lit.doubleSidedGI = true; }   // single-layer cloth: render both faces
+            if (name == "ND_DrapeGreen" || name == "ND_Gown") { smooth = name == "ND_Gown" ? Mathf.Min(smooth, 0.25f) : 0.18f; lit.SetFloat("_Cull", 0f); lit.doubleSidedGI = true; }   // single-layer cloth: render both faces
             lit.SetFloat("_Smoothness", smooth);
             bool hair = name.Contains("Hair") || name.Contains("Skullcap") || name.Contains("Eyelash");
             bool cornea = name.Contains("Cornea");

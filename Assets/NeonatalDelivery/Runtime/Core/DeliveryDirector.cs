@@ -37,6 +37,7 @@ namespace NeonatalDelivery
         public ReflectiveReplay replay;
         public CensorshipFilter censorship;
         public GhostHandGuide ghost;
+        public HandAutoFit autoFit;
         public NDAudio audioSys;
         [Header("XR / MR")]
         public NDXRRig rig;
@@ -195,6 +196,7 @@ namespace NeonatalDelivery
             Config = cfg.Clone();
             _classifier.dominant = Config.dominantHand;
             if (ghost != null) ghost.dominant = Config.dominantHand;
+            if (autoFit != null) { autoFit.autoFit = Config.handAutoFit; autoFit.guide = ghost; autoFit.hands = hands; }
             Labour.SetTimeScale(Config.timeScale);
             if (censorship != null) censorship.Apply(Config.censorship);
             if (rig != null) rig.seated = Config.seated;

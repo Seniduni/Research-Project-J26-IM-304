@@ -1519,3 +1519,91 @@ NeonatalDelivery.DrapeCloth:Start () (at Assets/NeonatalDelivery/Runtime/Rig/Dra
 15:36:21 Log: [NeonatalDelivery] FAULT F13_PREMATURE_RELEASE (BodyDelivery) baby not supported by any hand
 15:36:25 Log: [NeonatalDelivery] FAULT F14_ONE_HANDED_HOLD (SkinToSkin) baby not supported by any hand
 15:36:50 Log: [NeonatalDelivery] FAULT F15_BABY_DROPPED (SkinToSkin) newborn released away from the mother's chest
+00:19:28 DevBridge loaded 10/25/2026 12:19:28 AM
+00:19:35 Warning: Unity is running with Administrator privileges, which is not supported. Unity executes scripts and binary libraries in your project that may originate from third party sources and potentially be harmful to your computer. Unity may also execute scripts and binary libraries that are still under development and not yet fully tested. Running Unity with Administrator privileges may lead to catastrophic consequences, including but not limited to accidental data loss, change of global system settings or even bricking your device.
+00:19:46 DevBridge loaded 10/25/2026 12:19:46 AM
+00:19:46 DevBridge loaded 10/25/2026 12:19:46 AM
+00:19:46 DevBridge loaded 10/25/2026 12:19:46 AM
+00:19:46 DevBridge loaded 10/25/2026 12:19:46 AM
+00:19:46 Log: [NeonatalDelivery] Importer check: 0 asset(s) repaired.
+00:19:55 Log: [NeonatalDelivery] Built 20 model materials (18 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+00:19:56 Log: [NeonatalDelivery] ND_Baby.fbx: 1/1 material slots remapped
+00:19:56 Log: [NeonatalDelivery] ND_CordClamp.fbx: 1/1 material slots remapped
+00:19:56 Log: [NeonatalDelivery] ND_CordScissors.fbx: 2/2 material slots remapped
+00:19:56 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 15/15 material slots remapped
+00:19:56 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 2/2 material slots remapped
+00:19:57 Log: [NeonatalDelivery] ND_Mother.fbx: 18/18 material slots remapped
+00:19:58 Log: [NeonatalDelivery] ND_NewBaby_Source.obj: 0/1 material slots remapped - no project material for: defaultMat
+00:19:58 Log: [NeonatalDelivery] ND_Towel.fbx: 1/1 material slots remapped
+00:20:01 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+00:20:01 Log: [NeonatalDelivery] material check M_Body: Std_Skin_Head [NeonatalDelivery/Skin, map=Std_Skin_Head_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Head.mat]  Std_Skin_Arm [NeonatalDelivery/Skin, map=Std_Skin_Arm_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Arm.mat]  Std_Skin_Leg [NeonatalDelivery/Skin, map=Std_Skin_Leg_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Leg.mat]  Std_Skin_Body [NeonatalDelivery/Skin, map=Std_Skin_Body_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Body.mat]  ND_Mucosa [NeonatalDelivery/Skin, map=none, path=Assets/NeonatalDelivery/Art/Materials/ND_Mucosa.mat]  Hair_Transparency [Universal Render Pipeline/Lit, map=Hair_Transparency_base, path=Assets/NeonatalDelivery/Art/Materials/Hair_Transparency.mat]  Std_Cornea_L [Universal Render Pipeline/Lit, map=Std_Cornea_L_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_L.mat]  Std_Cornea_R [Universal Render Pipeline/Lit, map=Std_Cornea_R_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_R.mat]  
+00:20:01 Log: [NeonatalDelivery] material check ND_Drape: ND_DrapeGreen [Universal Render Pipeline/Lit, map=ND_DrapeGreen_base, path=Assets/NeonatalDelivery/Art/Materials/ND_DrapeGreen.mat]  
+00:20:01 Log: [NeonatalDelivery] material check B_Body: ND_BabySkin [NeonatalDelivery/Skin, map=ND_BabySkin_base, path=Assets/NeonatalDelivery/Art/Materials/ND_BabySkin.mat]  
+00:20:02 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+00:20:03 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+00:20:03 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+00:20:08 DevBridge loaded 10/25/2026 12:20:08 AM
+00:20:14 DevBridge loaded 10/25/2026 12:20:14 AM
+00:20:14 DevBridge loaded 10/25/2026 12:20:14 AM
+00:20:14 DevBridge loaded 10/25/2026 12:20:14 AM
+00:20:14 DevBridge loaded 10/25/2026 12:20:14 AM
+00:20:36 Log: [NeonatalDelivery] Session started: STUDENT-001 Guided censorship=Moderate ablation=True MR=False
+00:20:40 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+00:21:36 Log: [NeonatalDelivery] FAULT F01_UNSUPPORTED_CRANIUM (CrowningHeadControl) no hand on Occiput/Vertex/ParietalLeft/ParietalRight (progress rate 3.6%/s)
+00:21:37 Log: [NeonatalDelivery] FAULT F03_PERINEUM_UNSUPPORTED (CrowningHeadControl) no hand on MaternalPerineum (progress rate 3.6%/s)
+00:21:47 Log: [NeonatalDelivery] FAULT F05_NUCHAL_NOT_CHECKED (NuchalCordCheck) neck not palpated before restitution
+11:10:10 DevBridge loaded 10/25/2026 11:10:10 AM
+11:10:20 Warning: Unity is running with Administrator privileges, which is not supported. Unity executes scripts and binary libraries in your project that may originate from third party sources and potentially be harmful to your computer. Unity may also execute scripts and binary libraries that are still under development and not yet fully tested. Running Unity with Administrator privileges may lead to catastrophic consequences, including but not limited to accidental data loss, change of global system settings or even bricking your device.
+11:10:22 Log: [NeonatalDelivery] Importer check: 0 asset(s) repaired.
+11:10:23 Log: [NeonatalDelivery] Removed obsolete Assets/NeonatalDelivery/Resources/NeonatalDelivery/Audio
+11:10:23 Log: [NeonatalDelivery] Removed obsolete Assets/NeonatalDelivery/Art/Textures/Drape
+11:10:30 Log: [NeonatalDelivery] Built 20 model materials (18 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+11:10:31 Log: [NeonatalDelivery] ND_Baby.fbx: 1/1 material slots remapped
+11:10:31 Log: [NeonatalDelivery] ND_CordClamp.fbx: 1/1 material slots remapped
+11:10:31 Log: [NeonatalDelivery] ND_CordScissors.fbx: 2/2 material slots remapped
+11:10:32 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 15/15 material slots remapped
+11:10:32 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 2/2 material slots remapped
+11:10:33 Log: [NeonatalDelivery] ND_Mother.fbx: 18/18 material slots remapped
+11:10:33 Log: [NeonatalDelivery] ND_NewBaby_Source.obj: 0/1 material slots remapped - no project material for: defaultMat
+11:10:33 Log: [NeonatalDelivery] ND_Towel.fbx: 1/1 material slots remapped
+11:10:33 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+11:10:33 Log: [NeonatalDelivery] Mother wears the skinned green gown (M_Gown) - no physics drape needed.
+11:10:33 Log: [NeonatalDelivery] material check M_Body: Std_Skin_Head [NeonatalDelivery/Skin, map=Std_Skin_Head_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Head.mat]  Std_Skin_Arm [NeonatalDelivery/Skin, map=Std_Skin_Arm_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Arm.mat]  Std_Skin_Leg [NeonatalDelivery/Skin, map=Std_Skin_Leg_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Leg.mat]  Std_Skin_Body [NeonatalDelivery/Skin, map=Std_Skin_Body_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Body.mat]  ND_Mucosa [NeonatalDelivery/Skin, map=none, path=Assets/NeonatalDelivery/Art/Materials/ND_Mucosa.mat]  Hair_Transparency [Universal Render Pipeline/Lit, map=Hair_Transparency_base, path=Assets/NeonatalDelivery/Art/Materials/Hair_Transparency.mat]  Std_Cornea_L [Universal Render Pipeline/Lit, map=Std_Cornea_L_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_L.mat]  Std_Cornea_R [Universal Render Pipeline/Lit, map=Std_Cornea_R_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_R.mat]  
+11:10:33 Log: [NeonatalDelivery] material check M_Gown: ND_Gown [Universal Render Pipeline/Lit, map=ND_Gown_base, path=Assets/NeonatalDelivery/Art/Materials/ND_Gown.mat]  
+11:10:33 Log: [NeonatalDelivery] material check B_Body: ND_BabySkin [NeonatalDelivery/Skin, map=ND_BabySkin_base, path=Assets/NeonatalDelivery/Art/Materials/ND_BabySkin.mat]  
+11:10:33 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+11:10:34 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+11:10:34 Menu 'Neonatal Delivery/3. Build Everything (materials, models, scene)' -> True
+11:10:42 DevBridge loaded 10/25/2026 11:10:42 AM
+11:10:43 DevBridge loaded 10/25/2026 11:10:43 AM
+11:10:43 DevBridge loaded 10/25/2026 11:10:43 AM
+11:10:43 DevBridge loaded 10/25/2026 11:10:43 AM
+11:10:43 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:12:45 Log: [NeonatalDelivery] Importer check: 0 asset(s) repaired.
+11:12:51 Log: [NeonatalDelivery] Built 20 model materials (18 with a base-colour texture) in Assets/NeonatalDelivery/Art/Materials
+11:12:51 Log: [NeonatalDelivery] ND_Baby.fbx: 1/1 material slots remapped
+11:12:51 Log: [NeonatalDelivery] ND_CordClamp.fbx: 1/1 material slots remapped
+11:12:51 Log: [NeonatalDelivery] ND_CordScissors.fbx: 2/2 material slots remapped
+11:12:51 Log: [NeonatalDelivery] ND_DeliveryBed.fbx: 15/15 material slots remapped
+11:12:51 Log: [NeonatalDelivery] ND_DeliveryTray.fbx: 2/2 material slots remapped
+11:12:52 Log: [NeonatalDelivery] ND_Mother.fbx: 18/18 material slots remapped
+11:12:52 Log: [NeonatalDelivery] ND_NewBaby_Source.obj: 0/1 material slots remapped - no project material for: defaultMat
+11:12:52 Log: [NeonatalDelivery] ND_Towel.fbx: 1/1 material slots remapped
+11:13:01 Log: [NeonatalDelivery] bed-space fit residual 0.0 mm
+11:13:01 Log: [NeonatalDelivery] Mother wears the skinned green gown (M_Gown) - no physics drape needed.
+11:13:01 Log: [NeonatalDelivery] material check M_Body: Std_Skin_Head [NeonatalDelivery/Skin, map=Std_Skin_Head_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Head.mat]  Std_Skin_Arm [NeonatalDelivery/Skin, map=Std_Skin_Arm_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Arm.mat]  Std_Skin_Leg [NeonatalDelivery/Skin, map=Std_Skin_Leg_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Leg.mat]  Std_Skin_Body [NeonatalDelivery/Skin, map=Std_Skin_Body_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Skin_Body.mat]  ND_Mucosa [NeonatalDelivery/Skin, map=none, path=Assets/NeonatalDelivery/Art/Materials/ND_Mucosa.mat]  Hair_Transparency [Universal Render Pipeline/Lit, map=Hair_Transparency_base, path=Assets/NeonatalDelivery/Art/Materials/Hair_Transparency.mat]  Std_Cornea_L [Universal Render Pipeline/Lit, map=Std_Cornea_L_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_L.mat]  Std_Cornea_R [Universal Render Pipeline/Lit, map=Std_Cornea_R_base, path=Assets/NeonatalDelivery/Art/Materials/Std_Cornea_R.mat]  
+11:13:01 Log: [NeonatalDelivery] material check M_Gown: ND_Gown [Universal Render Pipeline/Lit, map=ND_Gown_base, path=Assets/NeonatalDelivery/Art/Materials/ND_Gown.mat]  
+11:13:01 Log: [NeonatalDelivery] material check B_Body: ND_BabySkin [NeonatalDelivery/Skin, map=ND_BabySkin_base, path=Assets/NeonatalDelivery/Art/Materials/ND_BabySkin.mat]  
+11:13:01 Log: [NeonatalDelivery] Hidden in this scene only (ward prefab unchanged): DiathermyUnit, MayoStand, StepStool
+11:13:01 Log: [NeonatalDelivery] Scene built: Assets/NeonatalDelivery/Scenes/ND_NeonatalDelivery.unity  (press Play: desktop simulator; or build to Quest 3)
+11:13:09 DevBridge loaded 10/25/2026 11:13:09 AM
+11:13:14 Warning: XR: Error setting active audio output driver. Falling back to default.
+11:13:14 Warning: XR: Error setting active audio output driver. Falling back to default.
+11:13:14 DevBridge loaded 10/25/2026 11:13:14 AM
+11:13:14 DevBridge loaded 10/25/2026 11:13:14 AM
+11:13:31 Log: [NeonatalDelivery] Session started: STUDENT-001 Guided censorship=Moderate ablation=True MR=False
+11:13:41 Warning: Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+11:14:31 Log: [NeonatalDelivery] FAULT F01_UNSUPPORTED_CRANIUM (CrowningHeadControl) no hand on Occiput/Vertex/ParietalLeft/ParietalRight (progress rate 3.6%/s)
+11:14:33 Log: [NeonatalDelivery] FAULT F03_PERINEUM_UNSUPPORTED (CrowningHeadControl) no hand on MaternalPerineum (progress rate 3.6%/s)
+11:14:42 Log: [NeonatalDelivery] FAULT F05_NUCHAL_NOT_CHECKED (NuchalCordCheck) neck not palpated before restitution
+11:16:32 Log: [NeonatalDelivery] FAULT F13_PREMATURE_RELEASE (BodyDelivery) baby not supported by any hand

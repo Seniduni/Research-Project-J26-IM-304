@@ -6,7 +6,8 @@ namespace NeonatalDelivery
 {
     public static class ProceduralHand
     {
-        // finger base offsets in palm space (x: across toward thumb for the right hand, y: dorsal, z: toward fingers), metres
+        // finger base offsets in palm space for a LEFT hand (x: across toward the thumb, y: dorsal, z: toward fingers), metres.
+        // Unity is left-handed: with the back of the hand up and fingers forward, a right hand's thumb is on -x, a left hand's on +x.
         static readonly Vector3[] Base = { new Vector3(0.025f, -0.010f, -0.035f), new Vector3(0.022f, 0, 0.035f), new Vector3(0.002f, 0, 0.038f), new Vector3(-0.017f, 0, 0.034f), new Vector3(-0.033f, -0.002f, 0.028f) };
         static readonly float[][] Seg = { new[] { 0.040f, 0.032f, 0.028f }, new[] { 0.040f, 0.024f, 0.020f }, new[] { 0.044f, 0.028f, 0.021f }, new[] { 0.041f, 0.026f, 0.020f }, new[] { 0.033f, 0.019f, 0.018f } };
         static readonly int[][] Chain = { new[] { J.ThumbMeta, J.ThumbProx, J.ThumbDist, J.ThumbTip }, new[] { J.IndexMeta, J.IndexProx, J.IndexInter, J.IndexDist, J.IndexTip },
@@ -16,7 +17,7 @@ namespace NeonatalDelivery
         /// <summary>palmRotation: forward = toward fingers, up = dorsal (back of hand).</summary>
         public static void Generate(TrackedHand h, Vector3 palmPosition, Quaternion palmRotation, float curl, float pinch, float spread = 0.1f)
         {
-            float mirror = h.side == HandSide.Right ? 1f : -1f;
+            float mirror = h.side == HandSide.Left ? 1f : -1f;   // v5 fix: was inverted (right hands were generated as left hands)
             Quaternion R = palmRotation;
             h.pos[J.Palm] = palmPosition; h.rot[J.Palm] = R;
             h.pos[J.Wrist] = palmPosition + R * new Vector3(0, 0, -0.045f); h.rot[J.Wrist] = R;

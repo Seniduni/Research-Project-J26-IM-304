@@ -40,7 +40,7 @@ namespace NeonatalDelivery
         float _simDepth = 0.45f;
         readonly Vector2[] _simScreen = { new Vector2(0.42f, 0.42f), new Vector2(0.58f, 0.42f) };
         readonly float[] _simCurl = new float[2]; readonly float[] _simPinch = new float[2];
-        readonly Vector3[] _simEuler = { new Vector3(70, 0, 20), new Vector3(70, 0, -20) };
+        readonly Vector3[] _simEuler = { new Vector3(18, 0, 15), new Vector3(18, 0, -15) };   // palms down, fingers forward
         bool _simLocked; Vector3[] _simLockPos = new Vector3[2];
 
 #if ND_XR_HANDS

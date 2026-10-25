@@ -262,24 +262,6 @@
   "baseColor": "Textures/Mother/Hair_MAT_Transparency_base.png",
   "baseHasAlpha": true
  },
- "ND_DrapeGreen": {
-  "alphaMode": "OPAQUE",
-  "alphaCutoff": 0.5,
-  "doubleSided": true,
-  "baseColorFactor": [
-   1,
-   1,
-   1,
-   1
-  ],
-  "metallic": 0,
-  "roughness": 0.82,
-  "baseColor": "Textures/Drape/ND_DrapeGreen_base.jpg",
-  "baseHasAlpha": false,
-  "normal": "Textures/Drape/ND_DrapeGreen_normal.png",
-  "normalScale": 1.0,
-  "occlusion": "Textures/Drape/ND_DrapeGreen_occlusion.png"
- },
  "ND_BabySkin": {
   "alphaMode": "OPAQUE",
   "alphaCutoff": 0.5,
@@ -303,5 +285,22 @@
  },
  "ND_Towel": {
   "procedural": "towel"
+ },
+ "ND_Gown": {
+  "alphaMode": "OPAQUE",
+  "alphaCutoff": 0.5,
+  "doubleSided": true,
+  "baseColorFactor": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "metallic": 0,
+  "roughness": 0.923,
+  "baseColor": "Textures/Gown/ND_Gown_base.jpg",
+  "baseHasAlpha": false,
+  "normal": "Textures/Gown/ND_Gown_normal.png",
+  "normalScale": 1.0
  }
 }

@@ -5,6 +5,7 @@
   "censorship": 1,
   "dominantHand": 1,
   "guidedGhostHands": true,
+  "handAutoFit": true,
   "ablationMode": false,
   "scenarioNuchalCord": false,
   "mixedReality": false,

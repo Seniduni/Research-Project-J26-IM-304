@@ -1,5 +1,6 @@
-// Newborn rig driver: mechanism-of-labour path (ND_B_Birth scrubbed by delivery progress), newborn postures (calm/cry/limp,
-// Erb's palsy overlay), hand-held carry, skin-to-skin placement, landmark zones and skin-shader state.
+// Newborn driver: birth path (ND_B_Birth scrubbed by delivery progress), hand-held carry, skin-to-skin placement,
+// landmark zones and skin-shader state. v5: the newborn is UNRIGGED (the user's sculpt as a static mesh under an animated
+// 'Root'); posture clips (Calm/Cry/Limp/ErbsPalsy) are optional and simply skipped when the model has none.
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -49,7 +50,7 @@ namespace NeonatalDelivery
             HeadCenter = T("ND_Z_HeadCenter"); Vertex = T("ND_Z_Vertex"); Occiput = T("ND_Z_Occiput"); Face = T("ND_Z_Face"); Neck = T("ND_Z_Neck");
             ChestFront = T("ND_Z_ChestFront"); Back = T("ND_Z_Back"); Buttocks = T("ND_Z_Buttocks"); Navel = T("ND_Z_NavelSkin");
             HipsBone = T("Hips"); NeckBone = T("Neck"); HeadBone = T("Head");
-            if (skinRenderers == null || skinRenderers.Length == 0) skinRenderers = model.GetComponentsInChildren<SkinnedMeshRenderer>(true);
+            if (skinRenderers == null || skinRenderers.Length == 0) skinRenderers = model.GetComponentsInChildren<Renderer>(true);
             foreach (var r in skinRenderers) if (r is SkinnedMeshRenderer smr) { smr.updateWhenOffscreen = true; }
             _mpb = new MaterialPropertyBlock();
             BuildZones();
@@ -83,7 +84,7 @@ namespace NeonatalDelivery
             z.id = id; z.radius = r; z.isBaby = true; zones.Add(z); return z;
         }
 
-        public float HeadRadius => 0.054f * babyScale;
+        public float HeadRadius => 0.048f * babyScale;     // v4 baby: biparietal ~9.5 cm
         public Vector3 SpineAxisOut
         {
             get
@@ -147,6 +148,18 @@ namespace NeonatalDelivery
             chest = (ChestFront.position + Back.position) * 0.5f;
             Vector3 np = Vector3.SmoothDamp(chest, _tgtPos, ref _vel, 0.08f, 3f, dt);
             mt.position += np - chest;
+        }
+
+        /// <summary>Current body frame of the newborn: forward = toward its back, up = toward its head.</summary>
+        public Quaternion BodyRotation
+        {
+            get
+            {
+                if (ChestFront == null || Back == null || HeadCenter == null || HipsBone == null) return transform.rotation;
+                Vector3 up = (HeadCenter.position - HipsBone.position).normalized;
+                Vector3 back = Vector3.ProjectOnPlane(Back.position - ChestFront.position, up);
+                return back.sqrMagnitude > 1e-8f ? Quaternion.LookRotation(back.normalized, up) : transform.rotation;
+            }
         }
 
         public Vector3 ChestCenter => ChestFront != null && Back != null ? (ChestFront.position + Back.position) * 0.5f : transform.position;

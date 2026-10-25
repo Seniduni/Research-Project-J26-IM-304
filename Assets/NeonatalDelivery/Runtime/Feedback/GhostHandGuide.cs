@@ -51,6 +51,15 @@ namespace NeonatalDelivery
         public HandSide dominant = HandSide.Right;
         public bool Recording { get; private set; }
         GloveHandVisual _l, _r; readonly TrackedHand _lh = new TrackedHand(HandSide.Left), _rh = new TrackedHand(HandSide.Right);
+        // anatomical target poses for the current step, computed every frame (also used by HandAutoFit, even when ghosts are hidden)
+        readonly TrackedHand _tl = new TrackedHand(HandSide.Left), _tr = new TrackedHand(HandSide.Right);
+        public DeliveryStep CurrentStep => _step;
+        /// <summary>Correct hand pose for this hand in the current step (false if the step has no hand target).</summary>
+        public bool TryGetTarget(HandSide side, out TrackedHand target)
+        {
+            target = side == HandSide.Left ? _tl : _tr;
+            return target.tracked;
+        }
         DeliveryStep _step; bool _show; MocapClip _clip; float _clock;
         MocapClip _rec; float _recClock;
 
@@ -67,9 +76,13 @@ namespace NeonatalDelivery
         void LateUpdate()
         {
             if (_l.material != ghostMaterial) { _l.material = ghostMaterial; _r.material = ghostMaterial; }
+            Targets();                                       // always: auto-fit uses them in every mode
+            if (_tl.tracked) _tl.UpdateDerived(Time.time);
+            if (_tr.tracked) _tr.UpdateDerived(Time.time);
             if (_show && baby != null)
             {
-                if (_clip != null && _clip.samples.Count > 0 && Frame != null) PlayClip(); else Targets();
+                if (_clip != null && _clip.samples.Count > 0 && Frame != null) PlayClip();
+                else { _lh.CopyFrom(_tl); _rh.CopyFrom(_tr); }
             }
             else { _lh.tracked = _rh.tracked = false; }
             _l.Draw(_lh); _r.Draw(_rh);
@@ -92,10 +105,10 @@ namespace NeonatalDelivery
         /// <summary>Anatomical target poses for each step when no expert recording exists.</summary>
         void Targets()
         {
-            _lh.tracked = _rh.tracked = false;
-            if (canal == null || !canal.Ready) return;
+            _tl.tracked = _tr.tracked = false;
+            if (baby == null || canal == null || !canal.Ready) return;
             Vector3 outw = canal.OutwardAxis, ant = canal.AnteriorAxis, lat = canal.LateralAxis;
-            var dom = dominant == HandSide.Left ? _lh : _rh; var non = dominant == HandSide.Left ? _rh : _lh;
+            var dom = dominant == HandSide.Left ? _tl : _tr; var non = dominant == HandSide.Left ? _tr : _tl;
             switch (_step)
             {
                 case DeliveryStep.CrowningHeadControl:
@@ -121,21 +134,24 @@ namespace NeonatalDelivery
                     var pl = RigUtil.FindDeep(baby.model.transform, "ND_Z_ParietalL"); var pr = RigUtil.FindDeep(baby.model.transform, "ND_Z_ParietalR");
                     if (pl == null || pr == null) return;
                     Vector3 across = (pl.position - pr.position).normalized;
-                    ProceduralHand.Generate(_lh.side == HandSide.Left ? _lh : _rh, pl.position + across * 0.03f, Quaternion.LookRotation(outw, across), 0.3f, 0f);
-                    ProceduralHand.Generate(_rh, pr.position - across * 0.03f, Quaternion.LookRotation(outw, -across), 0.3f, 0f);
+                    ProceduralHand.Generate(_tl, pl.position + across * 0.03f, Quaternion.LookRotation(outw, across), 0.3f, 0f);
+                    ProceduralHand.Generate(_tr, pr.position - across * 0.03f, Quaternion.LookRotation(outw, -across), 0.3f, 0f);
                     break;
                 }
                 case DeliveryStep.BodyDelivery:
                 case DeliveryStep.SkinToSkin:
                 {
                     if (baby.Neck == null || baby.Buttocks == null) return;
-                    Vector3 down = -ant;
-                    ProceduralHand.Generate(dom, baby.Neck.position + down * 0.04f, Quaternion.LookRotation(outw, -down), 0.35f, 0f);
-                    ProceduralHand.Generate(non, baby.Buttocks.position + down * 0.04f, Quaternion.LookRotation(outw, -down), 0.45f, 0f);
+                    // hands cradle the newborn from below: dorsal faces down, palms face up into the baby (v5: was inverted)
+                    Vector3 down = Vector3.Dot(-ant, Vector3.down) > 0f ? -ant : ant;
+                    ProceduralHand.Generate(dom, baby.Neck.position + down * 0.045f, Quaternion.LookRotation(Flat(outw, down), down), 0.35f, 0f);
+                    ProceduralHand.Generate(non, baby.Buttocks.position + down * 0.045f, Quaternion.LookRotation(Flat(outw, down), down), 0.45f, 0f);
                     break;
                 }
             }
         }
+
+        static Vector3 Flat(Vector3 v, Vector3 n) { var f = Vector3.ProjectOnPlane(v, n); return f.sqrMagnitude > 1e-6f ? f.normalized : Vector3.Cross(n, Vector3.right).normalized; }
 
         // ---------------- expert capture
         public void StartRecording(DeliveryStep step, string expert) { _rec = new MocapClip { step = step.ToString(), recordedBy = expert, recordedUtc = DateTime.UtcNow.ToString("o") }; _recClock = 0f; Recording = true; }

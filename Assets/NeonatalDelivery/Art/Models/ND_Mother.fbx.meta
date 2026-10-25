@@ -17,8 +17,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ND_DrapeGreen
-    second: {fileID: 2100000, guid: 3d3d894035eb55c4eb1451736a8a8eb1, type: 2}
+      name: ND_Gown
+    second: {fileID: 2100000, guid: b0a1a73571a38684181dd690bcde82cd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -295,7 +295,7 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1

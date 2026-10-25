@@ -1,5 +1,6 @@
-// Spatial audio for the delivery: mother's breathing/pushing/relief, newborn cry, fetal heart doppler, instrument sounds.
-// Clips are loaded from Resources/NeonatalDelivery/Audio (synthesised placeholders - replace with recorded audio freely).
+// Spatial audio hooks for the delivery (mother's voice, newborn cry, fetal doppler, instrument sounds).
+// v4: sounds and SFX are switched OFF (NDAudio.Enabled = false, no clips shipped, the scene builder adds no NDAudio).
+// The API stays so every call site compiles; with audio disabled all calls are silent no-ops.
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +8,7 @@ namespace NeonatalDelivery
 {
     public class NDAudio : MonoBehaviour
     {
+        public static bool Enabled = false;
         public static NDAudio Instance { get; private set; }
         public AudioSource motherVoice, babyVoice, monitor, ui;
         public AudioLowPassFilter motherLowPass;
@@ -17,6 +19,7 @@ namespace NeonatalDelivery
 
         void Awake()
         {
+            if (!Enabled) { enabled = false; return; }
             Instance = this;
             foreach (var c in Resources.LoadAll<AudioClip>("NeonatalDelivery/Audio")) _clips[c.name] = c;
         }
@@ -33,7 +36,7 @@ namespace NeonatalDelivery
 
         public static void Play(string clip, Vector3 pos, float vol = 1f)
         {
-            var a = Instance; if (a == null) return; var c = a.Clip(clip); if (c == null) return;
+            if (!Enabled) return; var a = Instance; if (a == null) return; var c = a.Clip(clip); if (c == null) return;
             AudioSource.PlayClipAtPoint(c, pos, vol * a.masterVolume);
         }
 
